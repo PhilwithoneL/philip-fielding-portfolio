@@ -1,10 +1,12 @@
-import navBar from "./components/navBar";
-
+import Intro from "./components/Intro";
+import AnimeNav from "./components/AnimeNav";
+import Chimney from "./components/Chimney";
 
 function App() {
   return (
     <div>
-      <navBar />
+      <Intro />
+      <Chimney />
     </div>
   );
 }

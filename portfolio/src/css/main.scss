@@ -1,5 +1,26 @@
-.main-nav {
-    background-color: black;
-    width:100%;
-    height:70px;
+
+@import '_iconColors';
+@import '_animeNav.scss';
+@import '_intro.scss';
+@import '_chimney.scss';
+@import url('https://fonts.googleapis.com/css2?family=Limelight&family=Poiret+One&display=swap');
+
+
+
+//Body, Html
+
+html {
+    background-color: #0E0E0E;
+}
+
+//Utilities
+
+.text-center {
+    align-items: center;
+}
+
+.center-div {
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
