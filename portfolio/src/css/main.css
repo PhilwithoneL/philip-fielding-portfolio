@@ -995,9 +995,80 @@
 }
 
 .link {
+  position: relative;
   color: white;
   height: 100%;
   font-weight: 300;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.link-text {
+  cursor: pointer;
+}
+
+.link-text:after {
+  content: "";
+  background: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2%;
+  width: 0%;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+
+.link-text:hover:after {
+  width: 100%;
+}
+
+.link-text:active:before {
+  -webkit-animation-name: swipe;
+          animation-name: swipe;
+  -webkit-animation-duration: 0.2s;
+          animation-duration: 0.2s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+}
+
+.link-text:before {
+  opacity: 0%;
+  content: "";
+  background: linear-gradient(87deg, rgba(39, 43, 48, 0) 0%, white 56%);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 0%;
+}
+
+@-webkit-keyframes swipe {
+  0% {
+    width: 0%;
+    opacity: 0%;
+  }
+  95% {
+    opacity: 5%;
+  }
+  100% {
+    opacity: 10%;
+    width: 100%;
+  }
+}
+
+@keyframes swipe {
+  0% {
+    width: 0%;
+    opacity: 0%;
+  }
+  95% {
+    opacity: 5%;
+  }
+  100% {
+    opacity: 10%;
+    width: 100%;
+  }
 }
 
 html {
