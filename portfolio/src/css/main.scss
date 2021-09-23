@@ -3,14 +3,16 @@
 @import '_animeNav.scss';
 @import '_intro.scss';
 @import '_chimney.scss';
+@import '_navBar';
 @import url('https://fonts.googleapis.com/css2?family=Limelight&family=Poiret+One&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,700;1,300&display=swap');
 
 
 //Body, Html
 
 html {
     background-color: #0E0E0E;
+    font-family: 'Roboto', sans-serif;
 }
 
 //Utilities
@@ -24,3 +26,5 @@ html {
     justify-content: center;
     align-items: center;
 }
+
+@import '_media.scss';

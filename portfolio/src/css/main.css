@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Limelight&family=Poiret+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,700;1,300&display=swap");
 .tech-icon-html {
   color: #ff5757;
 }
@@ -986,8 +987,22 @@
   height: 40%;
 }
 
+.nav-bar {
+  z-index: 100;
+  width: 100%;
+  position: fixed;
+  height: 50px;
+}
+
+.link {
+  color: white;
+  height: 100%;
+  font-weight: 300;
+}
+
 html {
   background-color: #0E0E0E;
+  font-family: 'Roboto', sans-serif;
 }
 
 .text-center {
@@ -1006,5 +1021,11 @@ html {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+  .link-mobile {
+    display: none;
+  }
 }
 /*# sourceMappingURL=main.css.map */
