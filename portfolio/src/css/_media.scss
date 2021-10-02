@@ -4,8 +4,16 @@
         display:none;
     }
 
-    .nav-bar {
-        display:none;
+    .intro-row {
+        top:-150px;
+    }
+
+    .name {
+        font-size: 40px;
+    }
+    
+    .intro {
+        font-size: 20px;
     }
 
 }
@@ -15,5 +23,46 @@
     .nav-container {
         display:none;
     }
+
+}
+
+@media screen and (max-width: 923px) {
+
+    .nav-bar {
+        display:none;
+    }
+
+    .intro-row {
+        top:-150px;
+    }
+
+    .chimney-container {
+        transform:translateY(-170px);
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    
+    .chimney-container {
+        transform:translateY(-170px);
+    }
+
+}
+
+@media screen and (max-height: 600px) {
+    
+    .chimney-container {
+        transform:translateY(-245px);
+    }
+
+    .name {
+        font-size: 26px;
+    }
+    
+    .intro {
+        font-size: 20px;
+    }
+    
 
 }
