@@ -1,9 +1,18 @@
 .dividing-section {
     position: relative;
-    height: 800px;
+    height: 100vh;
 }
 
 .about-section {
     width:100%;
     height:500px;
+}
+
+.about {
+    margin: 0% 0% 5% 15%;
+    font-family: 'Poiret One', cursive;
+}
+
+.about-header {
+    font-family: 'Staatliches', cursive;
 }

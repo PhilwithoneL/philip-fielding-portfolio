@@ -10,6 +10,7 @@ const Projects = () => {
 
                     <div className = "col m6 s12"><Project /></div>
                     <div className = "col m6 s12"><Project /></div>
+                    
                 </div>
 
             </div>

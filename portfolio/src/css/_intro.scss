@@ -8,7 +8,6 @@
     z-index:3;
     position:relative;
     top:150px;
-    color: white;
     left: 0;
     right: 0;
     margin-left: auto;
@@ -17,11 +16,15 @@
 
 
 .name {
-    font-family: 'Poiret One', cursive;
+    margin: none;
+    font-family: 'Staatliches', cursive;
     text-align: center;
+    line-height: 30px;
 }
 
 .intro {
+    
+    margin:none;
     font-family: 'Poiret One', cursive;
     text-align: center;
 }

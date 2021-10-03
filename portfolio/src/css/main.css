@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Limelight&family=Poiret+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,700;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
 .tech-icon-html {
   color: #ff5757;
 }
@@ -266,7 +267,6 @@
   z-index: 3;
   position: relative;
   top: 150px;
-  color: white;
   left: 0;
   right: 0;
   margin-left: auto;
@@ -274,11 +274,14 @@
 }
 
 .name {
-  font-family: 'Poiret One', cursive;
+  margin: none;
+  font-family: 'Staatliches', cursive;
   text-align: center;
+  line-height: 30px;
 }
 
 .intro {
+  margin: none;
   font-family: 'Poiret One', cursive;
   text-align: center;
 }
@@ -1145,12 +1148,21 @@
 
 .dividing-section {
   position: relative;
-  height: 800px;
+  height: 100vh;
 }
 
 .about-section {
   width: 100%;
   height: 500px;
+}
+
+.about {
+  margin: 0% 0% 5% 15%;
+  font-family: 'Poiret One', cursive;
+}
+
+.about-header {
+  font-family: 'Staatliches', cursive;
 }
 
 .project-section {
@@ -1174,9 +1186,45 @@
   height: 200px;
 }
 
+.info-links {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  top: 85vh;
+  height: 38px;
+}
+
+.git-icon {
+  font-size: 30px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.linked-icon {
+  font-size: 30px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.cv {
+  border: solid #b6d6fa 2px;
+  border-radius: 5px;
+  padding: 5px 10px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.cv:hover {
+  background-color: #b6d6fa;
+  color: #0E0E0E;
+}
+
 html {
   background-color: #0E0E0E;
   font-family: 'Roboto', sans-serif;
+  color: #cee5ff;
 }
 
 .text-center {
@@ -1227,6 +1275,10 @@ html {
   }
   .about-section {
     top: 825px;
+  }
+  .chimney-container {
+    -webkit-transform: translateY(0vh);
+            transform: translateY(0vh);
   }
 }
 

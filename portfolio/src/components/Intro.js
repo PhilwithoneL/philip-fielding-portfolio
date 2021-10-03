@@ -5,8 +5,8 @@ const Intro = () => {
         <div>
             <div className = "intro-row">
                 <div className = "intro-container">
-                    <h2 className = "name">Philip Fielding</h2>
-                    <h5 className = "intro">Web developer living in the Northern Powerhouse</h5>
+                    <h1 className = "name">Philip Fielding</h1>
+                    <h4 className = "intro">Web developer</h4>
                 </div>
             </div>
         </div>

@@ -1,0 +1,35 @@
+.info-links {
+    position:absolute;
+    z-index:1;
+    width:100%;
+    top: 85vh;
+    height:38px;
+}
+
+.git-icon {
+    font-size:30px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.linked-icon {
+    font-size:30px;
+    margin: 5px;
+    cursor: pointer;
+
+}
+
+.cv {
+    border: solid rgb(182, 214, 250) 2px;;
+    border-radius:5px;
+    padding: 5px 10px;
+    transition: all 0.2s ease-in-out;
+    cursor:pointer;
+    font-weight:700;
+
+    
+    &:hover {
+        background-color: rgb(182, 214, 250);
+        color: #0E0E0E;  
+    }
+}
