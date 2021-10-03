@@ -47,13 +47,97 @@
     .chimney-container {
         transform:translateY(-170px);
     }
+    
 
 }
 
 @media screen and (max-width: 700px) {
     
     .chimney-container {
-        transform:translateY(-170px);
+        transform:translateY(-250px) scaleY(90%);
     }
 
+    .info-links {
+        position:absolute;
+        z-index:400;
+        width:100%;
+        top: 85vh;
+        height:38px;
+    }
+
+    .git-icon {font-size:30px;}
+    
+    .linked-icon {font-size:30px; }
+
+    .cv {font-size:14px;}
+
+    
+}
+
+@media screen and (max-width: 435px) { 
+
+
+}
+
+@media screen and (min-height: 700px) {
+    
+    .chimney-container {
+        transform:translateY(-195px) scaleY(90%);
+    }
+
+}
+
+@media screen and (min-height: 800px) {
+    
+    .chimney-container {
+        transform:translateY(-120px) scaleY(90%);
+    }
+    
+}
+
+@media screen and (max-height: 568px) {
+    
+    .chimney-container {
+        transform:translateY(-270px) scaleY(85%);
+    }
+    
+
+}
+
+@media screen and (max-width: 320px) {
+    
+    .git-icon {font-size:24px;}
+    
+    .linked-icon {font-size:24px; }
+
+    .info-links {top: 87vh;}
+    
+    .cv {
+        padding: 5px 6px;
+        font-size:12px;
+    }
+
+    .name {
+        margin: none;
+        font-family: 'Staatliches', cursive;
+        text-align: center;
+        line-height: 10px;
+        font-size: 40px;
+    }
+    
+    .intro {
+        font-size: 30px;
+        margin:none;
+        font-family: 'Poiret One', cursive;
+        text-align: center;
+    }
+    
+}
+
+@media screen and (min-height: 1000px) {
+
+    .chimney-container {
+        transform:translateY(0px);
+    }
+    
 }

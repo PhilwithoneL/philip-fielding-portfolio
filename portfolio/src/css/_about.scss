@@ -9,14 +9,33 @@
 }
 
 .about {
-    margin: 0% 15% 0% 15%;
+    margin: 0% 8% 0% 8%;
     font-family: 'Poiret One', cursive;
 }
 
 .about-header {
+    cursor:pointer;
     font-family: 'Staatliches', cursive;
 }
 
 .about-important {
     font-family: 'Staatliches', cursive;
+}
+
+
+.picture {
+    margin: 0% 8% 0% 8%;
+    background: url(../img/MeImgBW.jpg) no-repeat center;
+    background-size:100% 100%;
+    width:425px;
+    height:425px;
+    margin-top:90px;
+    transform:rotateZ(10deg);
+    cursor:pointer;
+    transition: all 0.2s ease-in-out;
+    filter: contrast(125%);
+
+    &:hover {
+        transform:rotateZ(0deg)
+    }
 }

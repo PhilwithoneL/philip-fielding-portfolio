@@ -1,19 +1,19 @@
 .info-links {
     position:absolute;
-    z-index:1;
+    z-index:400;
     width:100%;
-    top: 85vh;
+    top: 83vh;
     height:38px;
 }
 
 .git-icon {
-    font-size:30px;
+    font-size:45px;
     margin: 5px;
     cursor: pointer;
 }
 
 .linked-icon {
-    font-size:30px;
+    font-size:45px;
     margin: 5px;
     cursor: pointer;
 
@@ -26,7 +26,7 @@
     transition: all 0.2s ease-in-out;
     cursor:pointer;
     font-weight:700;
-
+    font-size: 23px;
     
     &:hover {
         background-color: rgb(182, 214, 250);

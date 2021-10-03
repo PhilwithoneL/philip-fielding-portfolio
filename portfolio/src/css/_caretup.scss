@@ -5,6 +5,7 @@
 }
 
 .caret-position {
+    z-index:1;
     transform: translateY(95vh);
     width:100%;
     text-align: center;
@@ -16,7 +17,7 @@
     animation-name: caretAnime;
     animation-duration: 0.7s;
     animation-iteration-count: infinite;
-    cursor:pointer;
+    cursor:pointer
 }
 
 @keyframes caretAnime {

@@ -25,6 +25,14 @@
   color: #1ac1ec;
 }
 
+.tech-icon-node {
+  color: #00a700;
+}
+
+.lockdown {
+  color: #8a9aac;
+}
+
 .nav-container {
   z-index: 100;
   position: fixed;
@@ -292,6 +300,8 @@
   background-color: #303030;
   width: 100%;
   height: 800px;
+  -webkit-transform: translateY(-200px);
+          transform: translateY(-200px);
 }
 
 .bubble {
@@ -1098,6 +1108,7 @@
 }
 
 .caret-position {
+  z-index: 1;
   -webkit-transform: translateY(95vh);
           transform: translateY(95vh);
   width: 100%;
@@ -1157,16 +1168,38 @@
 }
 
 .about {
-  margin: 0% 15% 0% 15%;
+  margin: 0% 8% 0% 8%;
   font-family: 'Poiret One', cursive;
 }
 
 .about-header {
+  cursor: pointer;
   font-family: 'Staatliches', cursive;
 }
 
 .about-important {
   font-family: 'Staatliches', cursive;
+}
+
+.picture {
+  margin: 0% 8% 0% 8%;
+  background: url(../img/MeImgBW.jpg) no-repeat center;
+  background-size: 100% 100%;
+  width: 425px;
+  height: 425px;
+  margin-top: 90px;
+  -webkit-transform: rotateZ(10deg);
+          transform: rotateZ(10deg);
+  cursor: pointer;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -webkit-filter: contrast(125%);
+          filter: contrast(125%);
+}
+
+.picture:hover {
+  -webkit-transform: rotateZ(0deg);
+          transform: rotateZ(0deg);
 }
 
 .project-section {
@@ -1192,20 +1225,20 @@
 
 .info-links {
   position: absolute;
-  z-index: 1;
+  z-index: 400;
   width: 100%;
-  top: 85vh;
+  top: 83vh;
   height: 38px;
 }
 
 .git-icon {
-  font-size: 30px;
+  font-size: 45px;
   margin: 5px;
   cursor: pointer;
 }
 
 .linked-icon {
-  font-size: 30px;
+  font-size: 45px;
   margin: 5px;
   cursor: pointer;
 }
@@ -1218,6 +1251,7 @@
   transition: all 0.2s ease-in-out;
   cursor: pointer;
   font-weight: 700;
+  font-size: 23px;
 }
 
 .cv:hover {
@@ -1301,8 +1335,81 @@ html {
 
 @media screen and (max-width: 700px) {
   .chimney-container {
-    -webkit-transform: translateY(-170px);
-            transform: translateY(-170px);
+    -webkit-transform: translateY(-250px) scaleY(90%);
+            transform: translateY(-250px) scaleY(90%);
+  }
+  .info-links {
+    position: absolute;
+    z-index: 400;
+    width: 100%;
+    top: 85vh;
+    height: 38px;
+  }
+  .git-icon {
+    font-size: 30px;
+  }
+  .linked-icon {
+    font-size: 30px;
+  }
+  .cv {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-height: 700px) {
+  .chimney-container {
+    -webkit-transform: translateY(-195px) scaleY(90%);
+            transform: translateY(-195px) scaleY(90%);
+  }
+}
+
+@media screen and (min-height: 800px) {
+  .chimney-container {
+    -webkit-transform: translateY(-120px) scaleY(90%);
+            transform: translateY(-120px) scaleY(90%);
+  }
+}
+
+@media screen and (max-height: 568px) {
+  .chimney-container {
+    -webkit-transform: translateY(-270px) scaleY(85%);
+            transform: translateY(-270px) scaleY(85%);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .git-icon {
+    font-size: 24px;
+  }
+  .linked-icon {
+    font-size: 24px;
+  }
+  .info-links {
+    top: 87vh;
+  }
+  .cv {
+    padding: 5px 6px;
+    font-size: 12px;
+  }
+  .name {
+    margin: none;
+    font-family: 'Staatliches', cursive;
+    text-align: center;
+    line-height: 10px;
+    font-size: 40px;
+  }
+  .intro {
+    font-size: 30px;
+    margin: none;
+    font-family: 'Poiret One', cursive;
+    text-align: center;
+  }
+}
+
+@media screen and (min-height: 1000px) {
+  .chimney-container {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
   }
 }
 /*# sourceMappingURL=main.css.map */

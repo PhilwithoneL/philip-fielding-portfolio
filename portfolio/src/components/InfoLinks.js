@@ -8,17 +8,17 @@ const InfoLinks = () => {
             
             <div className ="row">
 
-                <div className ="col m3"></div>
+                <div className ="col m3 s2"></div>
 
-                <div className = "col m6 row">
+                <div className = "col m6 s8 row center-div">
 
-                    <div className = "col m4 center-div"><VscGithub className = "git-icon" /></div>
-                    <div className = "col m4 center-div "><div className ="cv"><b>Get CV</b></div></div>
-                    <div className = "col m4 center-div"><SiLinkedin className ="linked-icon" /></div>
+                    <div className = "col center-div"><VscGithub className = "git-icon" /></div>
+                    <div className = "col center-div "><div className ="cv"><b>Get CV</b></div></div>
+                    <div className = "col center-div"><SiLinkedin className ="linked-icon" /></div>
 
                 </div>
 
-                <div className ="col m3"></div>
+                <div className ="col m3 s2 "></div>
 
             </div>
 
