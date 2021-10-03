@@ -1157,11 +1157,15 @@
 }
 
 .about {
-  margin: 0% 0% 5% 15%;
+  margin: 0% 15% 0% 15%;
   font-family: 'Poiret One', cursive;
 }
 
 .about-header {
+  font-family: 'Staatliches', cursive;
+}
+
+.about-important {
   font-family: 'Staatliches', cursive;
 }
 
@@ -1262,10 +1266,10 @@ html {
     top: -150px;
   }
   .name {
-    font-size: 40px;
+    font-size: 52px;
   }
   .intro {
-    font-size: 20px;
+    font-size: 32px;
   }
 }
 
