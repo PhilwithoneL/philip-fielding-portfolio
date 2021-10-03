@@ -263,7 +263,7 @@
 
 .intro-container {
   width: 80%;
-  z-index: 2;
+  z-index: 3;
   position: relative;
   top: 150px;
   color: white;
@@ -284,6 +284,7 @@
 }
 
 .chimney-container {
+  z-index: 2;
   position: absolute;
   background-color: #303030;
   width: 100%;
@@ -1142,6 +1143,37 @@
   }
 }
 
+.dividing-section {
+  position: relative;
+  height: 800px;
+}
+
+.about-section {
+  width: 100%;
+  height: 500px;
+}
+
+.project-section {
+  height: 100%;
+  width: 100%;
+}
+
+.project-box {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.219);
+}
+
+.project-img {
+  width: 100px;
+  height: 30px;
+}
+
+.project-info {
+  width: 100px;
+  height: 200px;
+}
+
 html {
   background-color: #0E0E0E;
   font-family: 'Roboto', sans-serif;
@@ -1165,6 +1197,15 @@ html {
           align-items: center;
 }
 
+.highlight {
+  background-color: rgba(9, 112, 0, 0.274);
+}
+
+.section-divider {
+  background-color: rgba(0, 0, 0, 0);
+  height: 50px;
+}
+
 @media screen and (max-width: 600px) {
   .link-mobile {
     display: none;
@@ -1183,6 +1224,9 @@ html {
 @media screen and (min-width: 924px) {
   .nav-container {
     display: none;
+  }
+  .about-section {
+    top: 825px;
   }
 }
 
@@ -1203,19 +1247,6 @@ html {
   .chimney-container {
     -webkit-transform: translateY(-170px);
             transform: translateY(-170px);
-  }
-}
-
-@media screen and (max-height: 600px) {
-  .chimney-container {
-    -webkit-transform: translateY(-245px);
-            transform: translateY(-245px);
-  }
-  .name {
-    font-size: 26px;
-  }
-  .intro {
-    font-size: 20px;
   }
 }
 /*# sourceMappingURL=main.css.map */

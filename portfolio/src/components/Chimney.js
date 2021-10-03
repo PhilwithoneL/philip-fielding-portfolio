@@ -9,6 +9,7 @@ const Chimney = () => {
 
     return (
         <div>
+            
             <div className = "chimney-container">
 
                 <div className ="chimney-position">

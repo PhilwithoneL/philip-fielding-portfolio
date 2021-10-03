@@ -24,6 +24,11 @@
         display:none;
     }
 
+    .about-section {
+        top:825px;
+    }
+    
+
 }
 
 @media screen and (max-width: 923px) {
@@ -47,22 +52,5 @@
     .chimney-container {
         transform:translateY(-170px);
     }
-
-}
-
-@media screen and (max-height: 600px) {
-    
-    .chimney-container {
-        transform:translateY(-245px);
-    }
-
-    .name {
-        font-size: 26px;
-    }
-    
-    .intro {
-        font-size: 20px;
-    }
-    
 
 }
