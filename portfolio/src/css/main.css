@@ -1354,6 +1354,10 @@ html {
   .cv {
     font-size: 14px;
   }
+  .picture {
+    width: 250px;
+    height: 250px;
+  }
 }
 
 @media screen and (min-height: 700px) {

@@ -33,7 +33,7 @@
     transform:rotateZ(10deg);
     cursor:pointer;
     transition: all 0.2s ease-in-out;
-    filter: contrast(125%);
+    filter:contrast(125%);
 
     &:hover {
         transform:rotateZ(0deg)

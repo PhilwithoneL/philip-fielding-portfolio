@@ -20,7 +20,6 @@ const About = () => {
                 <div className = "col m6 s12 center-div ">
                     
                     <div className = "picture"></div>
-                    <div className ="picture-color"></div>
                 </div>
 
             </div>
