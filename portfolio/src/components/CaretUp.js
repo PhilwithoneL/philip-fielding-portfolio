@@ -6,7 +6,7 @@ const CaretUp = () => {
 
     return (
         <div>
-            <div className ="caret-up-container">
+            <div>
                 <div className ="caret-position">
                     <AiFillCaretUp className = "caret-icon"/></div>
                 </div>            

@@ -7,7 +7,7 @@ const About = () => {
 
             <div className= "section row about-section">
 
-                <div className = "col m6 s12">
+                <div>
                     <div className ="about">
                         <h1 className = "about-header">Who am I?</h1>
                         <h4>I'm a web developer from the northern powerhouse, <h className = "about-important">Manchester</h>.</h4>
@@ -17,10 +17,10 @@ const About = () => {
                     </div>
                 </div>
 
-                <div className = "col m6 s12 center-div ">
+                {/* <div className = "col m6 s12 center-div ">
                     
                     <div className = "picture"></div>
-                </div>
+                </div> */}
 
             </div>
 

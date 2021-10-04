@@ -13,16 +13,19 @@ function App() {
 
       <NavBar />
       <AnimeNav />
+      
+
       <InfoLinks />
       <CaretUp />
-
+      
       <Intro />
       <Chimney />
 
      
       <About />
       <Projects />
-    
+      
+
       
     </div>
   );

@@ -4,7 +4,7 @@ import Project from './Project';
 const Projects = () => {
     return (
         <div>
-            <div className = "section project-section">
+            <div className = "project-section">
 
                 <div className = "row">
 

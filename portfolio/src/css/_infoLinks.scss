@@ -1,12 +1,12 @@
 .info-links {
     position:absolute;
-    z-index:400;
     width:100%;
     top: 83vh;
     height:38px;
+    z-index:100;
 }
 
-.git-icon {
+.git-icon { 
     font-size:45px;
     margin: 5px;
     cursor: pointer;
