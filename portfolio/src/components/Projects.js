@@ -19,8 +19,8 @@ const Projects = () => {
                                 <img className = "project-img" src = {Img1} style={{ filter: "grayscale(100%)" }}></img>
 
                                 <div className = "project-links center-div">
-                                    <div className ="btn project-link-btn black-text waves-effect waves-light btn">Github</div>
-                                    <div className ="btn project-link-btn black-text waves-effect waves-light btn">Site</div>
+                                    <div className ="btn project-link-btn waves-effect waves-light btn">Github</div>
+                                    <div className ="btn project-link-btn waves-effect waves-light btn">Site</div>
                                 </div>
             
                             </div>
@@ -47,8 +47,8 @@ const Projects = () => {
                                 <img className = "project-img" src = {Img2} style={{ filter: "grayscale(100%)" }}></img>
 
                                 <div className = "project-links center-div">
-                                    <div className ="btn project-link-btn black-text waves-effect waves-light btn">Github</div>
-                                    <div className ="btn project-link-btn black-text waves-effect waves-light btn">Site</div>
+                                    <div className ="btn project-link-btn waves-effect waves-light btn">Github</div>
+                                    <div className ="btn project-link-btn  waves-effect waves-light btn">Site</div>
                                 </div>
             
                             </div>
@@ -78,8 +78,8 @@ const Projects = () => {
                                 <img className = "project-img" src = {Img3} style={{ filter: "grayscale(100%)" }}></img>
 
                                 <div className = "project-links center-div">
-                                    <div className ="btn project-link-btn black-text waves-effect waves-light btn">Github</div>
-                                    <div className ="btn project-link-btn black-text waves-effect waves-light btn">Site</div>
+                                    <div className ="btn project-link-btn waves-effect waves-light btn">Github</div>
+                                    <div className ="btn project-link-btn waves-effect waves-light btn">Site</div>
                                 </div>
             
                             </div>
@@ -105,8 +105,8 @@ const Projects = () => {
                                 <img className = "project-img" src = {Img4} style={{ filter: "grayscale(100%)" }}></img>
 
                                 <div className = "project-links center-div">
-                                    <div className ="btn project-link-btn black-text waves-effect waves-light btn">Github</div>
-                                    <div className ="btn project-link-btn black-text waves-effect waves-light btn">Site</div>
+                                    <div className ="btn project-link-btn waves-effect waves-light btn">Github</div>
+                                    <div className ="btn project-link-btn waves-effect waves-light btn">Site</div>
                                 </div>
             
                             </div>
