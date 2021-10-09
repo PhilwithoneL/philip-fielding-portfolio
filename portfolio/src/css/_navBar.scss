@@ -7,7 +7,7 @@
 
 .link {
     position: relative;
-    color: white;
+    color: rgb(206, 229, 255);
     height: 100%;
     font-weight: 300;
     transition: all 0.2s ease-in-out;
@@ -28,7 +28,7 @@
 
     &:after {
         content: "";
-        background: white;
+        background: rgb(206, 229, 255);
         position: absolute;
         bottom: 0;
         left: 0;

@@ -6,11 +6,24 @@
 .about-section {
     width:100%;
     height:500px;
+
 }
 
 .about {
     margin: 0% 10% 0% 10%;
-    font-family: 'Poiret One', cursive;
+    // font-family: 'Poiret One', cursive;
+
+    &:before {
+        content: "";
+        background: rgb(206, 229, 255);
+        position: absolute;        
+        bottom: -10px;
+        height: 1px;
+        width: 78.5%;
+        transition: all 0.1s ease-in-out;
+      }
+
+
 }
 
 .about-header {
@@ -22,20 +35,16 @@
     font-family: 'Staatliches', cursive;
 }
 
-
 .picture {
-    margin: 0% 8% 0% 8%;
+    background-color: rgb(70, 134, 252);
+    margin: 0% 10% 0% 6%;
+    opacity: 80%;
     background: url(../img/MeImgBW.jpg) no-repeat center;
-    background-size:100% 100%;
-    width:425px;
-    height:425px;
-    margin-top:90px;
-    transform:rotateZ(10deg);
+    width:20%;
+    padding-top:0;
     cursor:pointer;
     transition: all 0.2s ease-in-out;
-    filter:contrast(125%);
+    clip-path: polygon(20% 30%, 20% 100%, 90% 100%, 90% 30%);
+    transform:translateY(-70px) scale(100%); 
 
-    &:hover {
-        transform:rotateZ(0deg)
-    }
 }
