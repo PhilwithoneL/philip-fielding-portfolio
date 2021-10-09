@@ -16,6 +16,28 @@
         font-size: 32px;
     }
 
+    .project-section {
+        height: 100%;
+        width: 100%;
+        transform:translateY(150px);
+    }
+
+    .project-name-container {
+        z-index:300;
+        background-color:rgba(0, 119, 255, 0.062);
+        height:100%;
+        width:100%;
+        transform:translateY(-203px);
+    }
+
+    .project-box-left {  
+        margin:5%;
+    }
+    
+    .project-box-right {
+        margin:5%;
+    }
+    
 }
 
 @media screen and (min-width: 924px) {
@@ -32,6 +54,7 @@
         transform:translateY(0vh);
     }
 
+
 }
 
 @media screen and (max-width: 923px) {
@@ -47,8 +70,7 @@
     .chimney-container {
         transform:translateY(-170px);
     }
-    
-
+   
 }
 
 @media screen and (max-width: 700px) {
@@ -76,6 +98,14 @@
         width:250px;
         height:250px;
 
+    }
+
+    .project-box-left {
+        margin:8%;
+    }
+    
+    .project-box-right { 
+        margin:8%;
     }
     
 }
@@ -134,6 +164,11 @@
         text-align: center;
     }
     
+    .project-section {
+        transform:translateY(300px);
+    }
+    
+
 }
 
 @media screen and (min-height: 1000px) {
@@ -141,5 +176,5 @@
     .chimney-container {
         transform:translateY(0px);
     }
-    
+
 }
