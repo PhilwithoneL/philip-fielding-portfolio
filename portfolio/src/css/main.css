@@ -1260,7 +1260,7 @@
 
 .project-info {
   width: 100%;
-  height: 200px;
+  height: 125px;
 }
 
 .project-name-text {
@@ -1288,8 +1288,8 @@
   margin: 0px 10px;
   width: 30%;
   padding-top: 0%;
-  /* 1:1 Aspect Ratio */
   position: relative;
+  font-weight: 700;
 }
 
 .project-link-btn:hover {
