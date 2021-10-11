@@ -6,6 +6,7 @@ import About from "./components/About";
 import InfoLinks from "./components/InfoLinks";
 import Projects from "./components/Projects";
 import CaretUp from "./components/CaretUp";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
      
       <About />
       <Projects />
+      <Contact />
       
     </div>
   );

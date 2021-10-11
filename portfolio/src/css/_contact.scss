@@ -1,0 +1,107 @@
+.contact-section {
+    transform:translateY(100px);
+}
+
+.contact {
+    margin: 0% 10% 0% 10%;
+}
+
+.contact-header { 
+    font-family: 'Staatliches', cursive;
+}
+
+.submit-btn {
+    color: rgb(206, 229, 255);
+    z-index:100;
+    margin: 0px 10px;
+    width: 125px;
+    padding: 1%;
+    position: relative;
+    font-weight: 700;
+    border: solid 2px rgb(206, 229, 255);
+    border-radius:5px;
+    background-color:rgba(255, 255, 255, 0);
+    cursor:pointer;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+        background-color:rgb(206, 229, 255);
+        color:black;
+    }
+
+}
+
+.submit-btn-container {
+    margin-bottom:70px;
+}
+
+.form {
+    margin-top: 10%;
+}
+
+.input-field {
+
+    border-bottom: rgb(206, 229, 255);
+    
+    input[type=text] {
+        color:rgb(206, 229, 255);
+    }
+
+    textarea {
+        color:rgb(206, 229, 255);
+    }
+
+    input[type=email] {
+        color:rgb(206, 229, 255);
+    }
+
+    ::placeholder {
+        color: rgba(206, 229, 255, 0.082);
+    }
+}
+
+
+.input-field input[type=text] + label, .materialize-textarea:focus:not([readonly]) + label {
+    color: rgb(206, 229, 255) !important;
+
+}
+
+.input-field input[type=text]:focus, .materialize-textarea:focus:not([readonly]) {
+
+    border-bottom: 1px solid rgb(106, 175, 255) !important;
+    box-shadow: none !important;
+
+}
+
+.input-field input[type=email] + label, .materialize-textarea:focus:not([readonly]) + label {
+
+    color: rgb(206, 229, 255) !important;
+
+}
+
+.input-field input[type=email]:focus, .materialize-textarea:focus:not([readonly]) {
+
+    border-bottom: 1px solid rgb(106, 175, 255) !important;
+    box-shadow: none !important;
+
+}
+
+.input-field input[type=file] {
+    display:none;
+}
+
+.upload-btn {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius:5px;
+    font-size: 700;
+    transition: all 0.3s ease-in-out;
+    font-family: 'Roboto', sans-serif;
+
+    &:hover {
+        background-color:rgb(206, 229, 255);
+        color:black;
+    }
+}
