@@ -397,8 +397,15 @@
 
 //Chimney
 
+.center-chimney {
+    display:flex;
+    justify-content: center;
+    // align-items: center;
+}
+
 .chimney-position {
-    width:100%;
+    width:15%;
+
 }
 
 .chimney {

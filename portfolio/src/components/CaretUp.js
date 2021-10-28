@@ -6,11 +6,9 @@ const CaretUp = () => {
 
     return (
         <div>
-            <div>
-                <div className ="caret-position">
-                    <AiFillCaretUp className = "caret-icon"/></div>
-                </div>            
-        </div>
+            <div className ="caret-position">
+            <AiFillCaretUp className = "caret-icon"/></div>
+        </div>            
     )
 }
 

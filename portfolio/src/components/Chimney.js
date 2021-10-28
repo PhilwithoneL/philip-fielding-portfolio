@@ -1,18 +1,41 @@
-import React from 'react'
-
 import { FaHtml5, FaCss3Alt, FaReact } from 'react-icons/fa';
 import { DiMaterializecss } from 'react-icons/di';
 import { DiJavascript } from 'react-icons/di';
 import { SiTailwindcss } from 'react-icons/si';
 
-const Chimney = () => {
+const Chimney = ({scrollOffset}) => {
+
+  
+    const scrollOffsetChimney = scrollOffset * 20;
+
+
+    const scrollPosition = `${scrollOffsetChimney - 40}%`
+
+    const opacity = Math.round(100 - (scrollOffset * 10)) ;
+
+
+    if(scrollOffset > 1) {
+        document.getElementById("chimney").style.transform = `translateX(${scrollPosition})`;
+    }
+
+    if(scrollOffset > 1) {
+        document.getElementById("chimney").style.opacity = `0.${opacity}`;
+    }
+
+    if(scrollOffset === 1) {
+        document.getElementById("chimney").style.opacity = `1`;
+    }
+
+    if(opacity === 0) {
+        document.getElementById("chimney").style.display = `none`;
+    } else if (opacity === 10) {
+        document.getElementById("chimney").style.display = `flex`;
+    }
 
     return (
-        <div>
-            
-            <div className = "chimney-container">
+            <div className = "chimney-container center-chimney">
 
-                <div className ="chimney-position">
+                <div className ="chimney-position " id= "chimney">
                     
                     <div className = "smoke">
 
@@ -49,7 +72,6 @@ const Chimney = () => {
                 </div>
 
             </div>
-        </div>
     )
 
 }

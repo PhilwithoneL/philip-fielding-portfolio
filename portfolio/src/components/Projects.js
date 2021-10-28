@@ -7,7 +7,6 @@ import Img4 from '../img/the-recipe-app-img.jpg';
 const Projects = () => {
 
     return (
-        <div>
             <div className = "project-section">
                 <h2 className = "project-header">Projects</h2>
                 <div className = "row">
@@ -128,7 +127,6 @@ const Projects = () => {
                 </div>
 
             </div>
-        </div>
     )
 }
 

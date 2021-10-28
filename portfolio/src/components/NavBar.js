@@ -1,25 +1,11 @@
-import React, { useEffect, useState } from 'react';
+const NavBar = ({scrollOffset}) => {
 
-const NavBar = () => {
-
-    const [offset, setOffset] = useState(0);
-
-
-
-    useEffect(() => {
-        window.onscroll = () => {
-        setOffset(Math.round(window.pageYOffset / 50) * 50 )
-        }
-    }, []);
-
-    console.log(offset);
-   
+    const scrollPositionNav = scrollOffset * 50;   
   
-        switch(offset) {
+        switch(scrollPositionNav) {
 
             case 100 :
                 document.getElementById("navBar").style.backgroundColor = "rgb(30, 32, 36, 0%)";
-                console.log("hit 20")
                 break;
             case 150 :
                 document.getElementById("navBar").style.backgroundColor = "rgb(30, 32, 36, 10%)";
@@ -54,9 +40,7 @@ const NavBar = () => {
         }
 
 
-
     return (
-        <div>
             <div className = "nav-bar row" id ="navBar">
                 <div className = "col m3 s1 center-div link-mobile"></div>
                 <div className ="link col m2 s4 center-div"><p className = "link-text">About</p></div>
@@ -64,7 +48,6 @@ const NavBar = () => {
                 <div className ="link col m2 s4 center-div"><p className = "link-text">Contact</p></div>
                 <div className = "col m3 s1 center-div link-mobile"></div>
             </div>
-        </div>
     )
 }
 
