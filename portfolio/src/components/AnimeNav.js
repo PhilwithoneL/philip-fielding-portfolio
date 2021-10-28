@@ -31,11 +31,13 @@ const AnimeNav = () => {
                         <AiOutlineArrowUp className = "open-nav-up-1" />
                             <div className ="scroll-text" onClick ={openLinks}>Scroll or Click me</div>
                             <AiOutlineArrowDown className = "open-nav-down-2" />
+
+
+                            {visible ? <AnimeNavModal closeLinks = {openLinks} /> : false}
+                            
                     </div>
 
-                    <div id="navOpen" className = "new-links center-div">
-                        {visible ? <AnimeNavModal closeLinks = {openLinks} /> : false}
-                    </div>
+
                             
                 </div>
 
