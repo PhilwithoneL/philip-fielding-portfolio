@@ -11,7 +11,7 @@ const Projects = () => {
                 <h2 className = "project-header">Projects</h2>
                 <div className = "row">
                     
-                    <div className = "col m6 s12">
+                    <div className = "col m6 s12" >
 
                         <div className = "project-box-left" >
                             <div className = "project-img-container">

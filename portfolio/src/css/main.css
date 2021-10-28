@@ -1124,7 +1124,7 @@
   -webkit-transform: translateY(95vh);
           transform: translateY(95vh);
   width: 100%;
-  text-align: center;
+  right: 50%;
 }
 
 .caret-icon {
@@ -1501,7 +1501,7 @@ html {
   background-color: #0E0E0E;
   font-family: 'Roboto', sans-serif;
   color: #cee5ff;
-  overflow-x: none;
+  overflow-x: hidden;
 }
 
 .text-center {
