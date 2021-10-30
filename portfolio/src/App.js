@@ -20,8 +20,9 @@ function App() {
     useEffect(() => {
 
         window.onscroll = () => {
-            setOffset(Math.round(window.pageYOffset / 30));
-        }
+            setOffset(Math.floor(window.pageYOffset / 30));
+          
+          }
 
 
     }, []);
