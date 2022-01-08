@@ -63,7 +63,7 @@
 }
 
 .scroll-nav {
-  z-index: 110;
+  z-index: 1;
   top: 0;
   bottom: 0;
   margin-top: auto;
@@ -72,7 +72,7 @@
 
 .scroll-text {
   position: absolute;
-  z-index: 104;
+  z-index: 1;
   height: 200px;
   left: -128px;
   top: 0;
@@ -87,7 +87,7 @@
 }
 
 .background-modal {
-  z-index: 20;
+  z-index: -1;
   position: fixed;
   top: 0;
   left: 0px;
@@ -150,6 +150,10 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .nav-logo {
@@ -1345,7 +1349,7 @@
 }
 
 .info-links {
-  z-index: 1;
+  z-index: 2;
   position: absolute;
   width: 100%;
   top: 83vh;
@@ -1627,7 +1631,6 @@ body {
   }
   .info-links {
     position: absolute;
-    z-index: 400;
     width: 100%;
     top: 85vh;
     height: 38px;

@@ -13,7 +13,6 @@ const AnimeNavModal = ({closeLinks}) => {
 
                     <div className = "buttons">
 
-
                         <div className = "about-link-2 z-depth-1">
                             <div className = "anime-links-inline center-div">
                                 {/* <SiAboutDotMe className = "nav-logo"/> */}

@@ -6,7 +6,7 @@ const InfoLinks = () => {
     return (
         <div className = "info-links">
             
-            <div className ="row">
+            <div>
 
                 <div className ="col m3 s2"></div>
 

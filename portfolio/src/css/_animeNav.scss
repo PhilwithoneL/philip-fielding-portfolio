@@ -29,7 +29,7 @@
 
 
 .scroll-nav {
-    z-index:110;
+    z-index:1;
     top: 0;
     bottom: 0;
     margin-top: auto;
@@ -38,7 +38,7 @@
 
 .scroll-text {
     position:absolute;
-    z-index: 104;
+    z-index: 1;
     height:200px; 
     left:-128px;
     top: 0;
@@ -52,7 +52,7 @@
 }
 
 .background-modal {
-    z-index:20;
+    z-index:-1;
     position:fixed;
     top:0;
     left:0px;
@@ -99,6 +99,7 @@
 
 .buttons {
     display:flex;
+    flex-direction:column;
 }
 
 .nav-logo {
@@ -154,9 +155,7 @@
 
     0% {
         opacity: 0%;
-        transform:translateX(-1000%);
-
-        
+        transform:translateX(-1000%); 
     }
 
     25% {

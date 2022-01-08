@@ -71,8 +71,7 @@ function App() {
 
       <NavBar scrollOffset = {offset} />
       <AnimeNav />
-      
-      <InfoLinks  />
+      <InfoLinks />      
       
       <Intro />
       <Chimney />
