@@ -7,6 +7,7 @@ import About from "./components/About";
 import InfoLinks from "./components/InfoLinks";
 import Projects from "./components/Projects";
 import CaretUp from "./components/CaretUp";
+import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 import '../node_modules/aos/dist/aos.css';
 import AOS from "../node_modules/aos/dist/aos.js";
@@ -14,6 +15,10 @@ import AOS from "../node_modules/aos/dist/aos.js";
 function App() {
 
   AOS.init();
+
+  window.onbeforeunload = function () {
+    window.scrollTo(0, 0);
+  }
 
   const [offset, setOffset] = useState(0);
 
@@ -79,6 +84,7 @@ function App() {
       <About domWidthLeft = {domWidthLeft} domWidthRight = {domWidthRight} />
       <Projects domWidthLeft = {domWidthLeft} domWidthRight = {domWidthRight}  />
       <Contact />
+      <Footer />
       
     </div>
   );

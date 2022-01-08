@@ -12,10 +12,11 @@
     font-size:57.5px;
     margin: 5px;
     cursor: pointer;
-    color: rgb(34, 34, 34);
+    color:rgb(174, 212, 255);
+    transition: all 0.2s ease-in-out;
 
     :hover {
-        color: rgb(206, 229, 255);
+        color: rgb(34, 34, 34);
     }
 
 }
@@ -23,10 +24,12 @@
 .linked-icon {
     font-size:70px;
     cursor: pointer;
-    color: rgb(34, 34, 34);
-
+    color:rgb(174, 212, 255);
+    transition: all 0.2s ease-in-out;
+    
     :hover {
-        color: rgb(206, 229, 255);
+        color: rgb(34, 34, 34);
+
     }
 
 }
@@ -37,11 +40,12 @@
     cursor:pointer;
     font-weight:800;
     font-size: 60px;
-    color: rgb(34, 34, 34);
+    color:rgb(174, 212, 255);
+    transition: all 0.2s ease-in-out;
 
     :hover {
-        color:rgb(174, 212, 255);
-        border-color: color: rgb(206, 229, 255);;
+        color: rgb(34, 34, 34);
+        border-color: rgb(206, 229, 255);
     }
 
 }

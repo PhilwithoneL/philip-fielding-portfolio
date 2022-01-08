@@ -1360,21 +1360,25 @@
   font-size: 57.5px;
   margin: 5px;
   cursor: pointer;
-  color: #222222;
+  color: #aed4ff;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .git-icon :hover {
-  color: #aed4ff;
+  color: #222222;
 }
 
 .linked-icon {
   font-size: 70px;
   cursor: pointer;
-  color: #222222;
+  color: #aed4ff;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .linked-icon :hover {
-  color: #aed4ff;
+  color: #222222;
 }
 
 .cv {
@@ -1383,12 +1387,14 @@
   cursor: pointer;
   font-weight: 800;
   font-size: 60px;
-  color: #222222;
+  color: #aed4ff;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .cv :hover {
-  color: #aed4ff;
-  border-color: #aed4ff;
+  color: #222222;
+  border-color: #cee5ff;
 }
 
 .contact-section {
@@ -1504,6 +1510,19 @@
 .upload-btn:hover {
   background-color: #cee5ff;
   color: black;
+}
+
+.footer {
+  color: #303030;
+  -webkit-transform: translateY(32.5px);
+          transform: translateY(32.5px);
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
+}
+
+.footer:hover {
+  color: #6d6d6d;
+  cursor: pointer;
 }
 
 html {

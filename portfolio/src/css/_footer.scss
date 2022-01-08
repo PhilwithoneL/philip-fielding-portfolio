@@ -1,0 +1,11 @@
+.footer {
+    color: rgb(48, 48, 48);
+    transform:translateY(32.5px);
+    transition: all 250ms ease-in-out;
+
+    &:hover {
+        color: rgb(109, 109, 109);
+        cursor:pointer;
+    }
+
+}
