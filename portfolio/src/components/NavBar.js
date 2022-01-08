@@ -1,9 +1,5 @@
 const NavBar = ({scrollOffset}) => {
 
-    // const scrollNav =scrollOffset / 50;
-
-    // console.log(scrollNav);
-
     const scrollPositionNav = scrollOffset * 50;   
   
         switch(scrollPositionNav) {

@@ -2,6 +2,7 @@
     height: 100%;
     width: 100%;
     transform:translateY(0px);
+    overflow:hidden;
 
     &:before {
         content: "";
@@ -33,20 +34,23 @@
 
 .project-box-left {  
     margin-left:20%;
+    right:10px;
 }
 
 .project-box-right {
     margin-right:20%;
+    right:10px;
+    
 }
 
 .col-project-left {
-    padding: 0% 15% 0% 15%;
+    padding: 0% 15% 0% 8%;
+    overflow-x: hidden;
 }
 
 .col-project-right {
     padding: 0% 15% 0% 8%;
 }
-
 .project-img-container {
     border: solid 1px white;
     width: 100%;

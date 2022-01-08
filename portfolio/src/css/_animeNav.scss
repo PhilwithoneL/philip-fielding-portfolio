@@ -2,7 +2,7 @@
     z-index:100;
     position:fixed;
     width: 5vw;
-    height:80vh;
+    height:2000vh;
 }
 
 .open-icon-container {
@@ -24,7 +24,6 @@
 .new-links {
     position:fixed;
     z-index:100;
-    width:5vw;
     height:100vh;
 }
 
@@ -53,12 +52,14 @@
 }
 
 .background-modal {
+    z-index:20;
     position:fixed;
     top:0;
     left:0px;
     width:100vw;
-    height:100vh;
-    background-color: hsla(0, 0%, 0%, 0.847);
+    height:2000vh;
+    background-color: hsl(0, 0%, 0%);
+    // backdrop-filter: blur(1rem);
     animation-name: modal-open;
     animation-duration: 0.2s;
     animation-iteration-count: 1;
@@ -117,39 +118,29 @@
 .about-link-2 {
     margin:10px;
     z-index: 100;
-    background-color: #fbf5f300;
-    width: 50px;
-    height: 50px;
-    border-radius: 5%;
     animation-name: link-open;
     animation-duration: 1s;
+    box-shadow: none;
     animation-iteration-count: 1;
+
 }
 
 .projects-link-3 {
     margin:10px;
     z-index: 100;
-    background-color: #fbf5f300;
-    width: 80px;
-    height: 22px;
     animation-name: link-open;
     animation-duration: 1.5s;
     animation-iteration-count: 1;
-    border-right: solid 1px white;
-    border-left: solid 1px white;
-    
+    box-shadow: none;
 }
 
 .contact-link-4 {
     margin:10px;
     z-index: 100;
-    background-color: #fbf5f300;
-    width: 50px;
-    height: 50px;;
-    border-radius: 50%;
     animation-name: link-open;
     animation-duration: 2s;
     animation-iteration-count: 1;
+    box-shadow: none;
 }
 
 .anime-nav-btn-container {
