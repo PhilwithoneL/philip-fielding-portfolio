@@ -1,6 +1,7 @@
 import React from 'react'
 import { VscGithub } from 'react-icons/vsc';
-import { SiLinkedin } from 'react-icons/si'
+import { RiLinkedinBoxLine } from 'react-icons/ri';
+import { CgNotes } from 'react-icons/cg';
 
 const InfoLinks = () => {
     return (
@@ -12,9 +13,9 @@ const InfoLinks = () => {
 
                 <div className = "col m6 s8 row center-div">
 
-                    <div className = "col center-div"><VscGithub className = "git-icon" /></div>
-                    <div className = "col center-div "><div className ="cv"><b>Get CV</b></div></div>
-                    <div className = "col center-div"><SiLinkedin className ="linked-icon" /></div>
+                    <a className = "col center-div git-icon" href='https://github.com/PhilwithoneL'><VscGithub /></a>
+                    <a className = "col center-div cv"><CgNotes /></a>
+                    <a className = "col center-div linked-icon"><RiLinkedinBoxLine /></a>
 
                 </div>
 

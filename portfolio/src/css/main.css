@@ -1357,31 +1357,38 @@
 }
 
 .git-icon {
-  font-size: 45px;
+  font-size: 57.5px;
   margin: 5px;
   cursor: pointer;
+  color: #222222;
+}
+
+.git-icon :hover {
+  color: #aed4ff;
 }
 
 .linked-icon {
-  font-size: 45px;
-  margin: 5px;
+  font-size: 70px;
   cursor: pointer;
+  color: #222222;
+}
+
+.linked-icon :hover {
+  color: #aed4ff;
 }
 
 .cv {
-  border: solid #b6d6fa 2px;
   border-radius: 5px;
   padding: 5px 10px;
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
   cursor: pointer;
-  font-weight: 700;
-  font-size: 23px;
+  font-weight: 800;
+  font-size: 60px;
+  color: #222222;
 }
 
-.cv:hover {
-  background-color: #b6d6fa;
-  color: #0E0E0E;
+.cv :hover {
+  color: #aed4ff;
+  border-color: #aed4ff;
 }
 
 .contact-section {
@@ -1511,6 +1518,11 @@ html {
 
 body {
   overflow-x: hidden;
+}
+
+a {
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 ::-webkit-scrollbar {
@@ -1669,8 +1681,8 @@ body {
             transform: translateY(-20px) scaleY(100%);
   }
   .info-links {
-    -webkit-transform: translateY(20px);
-            transform: translateY(20px);
+    -webkit-transform: translateY(50px);
+            transform: translateY(50px);
   }
 }
 
