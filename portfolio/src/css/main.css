@@ -34,7 +34,7 @@
 }
 
 .nav-container {
-  z-index: 100;
+  z-index: 1;
   position: fixed;
   width: 5vw;
   height: 2000vh;
@@ -1218,6 +1218,7 @@
 }
 
 .project-section {
+  z-index: 1;
   height: 100%;
   width: 100%;
   -webkit-transform: translateY(0px);
@@ -1349,11 +1350,10 @@
 }
 
 .info-links {
-  z-index: 2;
+  z-index: 50;
   position: absolute;
   width: 100%;
-  top: 83vh;
-  height: 38px;
+  top: 87.7vh;
 }
 
 .git-icon {
@@ -1700,8 +1700,8 @@ a {
             transform: translateY(-20px) scaleY(100%);
   }
   .info-links {
-    -webkit-transform: translateY(50px);
-            transform: translateY(50px);
+    -webkit-transform: translateY(30px);
+            transform: translateY(30px);
   }
 }
 
