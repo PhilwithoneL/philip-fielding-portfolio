@@ -1,195 +1,24 @@
-@media screen and (max-width: 600px) {
-
-    .link-mobile {
-        display:none;
-    }
-
-    .intro-row {
-        top:-150px;
-    }
-
-    .name {
-        font-size: 52px;
-    }
-    
-    .intro {
-        font-size: 32px;
-    }
-
-    .project-section {
-        height: 100%;
-        width: 100%;
-        transform:translateY(150px);
-    }
-
-    .project-name-container {
-        z-index:300;
-        background-color:rgba(0, 119, 255, 0.062);
-        height:100%;
-        width:100%;
-        transform:translateY(-203px);
-    }
-
-    .project-box-left {  
-        margin:5%;
-    }
-    
-    .project-box-right {
-        margin:5%;
-    }
-    
-    .project-section {
- 
-        &:after {
-          bottom: -1%;
-        }
-        
-  }
-
-  .contact-section {
-    transform:translateY(175px);
-}
-
-}
-
-@media screen and (min-width: 924px) {
-
-    .nav-container {
-        display:none;
-    }
-
-    .about-section {
-        top:825px;
-    }
-    
-    .chimney-container {
-        transform:translateY(0vh);
-    }
-
-
-}
-
-@media screen and (max-width: 923px) {
-
-    .nav-bar {
-        display:none;
-    }
-
-    .intro-row {
-        top:-150px;
-    }
-
-    .chimney-container {
-        transform:translateY(-170px);
-    }
-   
-}
-
-@media screen and (max-width: 700px) {
-    
-    .chimney-container {
-        transform:translateY(-250px) scaleY(90%);
-    }
-
-    .info-links {
-        position:absolute;
-        width:100%;
-        top: 85vh;
-        height:38px;
-    }
-
-    .git-icon {font-size:30px;}
-    
-    .linked-icon {font-size:30px; }
-
-    .cv {font-size:14px;}
-
-    .picture {
-
-        width:250px;
-        height:250px;
-
-    }
-
-    .project-box-left {
-        margin:8%;
-    }
-    
-    .project-box-right { 
-        margin:8%;
-    }
-    
-}
-
-
-@media screen and (min-height: 700px) {
-    
-    .chimney-container {
-        transform:translateY(-195px) scaleY(90%);
-    }
-
-}
-
-@media screen and (min-height: 800px) {
-    
-    .chimney-container {
-        transform:translateY(-20px) scaleY(100%);
-    }
-
-    .info-links {
-        transform:translateY(30px);
-    }
-    
-}
-
-@media screen and (max-height: 568px) {
-    
-    .chimney-container {
-        transform:translateY(-270px) scaleY(85%);
-    }
-    
-
-}
-
-@media screen and (max-width: 320px) {
-    
-    .git-icon {font-size:24px;}
-    
-    .linked-icon {font-size:24px; }
-
-    .info-links {top: 87vh;}
-    
-    .cv {
-        padding: 5px 6px;
-        font-size:12px;
-    }
-
-    .name {
-        margin: none;
-        font-family: 'Staatliches', cursive;
-        text-align: center;
-        line-height: 10px;
-        font-size: 40px;
-    }
-    
-    .intro {
-        font-size: 30px;
-        margin:none;
-        font-family: 'Poiret One', cursive;
-        text-align: center;
-    }
-    
-    .project-section {
-        transform:translateY(300px);
-    }
-    
-
-}
-
-@media screen and (min-height: 1000px) {
-
+@media only screen and (min-width: 1920px) and (min-width:1080px) {
     .chimney-container {
         transform:translateY(0px);
     }
 
+    .info-links {
+        top: 83vh;
+    }
+    
+    .git-icon { 
+        font-size:77.5px;
+    }
+    
+    .linked-icon {
+        font-size:90px;   
+    }
+    
+    .cv {
+        font-size: 80px;
+    }
+
+
 }
+
