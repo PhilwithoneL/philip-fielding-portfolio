@@ -1,6 +1,6 @@
 import { RiHome2Fill } from 'react-icons/ri';
 
-const NavBar = ({scrollOffset, findAbout, findProject}) => {
+const NavBar = ({scrollOffset, findAbout, findProject, findHome}) => {
 
     const scrollPositionNav = scrollOffset * 50;   
   
@@ -54,7 +54,7 @@ const NavBar = ({scrollOffset, findAbout, findProject}) => {
                 <div className ="link col m2 s4 center-div"><p className = "link-text">Contact</p></div>
                 <div className = "col m3 s1 center-div link-mobile"></div>
 
-                <div className = "home-btn" id ="homeBtn"><div className = "home-icon-box center-div"><RiHome2Fill className= "home-icon"/></div></div>
+                <div className = "home-btn" id ="homeBtn"><div className = "home-icon-box center-div" onClick = {findHome}><RiHome2Fill className= "home-icon"/></div></div>
 
             </div>
     )

@@ -16,6 +16,7 @@ function App() {
 
   const aboutRef = useRef();
   const projectRef = useRef();
+  const homeRef = useRef();
 
   const findAbout = () => {
     aboutRef.current.scrollIntoView({ behavior: "smooth", block: "start"});
@@ -27,6 +28,10 @@ function App() {
     console.log('About clicked')
   }
 
+  const findHome = () => {
+    homeRef.current.scrollIntoView({ behavior: "smooth", block: "start"});
+    console.log('About clicked')
+  }
 
   AOS.init();
 
@@ -88,9 +93,9 @@ function App() {
   return (
 
     
-    <div id = "mainDiv">
+    <div id = "mainDiv" ref = { homeRef }>
       
-      <NavBar scrollOffset = {offset} findAbout = {findAbout} findProject = {findProject} />
+      <NavBar scrollOffset = {offset} findAbout = {findAbout} findProject = {findProject} findHome = { findHome }/>
       <AnimeNav />
       <InfoLinks />      
       
