@@ -2,8 +2,8 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <div>
-            <div className ="center-div "><a className ="footer">@ 2022 Philip Fielding</a></div>
+        <div className ="footer-section">
+            <div><a className =" center-div footer">@ 2022 Philip R. Fielding</a></div>
         </div>
     )
 }

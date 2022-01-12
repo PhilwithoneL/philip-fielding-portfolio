@@ -1,4 +1,4 @@
-import Racet, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import Intro from "./components/Intro";
 import AnimeNav from "./components/AnimeNav";
 import Chimney from "./components/Chimney";
@@ -13,6 +13,20 @@ import '../node_modules/aos/dist/aos.css';
 import AOS from "../node_modules/aos/dist/aos.js";
 
 function App() {
+
+  const aboutRef = useRef();
+  const projectRef = useRef();
+
+  const findAbout = () => {
+    aboutRef.current.scrollIntoView({ behavior: "smooth", block: "start"});
+    console.log('About clicked')
+  }
+
+  const findProject = () => {
+    projectRef.current.scrollIntoView({ behavior: "smooth", block: "start"});
+    console.log('About clicked')
+  }
+
 
   AOS.init();
 
@@ -72,22 +86,25 @@ function App() {
 
 
   return (
-    <div id = "mainDiv" className = "hightlight">
 
-      <NavBar scrollOffset = {offset} />
+    
+    <div id = "mainDiv">
+      
+      <NavBar scrollOffset = {offset} findAbout = {findAbout} findProject = {findProject} />
       <AnimeNav />
       <InfoLinks />      
       
       <Intro />
       <Chimney />
 
-      <About domWidthLeft = {domWidthLeft} domWidthRight = {domWidthRight} />
-      <Projects domWidthLeft = {domWidthLeft} domWidthRight = {domWidthRight}  />
-      <Contact />
+      <section className ="about-section-main" ref = { aboutRef }><About domWidthLeft = {domWidthLeft} domWidthRight = {domWidthRight} /></section>
+      <section className = "project-section-main " ref = { projectRef }><Projects domWidthLeft = {domWidthLeft} domWidthRight = {domWidthRight}  /></section>
+      {/* <Contact /> */}
       <Footer />
       
     </div>
   );
 }
+
 
 export default App;

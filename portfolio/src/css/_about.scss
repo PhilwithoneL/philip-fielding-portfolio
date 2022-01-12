@@ -1,25 +1,27 @@
-.dividing-section {
+.about-section-main {
+    z-index:2;
     position: relative;
-    height: 100vh;
-}
+    top:800px;
+} 
 
 .about-section {
     width:100%;
-    height:500px;
     right:10px;
+    
 }
 
 .about {
     margin: 0% 10% 0% 10%;
-
+    font-size: $text;
+    transform:translateY(100px);
 
     &:before {
         content: "";
         background: rgb(206, 229, 255);
         position: absolute;        
-        bottom: -10px;
+        top: -20px;
         height: 1px;
-        width: 78.5%;
+        width: 100%;
         transition: all 0.1s ease-in-out;
       }
 
@@ -29,10 +31,24 @@
 .about-header {
     cursor:pointer;
     font-family: 'Staatliches', cursive;
+    font-size:$head-text;
+    transform:translateY(50px);
+}
+
+.about-text {
+    font-size: $text;
+    
 }
 
 .about-important {
     font-family: 'Staatliches', cursive;
+    display: inline;
+}
+
+.about-important-tech {
+    font-family: 'Staatliches', cursive;
+    font-size: $sub-head-text;
+    display:block;
 }
 
 .picture {

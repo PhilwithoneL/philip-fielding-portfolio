@@ -1,29 +1,25 @@
+.project-section-main {
+    z-index: 1;
+    position: relative;
+    top:810px;
+}
+
 .project-section {
+    position: relative;
     z-index:1;
     height: 100%;
     width: 100%;
-    transform:translateY(0px);
     overflow:hidden;
+    transform:translateY(80px);   
 
     &:before {
         content: "";
         background: rgb(206, 229, 255);
-        position: absolute;        
-        bottom: 107%;
+        position: absolute;       
+        top: 0px;
         left:10%;
         height: 1px;
-        width: 79%;
-        transition: all 0.1s ease-in-out;
-      }
-
-      &:after {
-        content: "";
-        background: rgb(206, 229, 255);
-        position: absolute;        
-        bottom: -5%;
-        left:10%;
-        height: 1px;
-        width: 79%;
+        width: 79.8vw;
         transition: all 0.1s ease-in-out;
       }
 }
@@ -31,17 +27,21 @@
 .project-header { 
     font-family: 'Staatliches', cursive;
     margin: 0% 10% 5% 10%;
+    transform:translateY(18px);
+}
+
+.projects-row {
+    transform: translateY(-40px);
 }
 
 .project-box-left {  
-    margin-left:20%;
+    margin-left:19.5%;
     right:10px;
 }
 
 .project-box-right {
-    margin-right:20%;
+    margin-right:19.5%;
     right:10px;
-    
 }
 
 .col-project-left {

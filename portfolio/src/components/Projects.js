@@ -4,13 +4,14 @@ import Img2 from '../img/AbrosiaKitchens.jpg';
 import Img3 from '../img/the-weather-app-img.jpg';
 import Img4 from '../img/the-recipe-app-img.jpg';
 
-const Projects = ({domWidthLeft, domWidthRight}) => {
+const Projects = ({domWidthLeft, domWidthRight, findAbout}) => {
 
 
     return (
             <div className = "project-section">
+
                 <h2 className = "project-header">Projects</h2>
-                <div className = "row">
+                <div className = "row projects-row">
                     
                     <div className = "col m6 s12" >
 

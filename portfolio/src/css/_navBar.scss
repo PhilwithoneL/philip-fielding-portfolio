@@ -1,7 +1,10 @@
 .nav-bar {
+    top:0;
     z-index: 100;
     width:100%;
     position:fixed;
+    font-size:$nav-bar;
+    
 }
 
 .link {
@@ -58,7 +61,7 @@
     &:before {
         opacity: 0%;
         content: "";
-        background: linear-gradient(87deg, rgba(39,43,48,0) 0%, rgba(255,255,255,1) 56%);
+        background: linear-gradient(87deg, rgb(14, 14, 14) 0%, rgba(255,255,255,1) 56%);
         position: absolute;
         bottom: 0;
         left: 0;
@@ -83,3 +86,67 @@
         width: 100%;
     }
   }
+
+  //Home-btn
+
+  .home-btn {
+        display:none;
+        transition: all 0.2s ease-in-out;
+        position:absolute;
+        color:rgb(174, 212, 255);
+        background-color: #0E0E0E;
+        height:60px;
+        width:60px;
+        border: solid 4px rgb(174, 212, 255);
+        border-radius:50%;
+        font-size:35px;
+        box-shadow:1px 2px 5px rgb(0, 0, 0);
+        top:90.5vh;
+        left:3.3vw;
+        animation-name: home-open;
+        animation-duration: 0.6s;
+        animation-iteration-count: 1;
+ 
+        &:hover {
+            border: solid 4px rgb(34, 34, 34);
+            cursor:pointer;
+            box-shadow:0px 1px 2px rgb(0, 0, 0);
+            color: rgb(34, 34, 34);
+        }
+
+
+
+  }
+
+  .home-icon-box {
+        height:60px;
+        width:60px;
+        transform:translate(-4px, -4px)
+  }
+
+  @keyframes home-open {
+
+    0% {
+        opacity: 0%;
+        transform:translateY(5%); 
+    }
+
+    25% {
+        transform:translateY(-30%);
+    }
+
+    50% {
+        transform:translateY(15%);
+    }
+
+    75% {
+        transform:translateY(-15%);
+    }
+    
+    100% {
+        opacity: 100%;
+        transform:translateY(0%);
+        
+    }
+
+}
