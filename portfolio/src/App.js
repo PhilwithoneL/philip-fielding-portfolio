@@ -16,6 +16,7 @@ function App() {
 
   const aboutRef = useRef();
   const projectRef = useRef();
+  const contactRef = useRef();
   const homeRef = useRef();
 
   const findAbout = () => {
@@ -25,6 +26,11 @@ function App() {
 
   const findProject = () => {
     projectRef.current.scrollIntoView({ behavior: "smooth", block: "start"});
+    console.log('About clicked')
+  }
+
+  const findContact = () => {
+    contactRef.current.scrollIntoView({ behavior: "smooth", block: "start"});
     console.log('About clicked')
   }
 
@@ -96,7 +102,7 @@ function App() {
     
     <div id = "mainDiv" ref = { homeRef }>
       
-      <NavBar scrollOffset = {offset} findAbout = {findAbout} findProject = {findProject} findHome = { findHome }/>
+      <NavBar scrollOffset = {offset} findAbout = {findAbout} findProject = {findProject} findHome = { findHome } findContact = {findContact} />
       <AnimeNav />
       <InfoLinks />      
       
@@ -105,7 +111,7 @@ function App() {
 
       <section className ="about-section-main" ref = { aboutRef }><About domWidthLeft = {domWidthLeft} domWidthRight = {domWidthRight} /></section>
       <section className = "project-section-main " ref = { projectRef }><Projects domWidthLeft = {domWidthLeft} domWidthRight = {domWidthRight}  /></section>
-      {/* <Contact /> */}
+      <section className = "contact-section-main" ref = {contactRef}><Contact /></section>
       <Footer />
       
     </div>
