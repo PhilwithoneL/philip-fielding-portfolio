@@ -1134,8 +1134,8 @@
   font-size: 35px;
   -webkit-box-shadow: 1px 2px 5px black;
           box-shadow: 1px 2px 5px black;
-  top: 90.5vh;
-  left: 3.3vw;
+  top: 6vh;
+  left: 3vw;
   -webkit-animation-name: home-open;
           animation-name: home-open;
   -webkit-animation-duration: 0.6s;
