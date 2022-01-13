@@ -102,8 +102,8 @@ function App() {
     
     <div id = "mainDiv" ref = { homeRef }>
       
-      <NavBar scrollOffset = {offset} findAbout = {findAbout} findProject = {findProject} findHome = { findHome } findContact = {findContact} />
-      <AnimeNav />
+      <NavBar scrollOffset = {offset} findAbout = {findAbout} findProject = {findProject} findHome = {findHome} findContact = {findContact} />
+      <AnimeNav findAbout = {findAbout} findProject = {findProject} findContact = {findContact} />
       <InfoLinks />      
       
       <Intro />

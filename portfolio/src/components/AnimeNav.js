@@ -4,7 +4,7 @@ import AnimeNavModal from './AnimeNavModal';
 import { AiOutlineArrowDown, AiOutlineArrowUp} from 'react-icons/ai';
 
 
-const AnimeNav = () => {
+const AnimeNav = ( { findAbout, findProject, findContact } ) => {
 
     const [visible, setVisible] = useState(false);
 
@@ -33,7 +33,7 @@ const AnimeNav = () => {
                             <AiOutlineArrowDown className = "open-nav-down-2" />
 
 
-                            {visible ? <AnimeNavModal closeLinks = {openLinks} /> : false}
+                            {visible ? <AnimeNavModal closeLinks = {openLinks} findAbout = {findAbout} findProject = {findProject} findContact = {findContact} /> : false}
                             
                     </div>
 

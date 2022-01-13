@@ -2,7 +2,7 @@ import { RiHome2Fill } from 'react-icons/ri';
 import { AiFillCaretUp } from 'react-icons/ai';
 
 
-const NavBar = ({scrollOffset, findAbout, findProject, findHome, findContact}) => {
+const NavBar = ({ scrollOffset, findAbout, findProject, findContact }) => {
 
     const scrollPositionNav = scrollOffset * 50;   
   
