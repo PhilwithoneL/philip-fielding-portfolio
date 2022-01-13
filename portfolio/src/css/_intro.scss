@@ -1,31 +1,35 @@
-.intro-row {
-    width:100%;
-    position:absolute;
-}
-
 .intro-container {
-    width:80%;
+    top:100px;
+    width:100%;
     z-index:3;
-    position:relative;
-    top:80px;
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
+    position:absolute;
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    align-items:center;
 }
 
-.name {
-    margin: none;
-    font-family: 'Staatliches', cursive;
-    text-align: center;
-    line-height: 30px;
+.intro-size {
     transform: scale(100%);
+}
+
+.greeting {
+    font-size:$greeting;
+    height: 1px;
+    transform: translate(-1px, 18px);
+}
+
+.name { 
+    font-family: 'Staatliches', cursive;
+    line-height: 30px;
     font-size: $header;
+
 }
 
 .intro {   
     font-size: $sub-header;
-    margin:none;
-    font-family: 'Poiret One', cursive;
+    transform: translate(0px, -12px);
     text-align: center;
+    letter-spacing:3px;
 }
+
