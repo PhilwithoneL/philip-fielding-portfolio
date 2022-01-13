@@ -34,7 +34,7 @@
 }
 
 .nav-container {
-  z-index: 1;
+  z-index: 100;
   position: fixed;
   width: 5vw;
   height: 2000vh;
@@ -1098,8 +1098,8 @@
   font-size: 35px;
   -webkit-box-shadow: 1px 2px 5px black;
           box-shadow: 1px 2px 5px black;
-  top: 6vh;
-  left: 3vw;
+  top: 90vh;
+  text-align: center;
   -webkit-animation-name: home-open;
           animation-name: home-open;
   -webkit-animation-duration: 0.6s;
@@ -1221,6 +1221,7 @@
 }
 
 .caret-position {
+  z-index: 1;
   position: fixed;
   z-index: 100;
   -webkit-transform: translateY(95vh);
@@ -1295,7 +1296,7 @@
   position: absolute;
   top: -20px;
   height: 1px;
-  width: 100%;
+  width: 80vw;
   -webkit-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
 }
@@ -1527,7 +1528,7 @@
 
 .contact-section {
   margin: 0% 10% 0% 10%;
-  width: 100%;
+  width: 80%;
   height: 400px;
   right: 10px;
   -webkit-transform: translateY(90px);
@@ -1540,7 +1541,7 @@
   position: absolute;
   top: -10px;
   height: 0.5px;
-  width: 80%;
+  width: 100%;
   -webkit-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
 }
@@ -1581,10 +1582,8 @@
 }
 
 .form {
-  width: 80%;
+  width: 100%;
   margin-top: 4%;
-  -webkit-transform: translateX(-170px);
-          transform: translateX(-170px);
 }
 
 .input-field {
@@ -1741,5 +1740,33 @@ a {
 .section-divider {
   background-color: rgba(0, 0, 0, 0);
   height: 50px;
+}
+
+@media screen and (min-width: 360px) {
+  .nav-container {
+    display: block;
+  }
+  .nav-bar {
+    display: none;
+  }
+  .intro-container {
+    top: -10px;
+  }
+  .chimney-container {
+    -webkit-transform: translateY(-280px);
+            transform: translateY(-280px);
+  }
+  .info-links {
+    top: 89vh;
+  }
+  .git-icon {
+    font-size: 52.5px;
+  }
+  .linked-icon {
+    font-size: 65px;
+  }
+  .cv {
+    font-size: 55px;
+  }
 }
 /*# sourceMappingURL=main.css.map */

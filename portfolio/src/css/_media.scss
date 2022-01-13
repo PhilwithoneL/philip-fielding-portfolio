@@ -1,0 +1,43 @@
+@media screen and (min-width: 360px) {
+
+    //Navigation
+
+    .nav-container {
+        display:block
+    }
+
+    .nav-bar {
+        display:none;
+    }
+
+    //Intro
+
+    .intro-container {
+        top:-10px;
+    }
+
+    //Chimney
+
+    .chimney-container {
+        transform:translateY(-280px);
+    }
+
+    //Info-links
+
+    .info-links {
+        top:89vh;
+    }
+
+    .git-icon { 
+        font-size:52.5px;
+    }
+    
+    .linked-icon {
+        font-size:65px;   
+    }
+    
+    .cv {
+        font-size: 55px;
+    }
+
+}

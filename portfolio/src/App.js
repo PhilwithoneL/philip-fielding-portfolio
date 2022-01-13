@@ -113,7 +113,6 @@ function App() {
       <section className = "project-section-main " ref = { projectRef }><Projects domWidthLeft = {domWidthLeft} domWidthRight = {domWidthRight}  /></section>
       <section className = "contact-section-main" ref = {contactRef}><Contact /></section>
       <Footer />
-      
     </div>
   );
 }
