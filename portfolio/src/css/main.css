@@ -1760,13 +1760,22 @@ a {
     top: 89vh;
   }
   .git-icon {
-    font-size: 52.5px;
+    font-size: 46.5px;
   }
   .linked-icon {
-    font-size: 65px;
+    font-size: 59px;
   }
   .cv {
-    font-size: 55px;
+    font-size: 49px;
+  }
+  .about-section-main {
+    z-index: 2;
+    position: relative;
+    top: 600px;
+  }
+  .about {
+    -webkit-transform: translateY(50px);
+            transform: translateY(50px);
   }
 }
 /*# sourceMappingURL=main.css.map */
