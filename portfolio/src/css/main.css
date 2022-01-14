@@ -1204,8 +1204,8 @@
   z-index: 100;
   position: fixed;
   z-index: 100;
-  -webkit-transform: translateY(90vh);
-          transform: translateY(90vh);
+  -webkit-transform: translateY(87.5vh);
+          transform: translateY(87.5vh);
   width: 100%;
   text-align: center;
 }
@@ -1641,9 +1641,9 @@
 
 .footer-section {
   position: absolute;
-  top: 3835px;
+  top: 3830px;
   width: 100%;
-  height: 50px;
+  height: 20px;
 }
 
 .footer {

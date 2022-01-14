@@ -36,7 +36,6 @@ function App() {
 
   const findHome = () => {
     homeRef.current.scrollIntoView({ behavior: "smooth", block: "start"});
-    document.getElementById("homeBtn").style.display = "none";
     console.log('About clicked')
   }
 
