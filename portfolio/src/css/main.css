@@ -1742,7 +1742,7 @@ a {
   height: 50px;
 }
 
-@media screen and (min-width: 360px) {
+@media screen and (max-width: 360px) {
   .nav-container {
     display: block;
   }
@@ -1757,7 +1757,7 @@ a {
             transform: translateY(-280px);
   }
   .info-links {
-    top: 89vh;
+    top: 89.5vh;
   }
   .git-icon {
     font-size: 46.5px;
@@ -1774,8 +1774,14 @@ a {
     top: 600px;
   }
   .about {
-    -webkit-transform: translateY(50px);
-            transform: translateY(50px);
+    -webkit-transform: translateY(25px);
+            transform: translateY(25px);
+  }
+  .about-text {
+    font-size: 1.3rem;
+  }
+  .about-important-tech {
+    font-size: 2rem;
   }
 }
 /*# sourceMappingURL=main.css.map */

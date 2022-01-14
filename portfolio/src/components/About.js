@@ -16,7 +16,7 @@ const About = ({domWidthLeft, domWidthRight}) => {
                     </div>
                     <div>
                         <br></br>
-                        <h5 data-aos={domWidthLeft} >The tech I've worked with include:</h5>
+                        <h5 data-aos={domWidthLeft} className = "about-text">The tech I've worked with include:</h5>
                         <div data-aos={domWidthRight}>               
                             <h className = "about-important-tech tech-icon-html"> HTML</h><h className = "about-important-tech tech-icon-css">CSS</h><h className = "about-important-tech tech-icon-js">Javascript</h><h className = "about-important-tech tech-icon-react">React</h><h className = "about-important-tech tech-icon-material">Materialize</h><h className = "about-important-tech tech-icon-tailwind">Tailwind</h><h className = "about-important-tech  tech-icon-node">Node</h>
                         </div>
