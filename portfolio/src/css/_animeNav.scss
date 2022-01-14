@@ -60,7 +60,6 @@
     width:100vw;
     height:2000vh;
     background-color: hsl(0, 0%, 0%);
-    // backdrop-filter: blur(1rem);
     animation-name: modal-open;
     animation-duration: 0.2s;
     animation-iteration-count: 1;
@@ -121,7 +120,7 @@
     margin:10px;
     z-index: 100;
     animation-name: link-open;
-    animation-duration: 1s;
+    animation-duration: 0.2s;
     box-shadow: none;
     animation-iteration-count: 1;
 
@@ -131,7 +130,7 @@
     margin:10px;
     z-index: 100;
     animation-name: link-open;
-    animation-duration: 1.5s;
+    animation-duration: 0.2s;
     animation-iteration-count: 1;
     box-shadow: none;
 }
@@ -140,7 +139,7 @@
     margin:10px;
     z-index: 100;
     animation-name: link-open;
-    animation-duration: 2s;
+    animation-duration: 0.2s;
     animation-iteration-count: 1;
     box-shadow: none;
 }
@@ -157,18 +156,6 @@
     0% {
         opacity: 0%;
         transform:translateX(-1000%); 
-    }
-
-    25% {
-        transform:translateX(500%);
-    }
-
-    50% {
-        transform:translateX(-250%);
-    }
-
-    75% {
-        transform:translateX(250%);
     }
     
     100% {
