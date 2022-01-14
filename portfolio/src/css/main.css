@@ -290,6 +290,36 @@
   letter-spacing: 3px;
 }
 
+@-webkit-keyframes linkAnime {
+  0% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  50% {
+    -webkit-transform: translateY(-3px);
+            transform: translateY(-3px);
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+
+@keyframes linkAnime {
+  0% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  50% {
+    -webkit-transform: translateY(-3px);
+            transform: translateY(-3px);
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+
 .chimney-container {
   z-index: 2;
   position: absolute;
@@ -1472,6 +1502,12 @@
 .git-icon:hover {
   color: #222222;
   cursor: pointer;
+  -webkit-animation-name: linkAnime;
+          animation-name: linkAnime;
+  -webkit-animation-duration: 0.7s;
+          animation-duration: 0.7s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
 }
 
 .linked-icon {
@@ -1484,6 +1520,12 @@
 .linked-icon:hover {
   color: #222222;
   cursor: pointer;
+  -webkit-animation-name: linkAnime;
+          animation-name: linkAnime;
+  -webkit-animation-duration: 0.7s;
+          animation-duration: 0.7s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
 }
 
 .cv {
@@ -1498,6 +1540,27 @@
 .cv:hover {
   color: #222222;
   cursor: pointer;
+  -webkit-animation-name: linkAnime;
+          animation-name: linkAnime;
+  -webkit-animation-duration: 0.7s;
+          animation-duration: 0.7s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@keyframes linkAnime {
+  0% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  50% {
+    -webkit-transform: translateY(-3px);
+            transform: translateY(-3px);
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
 }
 
 .contact-section-main {

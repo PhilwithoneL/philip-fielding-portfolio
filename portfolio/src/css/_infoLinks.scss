@@ -14,6 +14,9 @@
     &:hover {
         color: rgb(34, 34, 34);
         cursor: pointer;
+        animation-name: linkAnime;
+        animation-duration: 0.7s;
+        animation-iteration-count: infinite;
     }
 }
 
@@ -25,6 +28,10 @@
     &:hover {
         color: rgb(34, 34, 34);
         cursor: pointer;
+        animation-name: linkAnime;
+        animation-duration: 0.7s;
+        animation-iteration-count: infinite;
+
     }
 
 }
@@ -39,6 +46,25 @@
     &:hover {
         color: rgb(34, 34, 34);
         cursor:pointer;
+        animation-name: linkAnime;
+        animation-duration: 0.7s;
+        animation-iteration-count: infinite;
+    }
+
+}
+
+@keyframes linkAnime {
+
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-3px);
+    }
+
+    100% {
+        transform: translateY(0px);
     }
 
 }

@@ -17,6 +17,7 @@
     font-size:$greeting;
     height: 1px;
     transform: translate(-1px, 18px);
+    
 }
 
 .name { 
@@ -33,3 +34,18 @@
     letter-spacing:3px;
 }
 
+@keyframes linkAnime {
+
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-3px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+
+}
