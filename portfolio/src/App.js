@@ -35,7 +35,9 @@ function App() {
   }
 
   const findHome = () => {
-    homeRef.current.scrollIntoView({ behavior: "smooth", block: "start"});
+    const y = 0;
+
+    window.scrollTo({ top: y, behavior: "smooth", block: "start"});
     console.log('About clicked')
   }
 
