@@ -1,10 +1,11 @@
 .caret-position {
-    z-index:1;
+    display:none;
+    z-index:100;
     position:fixed;
     z-index:100;
-    transform: translateY(95vh);
+    transform: translateY(90vh);
     width:100%;
-    right: 50%;
+    text-align: center;
 }
 
 .caret-icon {

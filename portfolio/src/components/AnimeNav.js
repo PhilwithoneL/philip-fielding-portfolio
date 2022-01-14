@@ -22,30 +22,20 @@ const AnimeNav = ( { findAbout, findProject, findContact } ) => {
 
 
     return (
-        <div>
-            <div className = "nav-container">
-                    
-                <div className = "open-icon-container">
-                            
-                    <div className ="scroll-nav">
-                        <AiOutlineArrowUp className = "open-nav-up-1" />
-                            <div className ="scroll-text" onClick ={openLinks}>Scroll or Click me</div>
-                            <AiOutlineArrowDown className = "open-nav-down-2" />
+        <div className = "nav-container">                 
+            <div className = "open-icon-container">
+                <div className ="scroll-nav">
+                    <AiOutlineArrowUp className = "open-nav-up-1" />
+                    <div className ="scroll-text" onClick ={openLinks}>Scroll or Click me</div>
+                    <AiOutlineArrowDown className = "open-nav-down-2" />
 
 
-                            {visible ? <AnimeNavModal closeLinks = {openLinks} findAbout = {findAbout} findProject = {findProject} findContact = {findContact} /> : false}
-                            
-                    </div>
-
-
+                    {visible ? <AnimeNavModal closeLinks = {openLinks} findAbout = {findAbout} findProject = {findProject} findContact = {findContact} /> : false}
                             
                 </div>
-
-                        
-                        
             </div>
-
         </div>
+
     )
 }
 

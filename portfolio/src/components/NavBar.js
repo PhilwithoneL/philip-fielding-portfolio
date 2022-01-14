@@ -2,19 +2,21 @@ import { RiHome2Fill } from 'react-icons/ri';
 import { AiFillCaretUp } from 'react-icons/ai';
 
 
-const NavBar = ({ scrollOffset, findAbout, findProject, findContact }) => {
+const NavBar = ({ scrollOffset, findAbout, findProject, findContact, findHome }) => {
 
     const scrollPositionNav = scrollOffset * 50;   
-  
+
         switch(scrollPositionNav) {
 
             case 100 :
                 document.getElementById("navBar").style.backgroundColor = "rgb(14, 14, 14, 0%)";
                 // document.getElementById("homeBtn").style.display = "none";
+                document.getElementById("caret").style.display = "none"
                 break;
             case 150 :
                 document.getElementById("navBar").style.backgroundColor = "rgb(14, 14, 14, 10%)";
                 // document.getElementById("homeBtn").style.display = "block";
+                document.getElementById("caret").style.display = "block"
                 break;
             case 200 :
                 document.getElementById("navBar").style.backgroundColor = "rgb(14, 14, 14, 20%)";
@@ -49,25 +51,29 @@ const NavBar = ({ scrollOffset, findAbout, findProject, findContact }) => {
 
 
     return (
+        <div>
             <div className = "nav-bar row" id ="navBar">
                 <div className = "col m3 s1 center-div link-mobile"></div>
-                <div className ="link col m2 s4 center-div highlight"><p className = "link-text" onClick = {findAbout}>About</p></div>
-                <div className ="link col m2 s4 center-div highlight"><p className = "link-text" onClick = {findProject} >Projects</p></div>
-                <div className ="link col m2 s4 center-div highlight"><p className = "link-text" onClick = {findContact} >Contact</p></div>
-                <div className = "col m3 s1 center-div link-mobile"></div>
+                <div className ="link col m2 s4 center-div"><p className = "link-text" onClick = {findAbout}>About</p></div>
+                <div className ="link col m2 s4 center-div"><p className = "link-text" onClick = {findProject} >Projects</p></div>
+                <div className ="link col m2 s4 center-div"><p className = "link-text" onClick = {findContact} >Contact</p></div>
+                <div className = "col m3 s1 center-div link-mobile"></div>  
+                
 
-                {/* <div>
-                    <div className = "home-btn" id ="homeBtn">
-                        <div className = "home-icon-box center-div" onClick = {findHome}><RiHome2Fill className= "home-icon"/></div>
-                    </div>
+                {/* <div className = "home-btn" id ="homeBtn">
+                    <div className = "home-icon-box center-div" onClick = {findHome}><RiHome2Fill className= "home-icon"/></div>
                 </div> */}
 
-            {/* <div id = "homeBtn">
-                <div className ="caret-position">
-                <AiFillCaretUp className = "caret-icon" onClick = { findHome } /></div>
-            </div>    */}
-
+      
             </div>
+            
+            <div className ="caret-position" id = "caret">
+                <AiFillCaretUp className = "caret-icon" onClick = { findHome } />
+            </div>
+          
+        </div>
+
+
     )
 }
 
