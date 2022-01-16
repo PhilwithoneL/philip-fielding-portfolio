@@ -1,14 +1,15 @@
 .caret-position {
     display:none;
-    z-index:100;
+    z-index:301;
     position:fixed;
     z-index:100;
-    transform: translate(3%, -2vh);
-    width:100%;
+    transform: translate(50%, -2vh);
+    width:20%;
     text-align: left;
 }
 
 .caret-icon {
+    z-index:300;
     font-size: 30px;
     color: white;
     animation-name: caretAnime;

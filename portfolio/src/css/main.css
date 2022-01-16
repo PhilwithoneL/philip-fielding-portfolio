@@ -1056,6 +1056,7 @@
 }
 
 .link {
+  z-index: 200;
   position: relative;
   color: #cee5ff;
   height: 100%;
@@ -1086,6 +1087,7 @@
 }
 
 .link-text {
+  z-index: 200;
   outline: none;
   cursor: pointer;
 }
@@ -1231,16 +1233,17 @@
 
 .caret-position {
   display: none;
-  z-index: 100;
+  z-index: 301;
   position: fixed;
   z-index: 100;
-  -webkit-transform: translate(3%, -2vh);
-          transform: translate(3%, -2vh);
-  width: 100%;
+  -webkit-transform: translate(50%, -2vh);
+          transform: translate(50%, -2vh);
+  width: 20%;
   text-align: left;
 }
 
 .caret-icon {
+  z-index: 300;
   font-size: 30px;
   color: white;
   -webkit-animation-name: caretAnime;

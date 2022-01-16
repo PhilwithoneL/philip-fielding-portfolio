@@ -1,6 +1,6 @@
 .nav-bar {
     top:0;
-    z-index: 100;
+    z-index:100;
     width:100%;
     position:fixed;
     font-size:$nav-bar;
@@ -9,6 +9,7 @@
 }
 
 .link {
+    z-index:200;
     position: relative;
     color: rgb(206, 229, 255);
     height: 100%;
@@ -34,6 +35,7 @@
 }
 
 .link-text {
+    z-index:200;
     outline:none;
     cursor:pointer;
 }
