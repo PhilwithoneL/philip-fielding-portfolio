@@ -1,3 +1,30 @@
+// Font-sizes & materilize grid
+
+@media screen and (max-width: 600px) {
+    .tech-box-size {
+        font-size: 7rem;
+        transform: translateY(20px);
+    }
+
+    .link-mobile {
+        display:none;
+    }   
+
+}
+
+@media screen and (min-width: 600px) {
+    .tech-box-size {
+        font-size: 7rem;
+        transform: translateY(20px);
+    }
+
+    .link-mobile {
+        display:block;
+    }   
+}
+
+
+
 @media screen and (max-width: 360px) {
 
     //Navigation

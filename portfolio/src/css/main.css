@@ -1234,8 +1234,8 @@
   z-index: 100;
   position: fixed;
   z-index: 100;
-  -webkit-transform: translateY(87.5vh);
-          transform: translateY(87.5vh);
+  -webkit-transform: translateY(88vh);
+          transform: translateY(88vh);
   width: 100%;
   text-align: center;
 }
@@ -1335,26 +1335,28 @@
 }
 
 .tech-row {
-  background-color: white;
+  background-color: #222222;
 }
 
 .tech-box {
-  z-index: 30;
-  height: 25vw;
-  width: auto;
+  width: 100%;
+  padding-top: 0%;
   position: relative;
   color: black;
   border: solid 5px #0E0E0E;
 }
 
 .tech-box-size {
-  font-size: 7rem;
+  color: #cee5ff;
+  font-size: 10rem;
+  -webkit-transform: translateY(20px);
+          transform: translateY(20px);
 }
 
 .project-section-main {
   z-index: 1;
   position: relative;
-  top: 810px;
+  top: 1095px;
 }
 
 .project-section {
@@ -1578,7 +1580,7 @@
 .contact-section-main {
   z-index: 2;
   position: relative;
-  top: 850px;
+  top: 1200px;
 }
 
 .contact-section {
@@ -1716,7 +1718,7 @@
 
 .footer-section {
   position: absolute;
-  top: 3830px;
+  top: 3900px;
   width: 100%;
   height: 20px;
 }
@@ -1795,6 +1797,28 @@ a {
 .section-divider {
   background-color: rgba(0, 0, 0, 0);
   height: 50px;
+}
+
+@media screen and (max-width: 600px) {
+  .tech-box-size {
+    font-size: 7rem;
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+  }
+  .link-mobile {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .tech-box-size {
+    font-size: 7rem;
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+  }
+  .link-mobile {
+    display: block;
+  }
 }
 
 @media screen and (max-width: 360px) {
