@@ -1236,13 +1236,14 @@
   z-index: 301;
   position: fixed;
   z-index: 100;
-  -webkit-transform: translate(50%, -2vh);
-          transform: translate(50%, -2vh);
+  -webkit-transform: translate(50%, -1.7vh);
+          transform: translate(50%, -1.7vh);
   width: 20%;
   text-align: left;
 }
 
 .caret-icon {
+  color: #cee5ff;
   z-index: 300;
   font-size: 30px;
   color: white;
