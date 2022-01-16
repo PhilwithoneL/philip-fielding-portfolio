@@ -8,8 +8,15 @@
 
     .link-mobile {
         display:none;
-    }   
+    }
 
+    .caret-position {
+        transform: translateY(88vh);
+        width:100%;
+        text-align: center;
+    }
+
+    
 }
 
 @media screen and (min-width: 600px) {

@@ -57,12 +57,7 @@ const NavBar = ({ scrollOffset, findAbout, findProject, findContact, findHome })
                 <div className ="link col m2 s4 center-div"><p className = "link-text" onClick = {findAbout}>About</p></div>
                 <div className ="link col m2 s4 center-div"><p className = "link-text" onClick = {findProject} >Projects</p></div>
                 <div className ="link col m2 s4 center-div"><p className = "link-text" onClick = {findContact} >Contact</p></div>
-                <div className = "col m3 s1 center-div link-mobile"></div>  
-                
-
-                {/* <div className = "home-btn" id ="homeBtn">
-                    <div className = "home-icon-box center-div" onClick = {findHome}><RiHome2Fill className= "home-icon"/></div>
-                </div> */}
+                <div className = "col m3 s1 center-div link-mobile"></div> 
 
       
             </div>
