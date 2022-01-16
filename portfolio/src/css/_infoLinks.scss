@@ -31,7 +31,6 @@
         animation-name: linkAnime;
         animation-duration: 0.7s;
         animation-iteration-count: infinite;
-
     }
 
 }
@@ -42,6 +41,9 @@
     font-size: 60px;
     color:rgb(174, 212, 255);
     transition: all 0.2s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    transform:translateY(0px);
 
     &:hover {
         color: rgb(34, 34, 34);
@@ -49,9 +51,12 @@
         animation-name: linkAnime;
         animation-duration: 0.7s;
         animation-iteration-count: infinite;
+        transform:translateY(-100px);
     }
 
 }
+
+
 
 @keyframes linkAnime {
 

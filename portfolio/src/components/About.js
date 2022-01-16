@@ -1,5 +1,8 @@
 import React, { useEffect, useState, useRef } from 'react';
-import Me from '../img/Me.jpg';
+import { FaHtml5, FaCss3Alt, FaReact } from 'react-icons/fa';
+import { DiMaterializecss } from 'react-icons/di';
+import { DiJavascript } from 'react-icons/di';
+import { SiTailwindcss } from 'react-icons/si';
 
 
 const About = ({domWidthLeft, domWidthRight}) => {
@@ -17,8 +20,39 @@ const About = ({domWidthLeft, domWidthRight}) => {
                     <div>
                         <br></br>
                         <h5 data-aos={domWidthLeft} className = "about-text">The tech I've worked with include:</h5>
-                        <div data-aos={domWidthRight}>               
-                            <h className = "about-important-tech tech-icon-html"> HTML</h><h className = "about-important-tech tech-icon-css">CSS</h><h className = "about-important-tech tech-icon-js">Javascript</h><h className = "about-important-tech tech-icon-react">React</h><h className = "about-important-tech tech-icon-material">Materialize</h><h className = "about-important-tech tech-icon-tailwind">Tailwind</h><h className = "about-important-tech  tech-icon-node">Node</h>
+
+                        <div className ="row tech-row">
+                            <div className = "col l4 m4 s4 center-div tech-box">
+                                <div className ="tech-box-size">
+                                    <FaHtml5 /> 
+                                </div>
+                                
+                            </div>
+                            <div className = "col l4 m4 s4 center-div tech-box">
+                                <div className ="tech-box-size">
+                                    <FaHtml5 /> 
+                                </div>
+                            </div>
+                            <div className = "col l4 m4 s4 center-div tech-box">
+                                <div className ="tech-box-size">
+                                    <FaHtml5 /> 
+                                </div>
+                            </div>
+                            <div className = "col l4 m4 s4 center-div tech-box">
+                                <div className ="tech-box-size">
+                                    <FaHtml5 /> 
+                                </div>
+                            </div>
+                            <div className = "col l4 m4 s4 center-div tech-box">
+                                <div className ="tech-box-size">
+                                    <FaHtml5 /> 
+                                </div>
+                            </div>
+                            <div className = "col l4 m4 s4 center-div tech-box">
+                                <div className ="tech-box-size">
+                                    <FaHtml5 /> 
+                                </div>
+                            </div>
                         </div>
                                
                     </div>

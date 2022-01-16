@@ -1334,20 +1334,21 @@
   display: block;
 }
 
-.picture {
-  background-color: #4686fc;
-  margin: 0% 10% 0% 6%;
-  opacity: 80%;
-  background: url(../img/MeImgBW.jpg) no-repeat center;
-  width: 20%;
-  padding-top: 0;
-  cursor: pointer;
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-  -webkit-clip-path: polygon(20% 30%, 20% 100%, 90% 100%, 90% 30%);
-          clip-path: polygon(20% 30%, 20% 100%, 90% 100%, 90% 30%);
-  -webkit-transform: translateY(-70px) scale(100%);
-          transform: translateY(-70px) scale(100%);
+.tech-row {
+  background-color: white;
+}
+
+.tech-box {
+  z-index: 30;
+  height: 25vw;
+  width: auto;
+  position: relative;
+  color: black;
+  border: solid 5px #0E0E0E;
+}
+
+.tech-box-size {
+  font-size: 7rem;
 }
 
 .project-section-main {
@@ -1535,6 +1536,15 @@
   color: #aed4ff;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
 }
 
 .cv:hover {
@@ -1546,6 +1556,8 @@
           animation-duration: 0.7s;
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
+  -webkit-transform: translateY(-100px);
+          transform: translateY(-100px);
 }
 
 @keyframes linkAnime {

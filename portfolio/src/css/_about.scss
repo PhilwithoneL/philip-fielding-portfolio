@@ -48,16 +48,20 @@
     display:block;
 }
 
-.picture {
-    background-color: rgb(70, 134, 252);
-    margin: 0% 10% 0% 6%;
-    opacity: 80%;
-    background: url(../img/MeImgBW.jpg) no-repeat center;
-    width:20%;
-    padding-top:0;
-    cursor:pointer;
-    transition: all 0.2s ease-in-out;
-    clip-path: polygon(20% 30%, 20% 100%, 90% 100%, 90% 30%);
-    transform:translateY(-70px) scale(100%); 
+.tech-row {
+    background-color: rgb(255, 255, 255);
+    
+}
 
+.tech-box {
+    z-index:30;
+    height: 25vw;
+    width: auto;
+    position: relative; 
+    color: rgb(0, 0, 0);
+    border: solid 5px #0E0E0E;
+}
+
+.tech-box-size {
+    font-size: 7rem;
 }

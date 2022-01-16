@@ -6,7 +6,6 @@ import NavBar from "./components/NavBar";
 import About from "./components/About";
 import InfoLinks from "./components/InfoLinks";
 import Projects from "./components/Projects";
-import CaretUp from "./components/CaretUp";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 import '../node_modules/aos/dist/aos.css';
