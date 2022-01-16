@@ -1766,7 +1766,7 @@ a {
 }
 
 ::-webkit-scrollbar-track {
-  background: black;
+  background-color: #0E0E0E;
 }
 
 ::-webkit-scrollbar-thumb {
