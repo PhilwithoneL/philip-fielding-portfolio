@@ -1338,6 +1338,12 @@
   display: inline;
 }
 
+.project-btn-container {
+  -webkit-transform: translateY(80px);
+          transform: translateY(80px);
+  margin-bottom: 120px;
+}
+
 .tech-section-main {
   z-index: 2;
   position: relative;

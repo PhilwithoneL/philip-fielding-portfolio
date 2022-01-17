@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useRef } from 'react';
 
 
-const About = ({domWidthLeft, domWidthRight}) => {
+const About = ({domWidthLeft, domWidthRight, findProject}) => {
 
     return (
         <div>
@@ -15,8 +15,17 @@ const About = ({domWidthLeft, domWidthRight}) => {
                         <br></br>
                         <div className = "about-text" data-aos={domWidthRight}>
                             I'm currently working on personal front-end projects to further my experience with goal to become a full stack developer in the future.
-
+                            <br></br>
+                            <br></br>
+                            Click the button below to see some of my projects.
                         </div>
+                        
+                        <div className = "row project-btn-container">
+                            
+                            <div className ="center-div"><div className ="submit-btn center-div" onClick = {findProject}>Projects</div></div>
+                        
+                        </div>
+
                     
                     </div>
                     <div>
