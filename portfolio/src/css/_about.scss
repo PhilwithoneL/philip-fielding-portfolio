@@ -1,7 +1,7 @@
 .about-section-main {
     z-index:2;
     position: relative;
-    top:800px;
+    top:600px;
 }
 
 .about-section {
@@ -40,29 +40,4 @@
 .about-important {
     font-family: 'Staatliches', cursive;
     display: inline;
-}
-
-.about-important-tech {
-    font-family: 'Staatliches', cursive;
-    font-size: $sub-head-text;
-    display:block;
-}
-
-.tech-row {
-    background-color: rgb(34, 34, 34);
-    
-}
-
-.tech-box {
-    width: 100%;
-    padding-top: 0%;
-    position: relative; 
-    color: rgb(0, 0, 0);
-    border: solid 5px #0E0E0E;
-}
-
-.tech-box-size {
-    color:rgb(206, 229, 255);
-    font-size: 10rem;
-    transform: translateY(20px);
 }

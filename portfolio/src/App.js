@@ -4,6 +4,7 @@ import AnimeNav from "./components/AnimeNav";
 import Chimney from "./components/Chimney";
 import NavBar from "./components/NavBar";
 import About from "./components/About";
+import Tech from "./components/Tech";
 import InfoLinks from "./components/InfoLinks";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
@@ -17,11 +18,18 @@ function App() {
   const projectRef = useRef();
   const contactRef = useRef();
   const homeRef = useRef();
+  const techRef = useRef();
 
   const findAbout = () => {
     aboutRef.current.scrollIntoView({ behavior: "smooth", block: "start"});
     console.log('About clicked')
   }
+
+  const findTech = () => {
+    techRef.current.scrollIntoView({ behavior: "smooth", block: "start"});
+    console.log('About clicked')
+  }
+
 
   const findProject = () => {
     projectRef.current.scrollIntoView({ behavior: "smooth", block: "start"});
@@ -102,14 +110,15 @@ function App() {
     
     <div id = "mainDiv" ref = { homeRef }>
       
-      <NavBar scrollOffset = {offset} findAbout = {findAbout} findProject = {findProject} findHome = {findHome} findContact = {findContact} />
-      <AnimeNav findAbout = {findAbout} findProject = {findProject} findContact = {findContact} />
+      <NavBar scrollOffset = {offset} findAbout = {findAbout} findProject = {findProject} findHome = {findHome} findContact = {findContact} findTech = {findTech} />
+      <AnimeNav findAbout = {findAbout} findProject = {findProject} findContact = {findContact} findTech = {findTech} />
       <InfoLinks />      
       
       <Intro />
       <Chimney />
 
       <section className ="about-section-main" ref = { aboutRef }><About domWidthLeft = {domWidthLeft} domWidthRight = {domWidthRight} /></section>
+      <section className = "tech-section-main" ref = { techRef }   >=<Tech domWidthLeft = {domWidthLeft} domWidthRight = {domWidthRight} /></section>
       <section className = "project-section-main " ref = { projectRef }><Projects domWidthLeft = {domWidthLeft} domWidthRight = {domWidthRight}  /></section>
       <section className = "contact-section-main" ref = {contactRef}><Contact /></section>
       <Footer />

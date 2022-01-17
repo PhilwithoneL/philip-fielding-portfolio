@@ -1,0 +1,47 @@
+.tech-section-main {
+    z-index:2;
+    position: relative;
+    top:600px;
+}
+
+.about {
+    margin: 0% 10% 0% 10%;
+    font-size: $text;
+    transform:translateY(100px);
+
+    &:before {
+        content: "";
+        background: rgb(206, 229, 255);
+        position: absolute;        
+        top: -20px;
+        height: 1px;
+        width: 80vw;
+        transition: all 0.1s ease-in-out;
+      }
+
+}
+
+// .important-tech {
+//     font-family: 'Staatliches', cursive;
+//     font-size: $sub-head-text;
+//     display:block;
+// }
+
+.tech-row {
+    background-color: rgb(34, 34, 34);
+    
+}
+
+.tech-box {
+    width: 100%;
+    padding-top: 0%;
+    position: relative; 
+    color: rgb(0, 0, 0);
+    border: solid 5px #0E0E0E;
+}
+
+.tech-box-size {
+    color:rgb(206, 229, 255);
+    font-size: 6rem;
+    transform: translateY(20px);
+}

@@ -38,13 +38,11 @@
   position: fixed;
   width: 5vw;
   height: 100vh;
-  display: none;
 }
 
 .open-icon-container {
   z-index: 100;
-  width: 5vw;
-  height: 100vh;
+  width: 100vw;
   position: fixed;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -60,7 +58,7 @@
 .new-links {
   position: fixed;
   z-index: 100;
-  height: 100vh;
+  width: 100vw;
 }
 
 .scroll-nav {
@@ -71,20 +69,24 @@
   margin-bottom: auto;
 }
 
+.anime-nav {
+  color: white;
+}
+
 .scroll-text {
+  left: 91vw;
+  top: -5vh;
   position: absolute;
   z-index: 1;
-  height: 200px;
-  left: -128px;
-  top: 0;
-  bottom: 0;
-  margin-top: auto;
-  margin-bottom: auto;
-  font-size: 14px;
+  font-size: 24px;
   color: white;
-  -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
   cursor: pointer;
+  -webkit-animation-name: caretAnime;
+          animation-name: caretAnime;
+  -webkit-animation-duration: 0.7s;
+          animation-duration: 0.7s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
 }
 
 .background-modal {
@@ -106,26 +108,26 @@
 @-webkit-keyframes modal-open {
   0% {
     opacity: 0%;
-    -webkit-transform: translateX(-1000%);
-            transform: translateX(-1000%);
+    -webkit-transform: translateY(-500%);
+            transform: translateY(-500%);
   }
   100% {
     opacity: 100%;
-    -webkit-transform: translateX(0%);
-            transform: translateX(0%);
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
   }
 }
 
 @keyframes modal-open {
   0% {
     opacity: 0%;
-    -webkit-transform: translateX(-1000%);
-            transform: translateX(-1000%);
+    -webkit-transform: translateY(-500%);
+            transform: translateY(-500%);
   }
   100% {
     opacity: 100%;
-    -webkit-transform: translateX(0%);
-            transform: translateX(0%);
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
   }
 }
 
@@ -223,33 +225,33 @@
 @-webkit-keyframes link-open {
   0% {
     opacity: 0%;
-    -webkit-transform: translateX(-1000%);
-            transform: translateX(-1000%);
+    -webkit-transform: translateY(-500%);
+            transform: translateY(-500%);
   }
   100% {
     opacity: 100%;
-    -webkit-transform: translateX(0%);
-            transform: translateX(0%);
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%);
   }
 }
 
 @keyframes link-open {
   0% {
     opacity: 0%;
-    -webkit-transform: translateX(-1000%);
-            transform: translateX(-1000%);
+    -webkit-transform: translateY(-500%);
+            transform: translateY(-500%);
   }
   100% {
     opacity: 100%;
-    -webkit-transform: translateX(0%);
-            transform: translateX(0%);
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%);
   }
 }
 
 .intro-container {
-  top: 100px;
   width: 100%;
   z-index: 3;
+  top: -10px;
   position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -326,8 +328,7 @@
   background-color: #303030;
   width: 100%;
   height: 800px;
-  -webkit-transform: translateY(-100px);
-          transform: translateY(-100px);
+  top: -40vh;
 }
 
 .bubble {
@@ -1053,6 +1054,11 @@
   font-size: 1rem;
   height: 80px;
   font-family: 'Staatliches', cursive;
+  display: none;
+}
+
+.link-mobile {
+  display: none;
 }
 
 .link {
@@ -1289,7 +1295,7 @@
 .about-section-main {
   z-index: 2;
   position: relative;
-  top: 800px;
+  top: 600px;
 }
 
 .about-section {
@@ -1332,10 +1338,28 @@
   display: inline;
 }
 
-.about-important-tech {
-  font-family: 'Staatliches', cursive;
-  font-size: 3rem;
-  display: block;
+.tech-section-main {
+  z-index: 2;
+  position: relative;
+  top: 600px;
+}
+
+.about {
+  margin: 0% 10% 0% 10%;
+  font-size: 1.5rem;
+  -webkit-transform: translateY(100px);
+          transform: translateY(100px);
+}
+
+.about:before {
+  content: "";
+  background: #cee5ff;
+  position: absolute;
+  top: -20px;
+  height: 1px;
+  width: 80vw;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
 }
 
 .tech-row {
@@ -1352,7 +1376,7 @@
 
 .tech-box-size {
   color: #cee5ff;
-  font-size: 10rem;
+  font-size: 6rem;
   -webkit-transform: translateY(20px);
           transform: translateY(20px);
 }
@@ -1495,7 +1519,7 @@
   z-index: 50;
   position: absolute;
   width: 100%;
-  top: 90vh;
+  top: 87vh;
 }
 
 .git-icon {
@@ -1801,76 +1825,5 @@ a {
 .section-divider {
   background-color: rgba(0, 0, 0, 0);
   height: 50px;
-}
-
-@media screen and (max-width: 600px) {
-  .tech-box-size {
-    font-size: 7rem;
-    -webkit-transform: translateY(20px);
-            transform: translateY(20px);
-  }
-  .link-mobile {
-    display: none;
-  }
-  .caret-position {
-    -webkit-transform: translateY(88vh);
-            transform: translateY(88vh);
-    width: 100%;
-    text-align: center;
-  }
-}
-
-@media screen and (min-width: 600px) {
-  .tech-box-size {
-    font-size: 7rem;
-    -webkit-transform: translateY(20px);
-            transform: translateY(20px);
-  }
-  .link-mobile {
-    display: block;
-  }
-}
-
-@media screen and (max-width: 360px) {
-  .nav-container {
-    display: block;
-  }
-  .nav-bar {
-    display: none;
-  }
-  .intro-container {
-    top: -10px;
-  }
-  .chimney-container {
-    -webkit-transform: translateY(-280px);
-            transform: translateY(-280px);
-  }
-  .info-links {
-    top: 89.5vh;
-  }
-  .git-icon {
-    font-size: 46.5px;
-  }
-  .linked-icon {
-    font-size: 59px;
-  }
-  .cv {
-    font-size: 49px;
-  }
-  .about-section-main {
-    z-index: 2;
-    position: relative;
-    top: 600px;
-  }
-  .about {
-    -webkit-transform: translateY(25px);
-            transform: translateY(25px);
-  }
-  .about-text {
-    font-size: 1.3rem;
-  }
-  .about-important-tech {
-    font-size: 2rem;
-  }
 }
 /*# sourceMappingURL=main.css.map */
