@@ -118,7 +118,7 @@ function App() {
       <Chimney />
 
       <section className ="about-section-main" ref = { aboutRef }><About domWidthLeft = {domWidthLeft} domWidthRight = {domWidthRight} /></section>
-      <section className = "tech-section-main" ref = { techRef }   >=<Tech domWidthLeft = {domWidthLeft} domWidthRight = {domWidthRight} /></section>
+      <section className = "tech-section-main" ref = { techRef }><Tech domWidthLeft = {domWidthLeft} domWidthRight = {domWidthRight} /></section>
       <section className = "project-section-main " ref = { projectRef }><Projects domWidthLeft = {domWidthLeft} domWidthRight = {domWidthRight}  /></section>
       <section className = "contact-section-main" ref = {contactRef}><Contact /></section>
       <Footer />

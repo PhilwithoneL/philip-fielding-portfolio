@@ -1341,17 +1341,17 @@
 .tech-section-main {
   z-index: 2;
   position: relative;
-  top: 600px;
+  top: 610px;
 }
 
-.about {
+.tech {
   margin: 0% 10% 0% 10%;
   font-size: 1.5rem;
   -webkit-transform: translateY(100px);
           transform: translateY(100px);
 }
 
-.about:before {
+.tech:before {
   content: "";
   background: #cee5ff;
   position: absolute;

@@ -28,7 +28,7 @@ const AnimeNav = ( { findAbout, findProject, findContact, findTech } ) => {
 
                     <div className ="scroll-text" onClick ={openLinks}><AiOutlineBars className = "anime-nav"/></div>
 
-                    {visible ? <AnimeNavModal closeLinks = {openLinks} findAbout = {findAbout} findProject = {findProject} findContact = {findContact} /> : false}
+                    {visible ? <AnimeNavModal closeLinks = {openLinks} findAbout = {findAbout} findProject = {findProject} findContact = {findContact} findTech={findTech}/> : false}
                             
                 </div>
             </div>

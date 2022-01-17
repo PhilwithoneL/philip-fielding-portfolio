@@ -1,10 +1,10 @@
 .tech-section-main {
     z-index:2;
     position: relative;
-    top:600px;
+    top:610px;
 }
 
-.about {
+.tech {
     margin: 0% 10% 0% 10%;
     font-size: $text;
     transform:translateY(100px);
@@ -20,12 +20,6 @@
       }
 
 }
-
-// .important-tech {
-//     font-family: 'Staatliches', cursive;
-//     font-size: $sub-head-text;
-//     display:block;
-// }
 
 .tech-row {
     background-color: rgb(34, 34, 34);
