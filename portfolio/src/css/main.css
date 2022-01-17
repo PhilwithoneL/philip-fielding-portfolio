@@ -1607,7 +1607,7 @@
 .contact-section-main {
   z-index: 2;
   position: relative;
-  top: 1200px;
+  top: 700px;
 }
 
 .contact-section {
@@ -1632,8 +1632,8 @@
 
 .contact {
   margin: 0% 0% 0% 0%;
-  -webkit-transform: translateY(40px);
-          transform: translateY(40px);
+  -webkit-transform: translateY(20px);
+          transform: translateY(20px);
 }
 
 .contact-header {
