@@ -1305,7 +1305,7 @@
 
 .about {
   margin: 0% 10% 0% 10%;
-  font-size: 1.5rem;
+  font-size: 1rem;
   -webkit-transform: translateY(100px);
           transform: translateY(100px);
 }
@@ -1330,7 +1330,7 @@
 }
 
 .about-text {
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .about-important {
@@ -1346,7 +1346,7 @@
 
 .tech {
   margin: 0% 10% 0% 10%;
-  font-size: 1.5rem;
+  font-size: 1rem;
   -webkit-transform: translateY(100px);
           transform: translateY(100px);
 }
@@ -1744,8 +1744,8 @@
 }
 
 .footer-section {
-  position: absolute;
-  top: 4350px;
+  position: relative;
+  top: 780px;
   width: 100%;
   height: 20px;
 }
