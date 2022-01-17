@@ -1384,7 +1384,7 @@
 .project-section-main {
   z-index: 1;
   position: relative;
-  top: 1095px;
+  top: 700px;
 }
 
 .project-section {
@@ -1417,27 +1417,25 @@
 }
 
 .projects-row {
-  -webkit-transform: translateY(-40px);
-          transform: translateY(-40px);
+  -webkit-transform: translateY(20px);
+          transform: translateY(20px);
 }
 
 .project-box-left {
-  margin-left: 19.5%;
-  right: 10px;
+  margin: 0 8% 0 8%;
 }
 
 .project-box-right {
-  margin-right: 19.5%;
-  right: 10px;
+  margin: 0 8% 0 8%;
 }
 
 .col-project-left {
-  padding: 0% 15% 0% 8%;
+  padding: 0% 5% 0% 5%;
   overflow-x: hidden;
 }
 
 .col-project-right {
-  padding: 0% 15% 0% 8%;
+  padding: 0% 5% 0% 5%;
 }
 
 .project-img-container {
@@ -1491,6 +1489,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  margin-bottom: 20px;
 }
 
 .tech-div-text {

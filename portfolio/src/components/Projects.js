@@ -16,6 +16,7 @@ const Projects = ({domWidthLeft, domWidthRight, findAbout}) => {
                     <div className = "col m6 s12" >
 
                         <div className = "project-box-left" >
+
                             <div className = "project-img-container" data-aos = "flip-up">
                                 <img className = "project-img" src = {Img1} style={{ filter: "grayscale(100%)" }}></img>
 
@@ -25,20 +26,21 @@ const Projects = ({domWidthLeft, domWidthRight, findAbout}) => {
                                 </div>
             
                             </div>
+
                             <div className = "project-info" data-aos = {domWidthRight}>
                                 <h5><b>Review.me</b></h5>
                                 <p>A web page using <a href = "https://developers.themoviedb.org/3/getting-started/introduction"><b>The Movie Database</b></a>, bringing trending movies, and most up to date movie trailers to the user. </p>
                                 
                             </div>
+
                             <div className = "tech-div center-div" data-aos="flip-down">
-                                    <p className = "tech-div-text">Javascript</p>
-                                    <p className = "tech-div-text">Scss</p>
-                                    <p className = "tech-div-text">Html</p>
-                                    <p className = "tech-div-text">Bootstrap</p>
-                                </div>
+                                <p className = "tech-div-text">Javascript</p>
+                                <p className = "tech-div-text">Scss</p>
+                                <p className = "tech-div-text">Html</p>
+                                <p className = "tech-div-text">Bootstrap</p>
+                            </div>
+                            
                         </div>
-
-
                     </div>
 
                     <div className = "col m6 s12 ">
