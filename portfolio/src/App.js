@@ -20,6 +20,7 @@ function App() {
   const homeRef = useRef();
   const techRef = useRef();
 
+
   const findAbout = () => {
     aboutRef.current.scrollIntoView({ behavior: "smooth", block: "start"});
     console.log('About clicked')
@@ -60,10 +61,8 @@ function App() {
 
         window.onscroll = () => {
             setOffset(Math.floor(window.pageYOffset / 30));
-          
           }
     
-
     }, []);
 
     const width = window.innerWidth;
@@ -109,7 +108,7 @@ function App() {
 
     
     <div id = "mainDiv" ref = { homeRef }>
-      
+
       <NavBar scrollOffset = {offset} findAbout = {findAbout} findProject = {findProject} findHome = {findHome} findContact = {findContact} findTech = {findTech} />
       <AnimeNav findAbout = {findAbout} findProject = {findProject} findContact = {findContact} findTech = {findTech} />
       <InfoLinks />      

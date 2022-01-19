@@ -17,33 +17,33 @@ const Tech = ({domWidthLeft, domWidthRight}) => {
             <div className ="row tech-row">
                 <div className = "col xl2 l4 m4 s6 center-div tech-box">
                     <div className ="tech-box-size">
-                        <FaHtml5 /> 
+                        <FaHtml5 className ="tech-icon-html"/> 
                     </div>
                     
                 </div>
                 <div className = "col xl2 l4 m4 s6 center-div tech-box">
                     <div className ="tech-box-size">
-                        <FaCss3Alt /> 
+                        <FaCss3Alt className ="tech-icon-css"/> 
                     </div>
                 </div>
                 <div className = "col xl2 l4 m4 s6 center-div tech-box">
                     <div className ="tech-box-size">
-                        <DiJavascript /> 
+                        <DiJavascript className ="tech-icon-js"/> 
                     </div>
                 </div>
                 <div className = "col xl2 l4 m4 s6 center-div tech-box">
                     <div className ="tech-box-size">
-                        <FaReact /> 
+                        <FaReact className ="tech-icon-react"/> 
                     </div>
                 </div>
                 <div className = "col xl2 l4 m4 s6 center-div tech-box">
                     <div className ="tech-box-size">
-                        <DiMaterializecss /> 
+                        <DiMaterializecss className ="tech-icon-material"/> 
                     </div>
                 </div>
                 <div className = "col xl2 l4 m4 s6 center-div tech-box">
                     <div className ="tech-box-size">
-                        <SiTailwindcss /> 
+                        <SiTailwindcss className ="tech-icon-tailwind"/> 
                     </div>
                 </div>
             </div>
