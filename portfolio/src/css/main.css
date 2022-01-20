@@ -1449,7 +1449,7 @@
   width: 100%;
   padding-top: 0%;
   position: relative;
-  background-color: rgba(70, 133, 252, 0.24);
+  background-color: rgba(0, 140, 196, 0.24);
 }
 
 .project-img {
@@ -1524,11 +1524,11 @@
   z-index: 50;
   position: absolute;
   width: 100%;
-  top: 87vh;
+  top: 88vh;
 }
 
 .git-icon {
-  font-size: 57.5px;
+  font-size: 47.5px;
   margin: 5px;
   color: #aed4ff;
   -webkit-transition: all 0.2s ease-in-out;
@@ -1547,7 +1547,7 @@
 }
 
 .linked-icon {
-  font-size: 70px;
+  font-size: 60px;
   color: #aed4ff;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -1567,7 +1567,7 @@
 .cv {
   cursor: pointer;
   font-weight: 800;
-  font-size: 60px;
+  font-size: 50px;
   color: #aed4ff;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -1751,9 +1751,10 @@
 
 .footer-section {
   position: relative;
-  top: 780px;
+  top: 1100px;
   width: 100%;
-  height: 20px;
+  height: 50px;
+  margin-bottom: 100px;
 }
 
 .footer {
@@ -1761,7 +1762,7 @@
   color: #303030;
   -webkit-transition: all 250ms ease-in-out;
   transition: all 250ms ease-in-out;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
   width: 100%;
 }
 

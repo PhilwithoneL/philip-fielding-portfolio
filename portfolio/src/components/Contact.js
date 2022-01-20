@@ -17,7 +17,7 @@ const Contact = () => {
             <h2 className = "contact-header">Contact</h2>
             <div className ="about-text">Have any questions, opportunities or just want to say hi, drop me a message and I'll try to get back to you as quickly as possible!</div>
 
-             <div class="row form">
+             <div class="form">
 
                 <div className = "col  s1"></div>
                     <form class="col  s10">

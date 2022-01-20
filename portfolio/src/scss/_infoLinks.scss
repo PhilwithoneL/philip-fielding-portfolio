@@ -2,11 +2,11 @@
     z-index: 50;
     position:absolute;
     width:100%;
-    top:87vh;
+    top:88vh;
 }
 
 .git-icon { 
-    font-size:57.5px;
+    font-size:47.5px;
     margin: 5px;
     color:rgb(174, 212, 255);
     transition: all 0.2s ease-in-out;
@@ -21,7 +21,7 @@
 }
 
 .linked-icon {
-    font-size:70px;   
+    font-size:60px;   
     color:rgb(174, 212, 255);
     transition: all 0.2s ease-in-out;
     
@@ -38,7 +38,7 @@
 .cv {
     cursor:pointer;
     font-weight:800;
-    font-size: 60px;
+    font-size: 50px;
     color:rgb(174, 212, 255);
     transition: all 0.2s ease-in-out;
     display: flex;
