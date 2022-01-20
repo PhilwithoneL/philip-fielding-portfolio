@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react'
 import M from 'materialize-css/dist/js/materialize.min.js';
-
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
 
@@ -9,7 +9,24 @@ const Contact = () => {
         M.AutoInit();
   
       },[]);
+    
+    const form = useRef();
 
+    const sendEmail = (e) => {
+        e.preventDefault();    
+        
+        console.log(form.current)
+
+        emailjs.sendForm('service_zou5uon', 'template_daozfqo', form.current , 'user_V6NRqpoBcAF9DM8pV3Aq1')
+            
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+
+            e.target.reset()
+    }
 
     return (
         <div className = "contact-section">
@@ -19,23 +36,23 @@ const Contact = () => {
             <h2 className = "contact-header">Contact</h2>
             <div className ="about-text">Have any questions, opportunities or just want to say hi, drop me a message and I'll try to get back to you as quickly as possible!</div>
 
-             <div class="form">
+             <div class="form" >
 
                 <div className = "col s1"></div>
-                    <form class="col  s10" >
-                        <div class="row">
+                    <form  class="col s10" onSubmit={sendEmail} ref = {form}>
+                        <div class="row" >
                             <div class="input-field col m6 s12">
-                            <input placeholder="Name" id="from_name" type="text" class="validate"></input>
+                            <input placeholder="Name" type="text" class="validate" name="from_name"></input>
                             <label for="name"></label>
                             </div>
                             <div class="input-field col m6 s12">
-                            <input id="last_name" type="text" class="validate" placeholder="Company"></input>
+                            <input id="last_name" type="text" class="validate" placeholder="Company" name="Company"></input>
                             <label for="company"></label>
                             </div>
                         </div>
                         <div class="row">
                             <div class="input-field col s12">
-                            <textarea id="textarea1" class="materialize-textarea" placeholder= "Message"></textarea>
+                            <textarea id="textarea1" class="materialize-textarea" placeholder= "Message" name="Messsage"></textarea>
                             <label for="textarea1"></label>
                             </div>
                         </div>
@@ -50,7 +67,7 @@ const Contact = () => {
                         <div class="row">
                             <div class="col s12">
                             <div className="input-field">
-                                <input id="email_inline" type="email" class="validate" placeholder="Email"></input>
+                                <input id="email_inline" type="email" class="validate" placeholder="Email" name="Email"></input>
                                 <label for="email_inline"></label>
                                 <span class="helper-text" data-error="wrong" data-success="right"></span>
                             </div>
@@ -59,7 +76,10 @@ const Contact = () => {
 
                         <div className = "row submit-btn-container">
                             
-                            <div className ="center-div"><div className ="submit-btn center-div">Submit</div></div>
+                            <div className ="center-div">
+                                <input type="submit" value="Send" />
+                                {/* <input className ="submit-btn center-div" type ="submit" value="Send">Submit</input> */}
+                            </div>
                         
                         </div>
                     </form>
