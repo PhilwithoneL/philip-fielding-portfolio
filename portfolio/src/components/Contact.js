@@ -1,5 +1,6 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useRef } from 'react'
 import M from 'materialize-css/dist/js/materialize.min.js';
+
 
 const Contact = () => {
 
@@ -8,6 +9,7 @@ const Contact = () => {
         M.AutoInit();
   
       },[]);
+
 
     return (
         <div className = "contact-section">
@@ -19,16 +21,16 @@ const Contact = () => {
 
              <div class="form">
 
-                <div className = "col  s1"></div>
-                    <form class="col  s10">
+                <div className = "col s1"></div>
+                    <form class="col  s10" >
                         <div class="row">
                             <div class="input-field col m6 s12">
-                            <input placeholder="First Name" id="first_name" type="text" class="validate"></input>
-                            <label for="first_name"></label>
+                            <input placeholder="Name" id="from_name" type="text" class="validate"></input>
+                            <label for="name"></label>
                             </div>
                             <div class="input-field col m6 s12">
-                            <input id="last_name" type="text" class="validate" placeholder="Last Name"></input>
-                            <label for="last_name"></label>
+                            <input id="last_name" type="text" class="validate" placeholder="Company"></input>
+                            <label for="company"></label>
                             </div>
                         </div>
                         <div class="row">
@@ -47,7 +49,7 @@ const Contact = () => {
 
                         <div class="row">
                             <div class="col s12">
-                            <div className="input-field inline">
+                            <div className="input-field">
                                 <input id="email_inline" type="email" class="validate" placeholder="Email"></input>
                                 <label for="email_inline"></label>
                                 <span class="helper-text" data-error="wrong" data-success="right"></span>
