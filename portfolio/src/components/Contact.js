@@ -17,7 +17,10 @@ const Contact = () => {
         
         console.log(form.current)
 
-        emailjs.sendForm('service_zou5uon', 'template_daozfqo', form.current , 'user_V6NRqpoBcAF9DM8pV3Aq1')
+        if(e.target.from_name.value === "" || e.target.Company.value === "" || e.target.Message.value === "" || e.target.Email.value === "") {
+            alert('Please enter all information before you send');
+        } else {
+            emailjs.sendForm('service_zou5uon', 'template_daozfqo', form.current , 'user_V6NRqpoBcAF9DM8pV3Aq1')
             
             .then((result) => {
                 console.log(result.text);
@@ -26,6 +29,9 @@ const Contact = () => {
             });
 
             e.target.reset()
+        }
+
+        
     }
 
     return (
@@ -39,7 +45,7 @@ const Contact = () => {
              <div class="form" >
 
                 <div className = "col s1"></div>
-                    <form  class="col s10" onSubmit={sendEmail} ref = {form}>
+                    <form  class="col s10" onSubmit={sendEmail} ref = {form} enctype="multipart/form-data">
                         <div class="row" >
                             <div class="input-field col m6 s12">
                             <input placeholder="Name" type="text" class="validate" name="from_name"></input>
@@ -52,24 +58,24 @@ const Contact = () => {
                         </div>
                         <div class="row">
                             <div class="input-field col s12">
-                            <textarea id="textarea1" class="materialize-textarea" placeholder= "Message" name="Messsage"></textarea>
+                            <textarea id="textarea1" class="materialize-textarea" placeholder= "Message" name="Message"></textarea>
                             <label for="textarea1"></label>
                             </div>
                         </div>
 
-                        <div className = "row">
+                        {/* <div className = "row">
                             <label className ="input-field inline upload-btn">
-                                <input type="file" id = "myFile"></input>
+                                <input type="file" id = "myFile" name="my_file"></input>
                                 Upload file
                             </label>
-                        </div>
+                        </div> */}
 
                         <div class="row">
                             <div class="col s12">
                             <div className="input-field">
                                 <input id="email_inline" type="email" class="validate" placeholder="Email" name="Email"></input>
                                 <label for="email_inline"></label>
-                                <span class="helper-text" data-error="wrong" data-success="right"></span>
+                                <span class="helper-text" data-error="Please enter a valid Email address" data-success="Correct"></span>
                             </div>
                             </div>
                         </div>
@@ -77,7 +83,7 @@ const Contact = () => {
                         <div className = "row submit-btn-container">
                             
                             <div className ="center-div">
-                                <input type="submit" value="Send" />
+                                <input type="submit" value="Send" className ="submit-btn center-div"/>
                                 {/* <input className ="submit-btn center-div" type ="submit" value="Send">Submit</input> */}
                             </div>
                         
