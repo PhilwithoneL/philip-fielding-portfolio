@@ -40,7 +40,7 @@ const Contact = () => {
             <div className = "contact">
 
             <h2 className = "contact-header">Contact</h2>
-            <div className ="about-text">Have any questions, opportunities or just want to say hi, drop me a message and I'll try to get back to you as quickly as possible!</div>
+            <div className ="about-text">Have any questions, opportunities or just want to say hi, drop me a message and I'll try to get back to you as soon as possible!</div>
 
              <div class="form" >
 
@@ -82,8 +82,8 @@ const Contact = () => {
 
                         <div className = "row submit-btn-container">
                             
-                            <div className ="center-div">
-                                <input type="submit" value="Send" className ="submit-btn center-div"/>
+                            <div className ="center-div" >
+                                <input type="submit" value="Send" className ="submit-btn submit-btn-pos center-div"/>
                                 {/* <input className ="submit-btn center-div" type ="submit" value="Send">Submit</input> */}
                             </div>
                         

@@ -28,9 +28,7 @@
     transform:translateY(20px);
 }
 
-.contact-header {
-    font-family: 'Staatliches', cursive;
-}
+.contact-header {font-family: 'Staatliches', cursive;}
 
 .submit-btn {
     color: rgb(206, 229, 255);
@@ -53,9 +51,12 @@
 
 }
 
-.submit-btn-container {
-    margin-bottom:70px;
+.submit-btn-pos {
+    top:-10px;
 }
+
+
+.submit-btn-container {margin-bottom:70px;}
 
 .form {
     width:100%;
@@ -84,34 +85,21 @@
 }
 
 
-.input-field input[type=text] + label, .materialize-textarea:focus:not([readonly]) + label {
-    color: rgb(206, 229, 255) !important;
-
-}
+.input-field input[type=text] + label, .materialize-textarea:focus:not([readonly]) + label {color: rgb(206, 229, 255) !important;}
 
 .input-field input[type=text]:focus, .materialize-textarea:focus:not([readonly]) {
-
     border-bottom: 1px solid rgb(106, 175, 255) !important;
     box-shadow: none !important;
-
 }
 
-.input-field input[type=email] + label, .materialize-textarea:focus:not([readonly]) + label {
-
-    color: rgb(206, 229, 255) !important;
-
-}
+.input-field input[type=email] + label, .materialize-textarea:focus:not([readonly]) + label {color: rgb(206, 229, 255) !important;}
 
 .input-field input[type=email]:focus, .materialize-textarea:focus:not([readonly]) {
-
     border-bottom: 1px solid rgb(106, 175, 255) !important;
     box-shadow: none !important;
-
 }
 
-.input-field input[type=file] {
-    display:none;
-}
+.input-field input[type=file] {display:none;}
 
 .upload-btn {
     border: 1px solid #ccc;

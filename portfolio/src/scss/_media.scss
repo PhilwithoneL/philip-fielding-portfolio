@@ -32,16 +32,20 @@
 
     //Projects
 
-    .project-section-main {
-        top:850px;
+    .project-section-main {top:850px;}
+
+    .project-box-left {   margin:0 5% 0 19%;}
+    
+    .project-box-right {margin:0 19% 0 5%;}
+
+    //Contact
+
+    .contact-section-main {top:850px}
+
+    .submit-btn-pos {
+        top:50px;
     }
 
-    .project-box-left {  
-        margin:0 5% 0 19%;
-    }
-    
-    .project-box-right {
-        margin:0 19% 0 5%;
-    }
+    .footer {top:320px;}
 
 }
