@@ -1242,9 +1242,9 @@
   z-index: 301;
   position: fixed;
   z-index: 100;
-  -webkit-transform: translate(50%, -1.7vh);
-          transform: translate(50%, -1.7vh);
-  width: 20%;
+  -webkit-transform: translate(70%, -1.7vh);
+          transform: translate(70%, -1.7vh);
+  width: 15%;
   text-align: left;
 }
 
