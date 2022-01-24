@@ -25,45 +25,30 @@ html {
 
 }
 
-::-webkit-scrollbar-thumb {
-    height:50px;
-}
+::-webkit-scrollbar-thumb {height:50px;}
 
-body {
-    overflow-x: hidden;
-}
+body {overflow-x: hidden;}
 
-a {
-    transition: all 0.5s ease-in-out;
-    
-}
+a {transition: all 0.5s ease-in-out;}
 
 ::-webkit-scrollbar {
     width: 10px;
     height:10px;
 }
 
-::-webkit-scrollbar-track {
-    background-color: #0E0E0E;
-  }
+::-webkit-scrollbar-track {background-color: #0E0E0E;}
 
-  ::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
     background-color:rgb(174, 212, 255);
     height: 20px;
     width: 20px;
     border-radius: 10px;
-  }
-
-
-//Custom materialize
-
+}
 
 
 //Utilities
 
-.text-center {
-    align-items: center;
-}
+.text-center {align-items: center;}
 
 .center-div {
     display:flex;
@@ -71,9 +56,7 @@ a {
     align-items: center;
 }
 
-.highlight {
-    background-color: hsla(115, 100%, 22%, 0.274);
-}
+.highlight {background-color: hsla(115, 100%, 22%, 0.274);}
 
 .section-divider {
     background-color:hsla(0, 0%, 0%, 0);

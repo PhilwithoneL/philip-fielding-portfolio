@@ -1832,4 +1832,22 @@ a {
   background-color: rgba(0, 0, 0, 0);
   height: 50px;
 }
+
+@media only screen and (min-width: 600px) {
+  .anime-nav {
+    display: none;
+  }
+  .nav-bar {
+    display: block;
+  }
+  .chimney-container {
+    top: -12vh;
+  }
+  .intro-container {
+    top: 100px;
+  }
+  .about-section-main {
+    top: 800px;
+  }
+}
 /*# sourceMappingURL=main.css.map */
