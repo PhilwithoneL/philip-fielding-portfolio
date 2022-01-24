@@ -53,12 +53,12 @@ const NavBar = ({ scrollOffset, findAbout, findProject, findContact, findHome, f
     return (
         <div>
             <div className = "nav-bar row" id ="navBar">
-                <div className = "col m3 s1 center-div link-mobile"></div>
-                <div className ="link col m2 s3 center-div"><p className = "link-text" onClick = {findAbout}>About</p></div>
-                <div className ="link col m2 s3 center-div"><p className = "link-text" onClick = {findProject} >Projects</p></div>
-                <div className ="link col m2 s3 center-div"><p className = "link-text" onClick = {findContact} >Tech</p></div>
-                <div className ="link col m2 s3 center-div"><p className = "link-text" onClick = {findTech} >Contact</p></div>
-                <div className = "col m3 s1 center-div link-mobile"></div> 
+                <div className = "col m2 center-div"></div>
+                <div className ="link col m2 center-div"><p className = "link-text" onClick = {findAbout}>About</p></div>
+                <div className ="link col m2 center-div"><p className = "link-text" onClick = {findTech}>Tech</p></div>
+                <div className ="link col m2 center-div"><p className = "link-text" onClick = {findProject}>Projects</p></div>
+                <div className ="link col m2 center-div"><p className = "link-text" onClick = {findContact}>Contact</p></div>
+                <div className = "col m2 center-div"></div> 
 
       
             </div>
