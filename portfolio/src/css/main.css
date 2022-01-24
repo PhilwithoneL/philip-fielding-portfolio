@@ -1242,9 +1242,9 @@
   z-index: 301;
   position: fixed;
   z-index: 100;
-  -webkit-transform: translate(70%, -1.7vh);
-          transform: translate(70%, -1.7vh);
-  width: 15%;
+  -webkit-transform: translate(81%, -1.7vh);
+          transform: translate(81%, -1.7vh);
+  width: 12%;
   text-align: left;
 }
 
@@ -1848,6 +1848,18 @@ a {
   }
   .about-section-main {
     top: 800px;
+  }
+  .tech-section-main {
+    top: 770px;
+  }
+  .project-section-main {
+    top: 850px;
+  }
+  .project-box-left {
+    margin: 0 5% 0 19%;
+  }
+  .project-box-right {
+    margin: 0 19% 0 5%;
   }
 }
 /*# sourceMappingURL=main.css.map */
