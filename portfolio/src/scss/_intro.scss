@@ -17,14 +17,14 @@
     font-size:$greeting;
     height: 1px;
     transform: translate(-1px, 18px);
-    color: #0E0E0E;
+    
 }
 
 .name { 
     font-family: 'Staatliches', cursive;
     line-height: 30px;
     font-size: $header;
-    color: #0E0E0E;
+    
 }
 
 .intro {   
@@ -32,7 +32,7 @@
     transform: translate(0px, -12px);
     text-align: center;
     letter-spacing:3px;
-    color: #0E0E0E;
+    
 }
 
 @keyframes linkAnime {

@@ -10,8 +10,6 @@
     .nav-bar {display:block}
 
 
-
-
     //Chimney
 
     .chimney-container {top:-12vh;}
@@ -47,5 +45,60 @@
     }
 
     .footer {top:320px;}
+
+}
+
+@media only screen and (max-width:600px) and (min-height:700px){
+
+    //animewNav
+
+    .anime-nav {display:block;}
+
+    .open-icon-container {transform:translateY(20px);}
+
+    .background-modal {top:-60px;}
+
+    .anime-nav-btn-container {top:-60px;}
+
+    //NavBar
+
+    .nav-bar {display:none}
+
+
+    //Chimney
+
+    .chimney-container {top:-5vh;}
+
+    //Intro
+
+    .intro-container {top: 100px;}
+
+
+    //About
+
+    .about-section-main {top: 850px;}
+
+
+    //Tech
+
+    .tech-section-main {top:850px}
+
+    //Projects
+
+    .project-section-main {top:950px;}
+
+    .project-box-left {   margin:0 8% 0 8%;}
+    
+    .project-box-right {margin:0 8% 0 8%;}
+
+    //Contact
+
+    .contact-section-main {top:1000px}
+
+    .submit-btn-pos {
+        top:50px;
+    }
+
+    .footer {top:450px;}
 
 }
