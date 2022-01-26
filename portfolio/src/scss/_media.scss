@@ -1,8 +1,11 @@
+//Navigation
 
 @media only screen and (min-width:800px) {
     .anime-nav {display:none;}
     .nav-bar {display:block;}
 }
+
+//Mobile Portrait
 
 @media only screen and (max-width:915px)  and (max-height:667px) and (min-height:650px){
 
@@ -51,7 +54,6 @@
     }
 
     .footer {top:50px;}
-
 
 
 }
@@ -325,6 +327,12 @@
     .footer {top:450px;}
 
 }
+
+//Mobile Landscape
+
+
+
+//Big screens
 
 @media only screen and (min-width:916px) {
 

@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import ReactDOM from 'react-dom';
 import AnimeNavModal from './AnimeNavModal';
 import { AiOutlineArrowDown, AiOutlineArrowUp} from 'react-icons/ai';
-import  { AiOutlineBars } from 'react-icons/ai';
+import  { FiMenu } from 'react-icons/fi';
 
 const AnimeNav = ( { findAbout, findProject, findContact, findTech } ) => {
 
@@ -26,7 +26,7 @@ const AnimeNav = ( { findAbout, findProject, findContact, findTech } ) => {
             <div className = "open-icon-container">
                 <div className ="scroll-nav">
 
-                    <div className ="scroll-text" onClick ={openLinks}><AiOutlineBars className = "anime-nav"/></div>
+                    <div className ="scroll-text" onClick ={openLinks}><FiMenu className = "anime-nav"/></div>
 
                     {visible ? <AnimeNavModal closeLinks = {openLinks} findAbout = {findAbout} findProject = {findProject} findContact = {findContact} findTech={findTech}/> : false}
                             
