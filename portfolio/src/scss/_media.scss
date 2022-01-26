@@ -1,58 +1,12 @@
-@media only screen and (min-width:600px) {
 
-    //animewNav
-
+@media only screen and (min-width:800px) {
     .anime-nav {display:none;}
-    
-
-    //NavBar
-
-    .nav-bar {display:block}
-
-
-    //Chimney
-
-    .chimney-container {top:-12vh;}
-
-    //Intro
-
-    .intro-container {top: 100px;}
-
-
-    //About
-
-    .about-section-main {top: 800px;}
-
-
-    //Tech
-
-    .tech-section-main {top:770px}
-
-    //Projects
-
-    .project-section-main {top:850px;}
-
-    .project-box-left {   margin:0 5% 0 19%;}
-    
-    .project-box-right {margin:0 19% 0 5%;}
-
-    //Contact
-
-    .contact-section-main {top:850px}
-
-    .submit-btn-pos {
-        top:50px;
-    }
-
-    .footer {top:320px;}
-
+    .nav-bar {display:block;}
 }
 
-@media only screen and (max-width:600px) and (min-height:700px){
+@media only screen and (max-width:915px)  and (max-height:667px) and (min-height:650px){
 
-    //animewNav
-
-    .anime-nav {display:block;}
+    //animeNav
 
     .open-icon-container {transform:translateY(20px);}
 
@@ -62,22 +16,291 @@
 
     //NavBar
 
-    .nav-bar {display:none}
+
+    //Chimney
+
+    .chimney-container {top:-40vh;}
+
+    //Intro
+
+    .intro-container {top: 10px;}
+
+    //Info-links
+
+    .info-links {top:85vh}
+
+    //About
+
+    .about-section-main {top: 585px;}
+
+    //Tech
+
+    .tech-section-main {top:560px}
+
+    //Projects
+
+    .project-section-main {top:650px;}
+
+
+    //Contact
+
+    .contact-section-main {top:650px}
+
+    .submit-btn-pos {
+        top:50px;
+    }
+
+    .footer {top:50px;}
+
+
+
+}
+
+@media only screen and (max-width:915px)  and (max-height:740px) and (min-height:668px){
+
+    //animeNav
+
+
+
+    .open-icon-container {transform:translateY(20px);}
+
+    .background-modal {top:-60px;}
+
+    .anime-nav-btn-container {top:-60px;}
+
+    //NavBar
+
+
 
 
     //Chimney
 
-    .chimney-container {top:-5vh;}
+    .chimney-container {top:-30vh;}
+
+    //Intro
+
+    .intro-container {top: 10px;}
+
+    //Info-links
+
+    .info-links {top:85vh}
+
+    //About
+
+    .about-section-main {top:650px;}
+
+    //Tech
+
+    .tech-section-main {top:620px}
+
+    //Projects
+
+    .project-section-main {top:700px;}
+
+
+    //Contact
+
+    .contact-section-main {top:700px}
+
+    .submit-btn-pos {
+        top:50px;
+    }
+
+    .footer {top:50px;}
+
+}
+
+@media only screen and (max-width:915px)  and (max-height:844px) and (min-height:741px){
+    
+    //animeNav
+
+
+
+    .open-icon-container {transform:translateY(20px);}
+
+    .background-modal {top:-60px;}
+
+    .anime-nav-btn-container {top:-60px;}
+
+    //NavBar
+
+
+
+
+    //Chimney
+
+    .chimney-container {top:-18vh;}
 
     //Intro
 
     .intro-container {top: 100px;}
 
+    //Info-links
+
+    .info-links {top:85vh}
+
+    //About
+
+    .about-section-main {top: 740px;}
+
+    //Tech
+
+    .tech-section-main {top:720px}
+
+    //Projects
+
+    .project-section-main {top:850px;}
+
+
+    //Contact
+
+    .contact-section-main {top:850px}
+
+    .submit-btn-pos {
+        top:50px;
+    }
+
+    .footer {top:250px;}
+
+
+}
+
+@media only screen and (max-width:915px)  and (max-height:851px) and (min-height:845px){
+    
+    //animeNav
+
+
+
+    .open-icon-container {transform:translateY(20px);}
+
+    .background-modal {top:-60px;}
+
+    .anime-nav-btn-container {top:-60px;}
+
+    //NavBar
+
+
+
+
+    //Chimney
+
+    .chimney-container {top:-18vh;}
+
+    //Intro
+
+    .intro-container {top: 100px;}
+
+    //Info-links
+
+    .info-links {top:85vh}
+
+    //About
+
+    .about-section-main {top: 750px;}
+
+    //Tech
+
+    .tech-section-main {top:750px}
+
+    //Projects
+
+    .project-section-main {top:850px;}
+
+
+    //Contact
+
+    .contact-section-main {top:850px}
+
+    .submit-btn-pos {
+        top:50px;
+    }
+
+    .footer {top:250px;}
+
+
+}
+
+@media only screen and (max-width:915px)  and (max-height:915px) and (min-height:852px){
+
+    //animeNav
+
+
+
+    .open-icon-container {transform:translateY(20px);}
+
+    .background-modal {top:-60px;}
+
+    .anime-nav-btn-container {top:-60px;}
+
+    //NavBar
+
+
+
+    //Chimney
+
+    .chimney-container {top:-12vh;}
+
+    //Intro
+
+    .intro-container {top: 50px;}
+
+    //Info-links
+
+    .info-links {top:85vh}
+
+    //About
+
+    .about-section-main {top: 800px;}
+
+    //Tech
+
+    .tech-section-main {top:750px}
+
+    //Projects
+
+    .project-section-main {top:870px;}
+
+
+    //Contact
+
+    .contact-section-main {top:860px}
+
+    .submit-btn-pos {
+        top:50px;
+    }
+
+    .footer {
+        top:300px;
+        padding-bottom:30px;
+    }
+
+}
+
+@media only screen and (max-width:915px) and (min-height:1080px) and (min-height:916px){
+
+    //animeNav
+
+
+    .open-icon-container {transform:translateY(20px);}
+
+    .background-modal {top:-60px;}
+
+    .anime-nav-btn-container {top:-60px;}
+
+    //NavBar
+
+
+    //Chimney
+
+    .chimney-container {top:-40vh;}
+
+    //Intro
+
+    .intro-container {top: 100px;}
 
     //About
 
     .about-section-main {top: 850px;}
-
 
     //Tech
 
@@ -87,9 +310,59 @@
 
     .project-section-main {top:950px;}
 
-    .project-box-left {   margin:0 8% 0 8%;}
+    .project-box-left { margin:0 5% 0 19%;}
     
-    .project-box-right {margin:0 8% 0 8%;}
+    .project-box-right {margin:0 19% 0 5%;}
+
+    //Contact
+
+    .contact-section-main {top:1000px}
+
+    .submit-btn-pos {
+        top:50px;
+    }
+
+    .footer {top:450px;}
+
+}
+
+@media only screen and (min-width:916px) {
+
+    //animeNav
+
+
+    .open-icon-container {transform:translateY(20px);}
+
+    .background-modal {top:-60px;}
+
+    .anime-nav-btn-container {top:-60px;}
+
+    //NavBar
+
+
+    //Chimney
+
+    .chimney-container {top:-10vh;}
+
+    //Intro
+
+    .intro-container {top: 100px;}
+
+    //About
+
+    .about-section-main {top: 850px;}
+
+    //Tech
+
+    .tech-section-main {top:850px}
+
+    //Projects
+
+    .project-section-main {top:950px;}
+
+    .project-box-left { margin:0 5% 0 19%;}
+    
+    .project-box-right {margin:0 19% 0 5%;}
 
     //Contact
 
