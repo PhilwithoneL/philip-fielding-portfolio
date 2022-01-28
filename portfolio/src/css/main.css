@@ -1846,7 +1846,69 @@ a {
   }
 }
 
-@media only screen and (max-width: 915px) and (max-height: 667px) and (min-height: 630px) {
+@media only screen and (max-width: 915px) and (max-height: 640px) and (min-height: 1px) {
+  .nav-container {
+    -webkit-transform: translateY(-40px);
+            transform: translateY(-40px);
+  }
+  .open-icon-container {
+    -webkit-transform: translateY(45px);
+            transform: translateY(45px);
+  }
+  .background-modal {
+    top: -60px;
+  }
+  .anime-nav-btn-container {
+    top: -30px;
+  }
+  .caret-position {
+    -webkit-transform: translate(81%, -4vh);
+            transform: translate(81%, -4vh);
+  }
+  .chimney-container {
+    top: -40vh;
+  }
+  .chimney-position {
+    width: 40%;
+    -webkit-transform: scale(80%) translate(0, 100px);
+            transform: scale(80%) translate(0, 100px);
+  }
+  .intro-container {
+    top: 30px;
+  }
+  .info-links {
+    top: 89vh;
+  }
+  .git-icon {
+    font-size: 40px;
+  }
+  .linked-icon {
+    font-size: 52.5px;
+  }
+  .cv {
+    font-size: 42.5px;
+  }
+  .about-section-main {
+    top: 580px;
+  }
+  .tech-section-main {
+    top: 560px;
+  }
+  .project-section-main {
+    top: 650px;
+  }
+  .contact-section-main {
+    top: 650px;
+  }
+  .submit-btn-pos {
+    top: 50px;
+  }
+  .footer {
+    top: 50px;
+  }
+}
+
+@media only screen and (max-width: 915px) and (max-height: 667px) and (min-height: 641px) {
   .nav-container {
     -webkit-transform: translateY(-40px);
             transform: translateY(-40px);
