@@ -325,7 +325,7 @@
 .chimney-container {
   z-index: 2;
   position: absolute;
-  background-color: #c7e9ff67;
+  background-color: #21313867;
   width: 100%;
   height: 800px;
   top: -40vh;
@@ -1846,28 +1846,50 @@ a {
   }
 }
 
-@media only screen and (max-width: 915px) and (max-height: 667px) and (min-height: 650px) {
+@media only screen and (max-width: 915px) and (max-height: 667px) and (min-height: 630px) {
+  .nav-container {
+    -webkit-transform: translateY(-40px);
+            transform: translateY(-40px);
+  }
   .open-icon-container {
-    -webkit-transform: translateY(20px);
-            transform: translateY(20px);
+    -webkit-transform: translateY(45px);
+            transform: translateY(45px);
   }
   .background-modal {
     top: -60px;
   }
   .anime-nav-btn-container {
-    top: -60px;
+    top: -30px;
+  }
+  .caret-position {
+    -webkit-transform: translate(81%, -4vh);
+            transform: translate(81%, -4vh);
   }
   .chimney-container {
     top: -40vh;
   }
+  .chimney-position {
+    width: 40%;
+    -webkit-transform: scale(80%) translate(0, 100px);
+            transform: scale(80%) translate(0, 100px);
+  }
   .intro-container {
-    top: 10px;
+    top: 30px;
   }
   .info-links {
-    top: 85vh;
+    top: 87vh;
+  }
+  .git-icon {
+    font-size: 40px;
+  }
+  .linked-icon {
+    font-size: 52.5px;
+  }
+  .cv {
+    font-size: 42.5px;
   }
   .about-section-main {
-    top: 585px;
+    top: 580px;
   }
   .tech-section-main {
     top: 560px;
@@ -1887,21 +1909,34 @@ a {
 }
 
 @media only screen and (max-width: 915px) and (max-height: 740px) and (min-height: 668px) {
+  .nav-container {
+    -webkit-transform: translateY(-20px);
+            transform: translateY(-20px);
+  }
   .open-icon-container {
-    -webkit-transform: translateY(20px);
-            transform: translateY(20px);
+    -webkit-transform: translateY(45px);
+            transform: translateY(45px);
   }
   .background-modal {
     top: -60px;
   }
   .anime-nav-btn-container {
-    top: -60px;
+    top: -30px;
+  }
+  .caret-position {
+    -webkit-transform: translate(81%, -2vh);
+            transform: translate(81%, -2vh);
   }
   .chimney-container {
     top: -30vh;
   }
+  .chimney-position {
+    width: 40%;
+    -webkit-transform: scale(75%) translate(0, 140px);
+            transform: scale(75%) translate(0, 140px);
+  }
   .intro-container {
-    top: 10px;
+    top: 50px;
   }
   .info-links {
     top: 85vh;
@@ -1927,21 +1962,34 @@ a {
 }
 
 @media only screen and (max-width: 915px) and (max-height: 844px) and (min-height: 741px) {
+  .nav-container {
+    -webkit-transform: translateY(-20px);
+            transform: translateY(-20px);
+  }
   .open-icon-container {
-    -webkit-transform: translateY(20px);
-            transform: translateY(20px);
+    -webkit-transform: translateY(45px);
+            transform: translateY(45px);
   }
   .background-modal {
     top: -60px;
   }
   .anime-nav-btn-container {
-    top: -60px;
+    top: -30px;
+  }
+  .caret-position {
+    -webkit-transform: translate(81%, -2vh);
+            transform: translate(81%, -2vh);
   }
   .chimney-container {
     top: -18vh;
   }
+  .chimney-position {
+    width: 40%;
+    -webkit-transform: scale(85%) translate(0, 80px);
+            transform: scale(85%) translate(0, 80px);
+  }
   .intro-container {
-    top: 100px;
+    top: 50px;
   }
   .info-links {
     top: 85vh;
@@ -1967,21 +2015,34 @@ a {
 }
 
 @media only screen and (max-width: 915px) and (max-height: 851px) and (min-height: 845px) {
+  .nav-container {
+    -webkit-transform: translateY(-20px);
+            transform: translateY(-20px);
+  }
   .open-icon-container {
-    -webkit-transform: translateY(20px);
-            transform: translateY(20px);
+    -webkit-transform: translateY(45px);
+            transform: translateY(45px);
   }
   .background-modal {
     top: -60px;
   }
   .anime-nav-btn-container {
-    top: -60px;
+    top: -30px;
+  }
+  .caret-position {
+    -webkit-transform: translate(81%, -2vh);
+            transform: translate(81%, -2vh);
   }
   .chimney-container {
     top: -18vh;
   }
+  .chimney-position {
+    width: 40%;
+    -webkit-transform: scale(85%) translate(0, 70px);
+            transform: scale(85%) translate(0, 70px);
+  }
   .intro-container {
-    top: 100px;
+    top: 50px;
   }
   .info-links {
     top: 85vh;
@@ -2007,15 +2068,23 @@ a {
 }
 
 @media only screen and (max-width: 915px) and (max-height: 915px) and (min-height: 852px) {
+  .nav-container {
+    -webkit-transform: translateY(-20px);
+            transform: translateY(-20px);
+  }
   .open-icon-container {
-    -webkit-transform: translateY(20px);
-            transform: translateY(20px);
+    -webkit-transform: translateY(45px);
+            transform: translateY(45px);
   }
   .background-modal {
     top: -60px;
   }
   .anime-nav-btn-container {
-    top: -60px;
+    top: -30px;
+  }
+  .caret-position {
+    -webkit-transform: translate(81%, -2vh);
+            transform: translate(81%, -2vh);
   }
   .chimney-container {
     top: -12vh;
@@ -2087,6 +2156,100 @@ a {
   }
   .footer {
     top: 450px;
+  }
+}
+
+@media only screen and (min-width: 640px) and (max-height: 360px) {
+  .nav-container {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  .open-icon-container {
+    -webkit-transform: translateY(45px);
+            transform: translateY(45px);
+  }
+  .background-modal {
+    top: -60px;
+  }
+  .anime-nav-btn-container {
+    top: -30px;
+  }
+  .caret-position {
+    -webkit-transform: translate(81%, -4vh);
+            transform: translate(81%, -4vh);
+  }
+  .open-icon-container {
+    -webkit-transform: translateY(50px);
+            transform: translateY(50px);
+  }
+  .background-modal {
+    top: -160px;
+  }
+  .anime-nav-btn-container {
+    top: -100px;
+  }
+  .caret-position {
+    -webkit-transform: translate(81%, 10vh);
+            transform: translate(81%, 10vh);
+  }
+  .intro-container {
+    top: 132px;
+    -webkit-transform: translateX(70px);
+            transform: translateX(70px);
+  }
+  .chimney-container {
+    top: 0vh;
+    height: 280px;
+  }
+  .chimney-position {
+    width: 15%;
+    -webkit-transform: scale(58%) translate(-250px, -410px);
+            transform: scale(58%) translate(-250px, -410px);
+  }
+  .building-edge {
+    position: absolute;
+    width: 100%;
+    height: 10px;
+    top: 280px;
+  }
+  .info-links {
+    top: 82vh;
+  }
+  .git-icon {
+    font-size: 40px;
+  }
+  .linked-icon {
+    font-size: 52.5px;
+  }
+  .cv {
+    font-size: 42.5px;
+  }
+  .about-section-main {
+    top: 320px;
+  }
+  .tech-section-main {
+    top: 560px;
+  }
+  .project-section-main {
+    top: 650px;
+  }
+  .project-box-left {
+    margin: 0 0% 0 18%;
+  }
+  .project-box-right {
+    margin: 0 18% 0 0%;
+  }
+  .project-link-btn {
+    font-size: 10px;
+  }
+  .contact-section-main {
+    top: 650px;
+  }
+  .submit-btn-pos {
+    top: 50px;
+  }
+  .footer {
+    top: 50px;
   }
 }
 

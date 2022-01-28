@@ -6,7 +6,7 @@ import { SiTailwindcss } from 'react-icons/si';
 const Chimney = () => {
 
     return (
-            <div className = "chimney-container center-chimney">
+        <div className = "chimney-container center-chimney">
 
                 <div className ="chimney-position " id= "chimney">
                     

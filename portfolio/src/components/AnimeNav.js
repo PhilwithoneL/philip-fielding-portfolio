@@ -22,7 +22,7 @@ const AnimeNav = ( { findAbout, findProject, findContact, findTech } ) => {
 
 
     return (
-        <div className = "nav-container">                 
+        <div className = "nav-container">       
             <div className = "open-icon-container">
                 <div className ="scroll-nav">
 

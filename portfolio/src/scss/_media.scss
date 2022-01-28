@@ -7,38 +7,50 @@
 
 //Mobile Portrait
 
-@media only screen and (max-width:915px)  and (max-height:667px) and (min-height:650px){
+@media only screen and (max-width:915px)  and (max-height:667px) and (min-height:630px){
 
     //animeNav
 
-    .open-icon-container {transform:translateY(20px);}
+    .nav-container {transform:translateY(-40px);}
+
+    .open-icon-container {transform:translateY(45px);}
 
     .background-modal {top:-60px;}
 
-    .anime-nav-btn-container {top:-60px;}
+    .anime-nav-btn-container {top:-30px;}
 
-    //NavBar
-
+    .caret-position {transform: translate(81%, -4vh);}
 
     //Chimney
 
     .chimney-container {top:-40vh;}
+    
+    .chimney-position {
+        width:40%;
+        transform:scale(80%) translate(0,100px);
+    }
 
     //Intro
 
-    .intro-container {top: 10px;}
+    .intro-container {top: 30px;}
 
     //Info-links
 
-    .info-links {top:85vh}
+    .info-links {top:87vh;}
+
+    .git-icon {font-size:40px;}
+
+    .linked-icon {font-size:52.5px;}
+    
+    .cv {font-size: 42.5px;}
 
     //About
 
-    .about-section-main {top: 585px;}
+    .about-section-main {top: 580px;}
 
     //Tech
 
-    .tech-section-main {top:560px}
+    .tech-section-main {top:560px;}
 
     //Projects
 
@@ -47,11 +59,9 @@
 
     //Contact
 
-    .contact-section-main {top:650px}
+    .contact-section-main {top:650px;}
 
-    .submit-btn-pos {
-        top:50px;
-    }
+    .submit-btn-pos {top:50px;}
 
     .footer {top:50px;}
 
@@ -62,26 +72,30 @@
 
     //animeNav
 
+    .nav-container {transform:translateY(-20px);}
 
-
-    .open-icon-container {transform:translateY(20px);}
+    .open-icon-container {transform:translateY(45px);}
 
     .background-modal {top:-60px;}
 
-    .anime-nav-btn-container {top:-60px;}
+    .anime-nav-btn-container {top:-30px;}
 
-    //NavBar
-
-
-
+    .caret-position {
+        transform: translate(81%, -2vh);
+    }
 
     //Chimney
 
     .chimney-container {top:-30vh;}
 
+    .chimney-position {
+        width:40%;
+        transform:scale(75%) translate(0,140px);
+    }
+
     //Intro
 
-    .intro-container {top: 10px;}
+    .intro-container {top: 50px;}
 
     //Info-links
 
@@ -116,26 +130,33 @@
     
     //animeNav
 
+    .nav-container {transform:translateY(-20px);}
 
-
-    .open-icon-container {transform:translateY(20px);}
+    .open-icon-container {transform:translateY(45px);}
 
     .background-modal {top:-60px;}
 
-    .anime-nav-btn-container {top:-60px;}
+    .anime-nav-btn-container {top:-30px;}
 
-    //NavBar
-
-
+    .caret-position {
+        transform: translate(81%, -2vh);
+    }
 
 
     //Chimney
 
     .chimney-container {top:-18vh;}
 
+    .chimney-position {
+        width:40%;
+        transform:scale(85%) translate(0,80px);
+    }
+
+
+
     //Intro
 
-    .intro-container {top: 100px;}
+    .intro-container {top: 50px;}
 
     //Info-links
 
@@ -164,33 +185,36 @@
 
     .footer {top:250px;}
 
-
 }
 
 @media only screen and (max-width:915px)  and (max-height:851px) and (min-height:845px){
     
-    //animeNav
+   //animeNav
 
+   .nav-container {transform:translateY(-20px);}
 
+   .open-icon-container {transform:translateY(45px);}
 
-    .open-icon-container {transform:translateY(20px);}
+   .background-modal {top:-60px;}
 
-    .background-modal {top:-60px;}
+   .anime-nav-btn-container {top:-30px;}
 
-    .anime-nav-btn-container {top:-60px;}
-
-    //NavBar
-
-
-
+   .caret-position {
+       transform: translate(81%, -2vh);
+   }
 
     //Chimney
 
     .chimney-container {top:-18vh;}
 
+    .chimney-position {
+        width:40%;
+        transform:scale(85%) translate(0,70px);
+    }
+
     //Intro
 
-    .intro-container {top: 100px;}
+    .intro-container {top: 50px;}
 
     //Info-links
 
@@ -223,19 +247,20 @@
 }
 
 @media only screen and (max-width:915px)  and (max-height:915px) and (min-height:852px){
-
+    
     //animeNav
 
+    .nav-container {transform:translateY(-20px);}
 
-
-    .open-icon-container {transform:translateY(20px);}
+    .open-icon-container {transform:translateY(45px);}
 
     .background-modal {top:-60px;}
 
-    .anime-nav-btn-container {top:-60px;}
+    .anime-nav-btn-container {top:-30px;}
 
-    //NavBar
-
+    .caret-position {
+        transform: translate(81%, -2vh);
+    }
 
 
     //Chimney
@@ -329,8 +354,95 @@
 }
 
 //Mobile Landscape
+ 
+@media only screen and (min-width:640px) and (max-height:360px) {
 
+    //animeNav
 
+    .nav-container {transform:translateY(0px);}
+
+    .open-icon-container {transform:translateY(45px);}
+
+    .background-modal {top:-60px;}
+
+    .anime-nav-btn-container {top:-30px;}
+
+    .caret-position {transform: translate(81%, -4vh);}
+
+    .open-icon-container {transform:translateY(50px);}
+
+    .background-modal {top:-160px;}
+
+    .anime-nav-btn-container {top:-100px;}
+    
+    .caret-position {transform: translate(81%, 10vh);}
+
+    
+    //Intro
+
+    .intro-container {
+        top: 132px;
+        transform:translateX(70px);
+    }
+
+    //Chinmey
+
+    .chimney-container {
+        top:0vh;
+        height: 280px;
+    }
+
+    .chimney-position {
+        width:15%;
+        transform: scale(58%) translate(-250px,-410px);
+    }
+    
+    .building-edge {
+        position:absolute; 
+        width: 100%;
+        height:10px;
+        top:280px;
+    }
+
+    //Info-links
+
+    .info-links {top:82vh;}
+
+    .git-icon {font-size:40px;}
+
+    .linked-icon {font-size:52.5px;}
+
+    .cv {font-size: 42.5px;}
+
+    //About
+
+    .about-section-main {top: 320px;}
+
+    //Tech
+
+    .tech-section-main {top:560px}
+
+    //Projects
+
+    .project-section-main {top:650px;}
+
+    //Projects
+
+    .project-box-left { margin:0 0% 0 18%;}
+    
+    .project-box-right {margin:0 18% 0 0%;}
+    
+    .project-link-btn {font-size:10px;}
+
+    //Contact
+
+    .contact-section-main {top:650px}
+
+    .submit-btn-pos {top:50px;}
+
+    .footer {top:50px;}
+
+}
 
 //Big screens
 
@@ -338,15 +450,11 @@
 
     //animeNav
 
-
     .open-icon-container {transform:translateY(20px);}
 
     .background-modal {top:-60px;}
 
     .anime-nav-btn-container {top:-60px;}
-
-    //NavBar
-
 
     //Chimney
 
@@ -362,7 +470,7 @@
 
     //Tech
 
-    .tech-section-main {top:850px}
+    .tech-section-main {top:850px;}
 
     //Projects
 
@@ -374,11 +482,9 @@
 
     //Contact
 
-    .contact-section-main {top:1000px}
+    .contact-section-main {top:1000px;}
 
-    .submit-btn-pos {
-        top:50px;
-    }
+    .submit-btn-pos {top:50px;}
 
     .footer {top:450px;}
 
