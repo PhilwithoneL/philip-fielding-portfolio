@@ -6,17 +6,23 @@ const NavBar = ({ scrollOffset, findAbout, findProject, findContact, findHome, f
 
     const scrollPositionNav = scrollOffset * 50;   
 
+        const caretAdd = () => {
+            if(scrollPositionNav < 400) {
+                document.getElementById('caret').style.display = 'none';
+            } else {
+                document.getElementById('caret').style.display = 'block';
+            };
+        }
+
+        setTimeout(caretAdd, 200);
+
         switch(scrollPositionNav) {
 
             case 100 :
                 document.getElementById("navBar").style.backgroundColor = "rgb(14, 14, 14, 0%)";
-                // document.getElementById("homeBtn").style.display = "none";
-                document.getElementById("caret").style.display = "none"
                 break;
             case 150 :
                 document.getElementById("navBar").style.backgroundColor = "rgb(14, 14, 14, 10%)";
-                // document.getElementById("homeBtn").style.display = "block";
-                document.getElementById("caret").style.display = "block"
                 break;
             case 200 :
                 document.getElementById("navBar").style.backgroundColor = "rgb(14, 14, 14, 20%)";
@@ -50,7 +56,10 @@ const NavBar = ({ scrollOffset, findAbout, findProject, findContact, findHome, f
         }
 
 
+
+
     return (
+
         <div>
             <div className = "nav-bar row" id ="navBar">
                 <div className = "col m2 center-div"></div>
@@ -71,6 +80,10 @@ const NavBar = ({ scrollOffset, findAbout, findProject, findContact, findHome, f
 
 
     )
+
+    
+
+
 }
 
 export default NavBar

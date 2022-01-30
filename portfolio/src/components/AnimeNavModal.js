@@ -6,7 +6,7 @@ import { GiPaintBrush } from 'react-icons/gi'
 const AnimeNavModal = ({ closeLinks, findAbout, findProject, findContact, findTech}) => {
 
     return (
-        <div>
+        <div >
                 <div className = "background-modal" ></div>
 
                 <div className = "anime-nav-btn-container center-div" onClick={closeLinks}>

@@ -72,7 +72,7 @@ function App() {
     const [domWidthRight, setDomWidthRight] = useState();
 
     const setWidthAosRight = () => {
-        if(width < 600) {
+        if(width < 1000) {
         
             setDomWidthRight("fade-up");
         
@@ -84,7 +84,7 @@ function App() {
     }
     
     const setWidthAosLeft = () => {
-        if(width < 600) {
+        if(width < 1000) {
         
             setDomWidthLeft("fade-up");
         
