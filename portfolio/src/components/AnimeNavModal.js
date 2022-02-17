@@ -1,7 +1,4 @@
 import React from 'react'
-import { SiAboutDotMe } from 'react-icons/si';
-import { IoIosContact } from 'react-icons/io';
-import { GiPaintBrush } from 'react-icons/gi'
 
 const AnimeNavModal = ({ closeLinks, findAbout, findProject, findContact, findTech}) => {
 
