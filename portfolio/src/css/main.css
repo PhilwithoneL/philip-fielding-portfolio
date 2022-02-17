@@ -2760,19 +2760,19 @@ a {
             transform: translate(81%, -2vh);
   }
   .scroll-text {
-    left: 577px;
+    left: 740px;
     top: -5vh;
   }
   .chimney-container {
-    top: -141vh;
+    top: -130vh;
   }
   .chimney-position {
-    -webkit-transform: scale(60%) translate(-180px, 35%);
-            transform: scale(60%) translate(-180px, 35%);
+    -webkit-transform: scale(60%) translate(-280px, 35%);
+            transform: scale(60%) translate(-280px, 35%);
   }
   .intro-container {
-    top: 120px;
-    left: 230px;
+    top: 140px;
+    left: 215px;
     width: 50%;
   }
   .intro-size {
@@ -2780,16 +2780,16 @@ a {
             transform: scale(90%);
   }
   .about-section-main {
-    top: 312px;
+    top: 327px;
   }
   .info-links {
-    top: 79vh;
+    top: 80vh;
   }
   .tech-section-main {
-    top: 283px;
+    top: 300px;
   }
   .project-section-main {
-    top: 400px;
+    top: 380px;
   }
   .project-box-left {
     margin: 0 8% 0 19%;
