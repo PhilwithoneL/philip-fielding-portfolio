@@ -3239,6 +3239,74 @@ a {
   }
 }
 
+@media all and (min-height: 500px) and (max-height: 600px) and (max-width: 1024px) and (min-width: 1000px) {
+  .nav-container {
+    top: 0px;
+  }
+  .open-icon-container {
+    -webkit-transform: translateY(50px);
+            transform: translateY(50px);
+  }
+  .background-modal {
+    top: -60px;
+  }
+  .anime-nav-btn-container {
+    top: -60px;
+  }
+  .caret-position {
+    -webkit-transform: translate(81%, -3vh);
+            transform: translate(81%, -3vh);
+  }
+  .chimney-container {
+    top: -50vh;
+  }
+  .chimney-position {
+    width: 150%;
+    -webkit-transform: scale(80%) translateY(14%);
+            transform: scale(80%) translateY(14%);
+  }
+  .building-edge {
+    position: absolute;
+    width: 100%;
+    height: 10px;
+    top: 800px;
+  }
+  .intro-container {
+    top: 100px;
+  }
+  .intro-size {
+    -webkit-transform: scale(100%);
+            transform: scale(100%);
+  }
+  .about-section-main {
+    top: 550px;
+  }
+  .info-links {
+    top: 87vh;
+  }
+  .tech-section-main {
+    top: 560px;
+  }
+  .project-section-main {
+    top: 720px;
+  }
+  .project-box-left {
+    margin: 0 5% 0 19%;
+  }
+  .project-box-right {
+    margin: 0 19% 0 5%;
+  }
+  .contact-section-main {
+    top: 750px;
+  }
+  .submit-btn-pos {
+    top: 50px;
+  }
+  .footer {
+    top: 150px;
+  }
+}
+
 @media all and (min-width: 821px) and (min-height: 822px) and (max-height: 1024px) {
   .nav-container {
     top: 0px;
