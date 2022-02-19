@@ -15,10 +15,6 @@ import { get } from 'react-scroll/modules/mixins/scroller';
 
 function App() {
 
-  const windowSize = window.innerWidth;
-
-  console.log(windowSize);
-
   const aboutRef = useRef();
   const projectRef = useRef();
   const contactRef = useRef();
