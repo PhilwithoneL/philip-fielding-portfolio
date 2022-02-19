@@ -818,33 +818,33 @@
     .caret-position {transform: translate(81%, -2vh);}
 
     .scroll-text {
-        left:577px;
+        left:800px;
         top: -5vh;
     }
 
     //Chimney
 
-    .chimney-container {top:-141vh;}
+    .chimney-container {top:-120vh;}
 
     .chimney-position {
-        transform:scale(60%) translate(-180px, 35%);
+        transform:scale(60%) translate(-300px, 35%);
     }
 
     //Intro
 
     .intro-container {
-        top: 120px;
+        top: 155px;
         left: 230px;
         width:50%;
     }
 
     .intro-size {
-        transform:scale(90%);
+        transform:scale (90%);
     }
 
     //About
 
-    .about-section-main {top: 312px;}
+    .about-section-main {top: 340px;}
 
     //Info-links
 
@@ -854,11 +854,11 @@
 
     //Tech
 
-    .tech-section-main {top:283px;}
+    .tech-section-main {top:330px;}
 
     //Projects
 
-    .project-section-main {top:400px;}
+    .project-section-main {top:410px;}
 
     .project-box-left { margin:0 8% 0 19%;}
     
@@ -874,7 +874,7 @@
     //Contact
 
     .contact-section-main {
-        top:400px;
+        top:410px;
     }
 
     .submit-btn-pos {top:50px;}
