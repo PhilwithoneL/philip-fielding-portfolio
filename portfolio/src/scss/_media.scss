@@ -1155,17 +1155,17 @@
 
     .anime-nav-btn-container {top:-60px;}
 
-    .caret-position {transform: translate(81%, -1vh);}
+    .caret-position {transform: translate(81%, -2vh);}
  
     //Chimney
 
     .chimney-container {
-        top:-30vh; 
+        top:-15vh; 
     }
 
     .chimney-position {
         width:150%;
-        transform:scale(100%) translateY(20%);
+        transform:scale(100%) translateY(0%);
         
     }
 
@@ -1173,13 +1173,13 @@
         position:absolute; 
         width: 100%;
         height:10px;
-        top:990px;
+        top:800px;
     }
     
 
     //Intro
 
-    .intro-container {top: 220px;}
+    .intro-container {top: 100px;}
 
     .intro-size {
         transform: scale(100%);
@@ -1187,21 +1187,21 @@
 
     //About
 
-    .about-section-main {top: 1100px;}
+    .about-section-main {top: 750px;}
 
     //Info-links
 
     .info-links {
-        top:89vh;
+        top:87vh;
     }    
 
     //Tech
 
-    .tech-section-main {top:1080px;}
+    .tech-section-main {top:750px;}
 
     //Projects
 
-    .project-section-main {top:1200px;}
+    .project-section-main {top:820px;}
 
     .project-box-left { margin:0 5% 0 19%;}
     
@@ -1209,17 +1209,17 @@
 
     //Contact
 
-    .contact-section-main {top:1200px;}
+    .contact-section-main {top:850px;}
 
     .submit-btn-pos {top:50px;}
 
-    .footer {top:700px;}
+    .footer {top:300px;}
 
 }
 
 //Big screen
 
-@media all and (min-width:821px) {
+@media all and (min-width:821px) and (min-height:822px) and (max-height:1024px){
 
     //animeNav
 

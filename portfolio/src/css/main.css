@@ -2906,41 +2906,41 @@ a {
     top: -60px;
   }
   .caret-position {
-    -webkit-transform: translate(81%, -1vh);
-            transform: translate(81%, -1vh);
+    -webkit-transform: translate(81%, -2vh);
+            transform: translate(81%, -2vh);
   }
   .chimney-container {
-    top: -30vh;
+    top: -15vh;
   }
   .chimney-position {
     width: 150%;
-    -webkit-transform: scale(100%) translateY(20%);
-            transform: scale(100%) translateY(20%);
+    -webkit-transform: scale(100%) translateY(0%);
+            transform: scale(100%) translateY(0%);
   }
   .building-edge {
     position: absolute;
     width: 100%;
     height: 10px;
-    top: 990px;
+    top: 800px;
   }
   .intro-container {
-    top: 220px;
+    top: 100px;
   }
   .intro-size {
     -webkit-transform: scale(100%);
             transform: scale(100%);
   }
   .about-section-main {
-    top: 1100px;
+    top: 750px;
   }
   .info-links {
-    top: 89vh;
+    top: 87vh;
   }
   .tech-section-main {
-    top: 1080px;
+    top: 750px;
   }
   .project-section-main {
-    top: 1200px;
+    top: 820px;
   }
   .project-box-left {
     margin: 0 5% 0 19%;
@@ -2949,17 +2949,17 @@ a {
     margin: 0 19% 0 5%;
   }
   .contact-section-main {
-    top: 1200px;
+    top: 850px;
   }
   .submit-btn-pos {
     top: 50px;
   }
   .footer {
-    top: 700px;
+    top: 300px;
   }
 }
 
-@media all and (min-width: 821px) {
+@media all and (min-width: 821px) and (min-height: 822px) and (max-height: 1024px) {
   .nav-container {
     top: 0px;
   }
