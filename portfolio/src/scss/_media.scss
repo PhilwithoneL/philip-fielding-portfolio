@@ -346,9 +346,13 @@
         left:350px;
     }
 
+    .caret-position {
+        transform: translate(81%, -0.4vh);
+    }
+
     //Chimney
 
-    .chimney-container {top:-25vh;}
+    .chimney-container {top:-10vh;}
 
     .chimney-position {
         width:30%;
@@ -361,7 +365,7 @@
 
     //About
 
-    .about-section-main {top: 670px;}
+    .about-section-main {top: 820px;}
 
     //Info-links
 
@@ -371,11 +375,11 @@
 
     //Tech
 
-    .tech-section-main {top:600px;}
+    .tech-section-main {top:800px;}
 
     //Projects
 
-    .project-section-main {top:700px;}
+    .project-section-main {top:900px;}
 
     .project-box-left { margin:0 8% 0 8%;}
     
@@ -383,11 +387,11 @@
 
     //Contact
 
-    .contact-section-main {top:700px;}
+    .contact-section-main {top:900px;}
 
     .submit-btn-pos {top:50px;}
 
-    .footer {top:170px;}
+    .footer {top:350px;}
 
 }
 
@@ -1082,6 +1086,7 @@
         top:0vh; 
         overflow-y: none; 
         clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+        height: 1000px;
     }
 
     .chimney-position {
@@ -1138,10 +1143,7 @@
 
 }
 
-
-//Big screens
-
-@media all and (min-width:413px) and (max-height:1024px) and (min-height: 660px) {
+@media all and (min-height:820px) and (max-height: 821px) and (max-width:1180px) and (min-width: 1179px) {
 
     //animeNav
 
@@ -1153,31 +1155,53 @@
 
     .anime-nav-btn-container {top:-60px;}
 
+    .caret-position {transform: translate(81%, -1vh);}
+ 
     //Chimney
 
-    .chimney-container {top:-10vh;}
+    .chimney-container {
+        top:-30vh; 
+    }
+
+    .chimney-position {
+        width:150%;
+        transform:scale(100%) translateY(20%);
+        
+    }
+
+    .building-edge {
+        position:absolute; 
+        width: 100%;
+        height:10px;
+        top:990px;
+    }
+    
 
     //Intro
 
-    .intro-container {top: 100px;}
+    .intro-container {top: 220px;}
+
+    .intro-size {
+        transform: scale(100%);
+    }
 
     //About
 
-    .about-section-main {top: 850px;}
+    .about-section-main {top: 1100px;}
 
     //Info-links
 
     .info-links {
-        top:88vh;
+        top:89vh;
     }    
 
     //Tech
 
-    .tech-section-main {top:850px;}
+    .tech-section-main {top:1080px;}
 
     //Projects
 
-    .project-section-main {top:950px;}
+    .project-section-main {top:1200px;}
 
     .project-box-left { margin:0 5% 0 19%;}
     
@@ -1185,10 +1209,64 @@
 
     //Contact
 
-    .contact-section-main {top:1000px;}
+    .contact-section-main {top:1200px;}
 
     .submit-btn-pos {top:50px;}
 
-    .footer {top:450px;}
+    .footer {top:700px;}
 
 }
+
+//Big screens
+
+// @media all and (min-width:413px) and (max-width:1180px) and (min-height: 1023px) and (max-height:1024px){
+
+//     //animeNav
+
+//     .nav-container{top:0px;}
+
+//     .open-icon-container {transform:translateY(50px);}
+
+//     .background-modal {top:-60px;}
+
+//     .anime-nav-btn-container {top:-60px;}
+
+//     //Chimney
+
+//     .chimney-container {top:-20vh;}
+
+//     //Intro
+
+//     .intro-container {top: 100px;}
+
+//     //About
+
+//     .about-section-main {top: 850px;}
+
+//     //Info-links
+
+//     .info-links {
+//         top:88vh;
+//     }    
+
+//     //Tech
+
+//     .tech-section-main {top:850px;}
+
+//     //Projects
+
+//     .project-section-main {top:950px;}
+
+//     .project-box-left { margin:0 5% 0 19%;}
+    
+//     .project-box-right {margin:0 19% 0 5%;}
+
+//     //Contact
+
+//     .contact-section-main {top:1000px;}
+
+//     .submit-btn-pos {top:50px;}
+
+//     .footer {top:450px;}
+
+// }

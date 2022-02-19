@@ -330,8 +330,8 @@
   position: absolute;
   background-color: #21313867;
   width: 100%;
-  height: 1000px;
-  top: -40vh;
+  height: 800px;
+  top: -20vh;
 }
 
 .bubble {
@@ -2162,8 +2162,12 @@ a {
     top: -27px;
     left: 350px;
   }
+  .caret-position {
+    -webkit-transform: translate(81%, -0.4vh);
+            transform: translate(81%, -0.4vh);
+  }
   .chimney-container {
-    top: -25vh;
+    top: -10vh;
   }
   .chimney-position {
     width: 30%;
@@ -2174,16 +2178,16 @@ a {
     top: 100px;
   }
   .about-section-main {
-    top: 670px;
+    top: 820px;
   }
   .info-links {
     top: 88vh;
   }
   .tech-section-main {
-    top: 600px;
+    top: 800px;
   }
   .project-section-main {
-    top: 700px;
+    top: 900px;
   }
   .project-box-left {
     margin: 0 8% 0 8%;
@@ -2192,13 +2196,13 @@ a {
     margin: 0 8% 0 8%;
   }
   .contact-section-main {
-    top: 700px;
+    top: 900px;
   }
   .submit-btn-pos {
     top: 50px;
   }
   .footer {
-    top: 170px;
+    top: 350px;
   }
 }
 
@@ -2838,6 +2842,7 @@ a {
     overflow-y: none;
     -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
             clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+    height: 1000px;
   }
   .chimney-position {
     width: 150%;
@@ -2886,7 +2891,7 @@ a {
   }
 }
 
-@media all and (min-width: 413px) and (max-height: 1024px) and (min-height: 660px) {
+@media all and (min-height: 820px) and (max-height: 821px) and (max-width: 1180px) and (min-width: 1179px) {
   .nav-container {
     top: 0px;
   }
@@ -2900,23 +2905,42 @@ a {
   .anime-nav-btn-container {
     top: -60px;
   }
+  .caret-position {
+    -webkit-transform: translate(81%, -1vh);
+            transform: translate(81%, -1vh);
+  }
   .chimney-container {
-    top: -10vh;
+    top: -30vh;
+  }
+  .chimney-position {
+    width: 150%;
+    -webkit-transform: scale(100%) translateY(20%);
+            transform: scale(100%) translateY(20%);
+  }
+  .building-edge {
+    position: absolute;
+    width: 100%;
+    height: 10px;
+    top: 990px;
   }
   .intro-container {
-    top: 100px;
+    top: 220px;
+  }
+  .intro-size {
+    -webkit-transform: scale(100%);
+            transform: scale(100%);
   }
   .about-section-main {
-    top: 850px;
+    top: 1100px;
   }
   .info-links {
-    top: 88vh;
+    top: 89vh;
   }
   .tech-section-main {
-    top: 850px;
+    top: 1080px;
   }
   .project-section-main {
-    top: 950px;
+    top: 1200px;
   }
   .project-box-left {
     margin: 0 5% 0 19%;
@@ -2925,13 +2949,13 @@ a {
     margin: 0 19% 0 5%;
   }
   .contact-section-main {
-    top: 1000px;
+    top: 1200px;
   }
   .submit-btn-pos {
     top: 50px;
   }
   .footer {
-    top: 450px;
+    top: 700px;
   }
 }
 /*# sourceMappingURL=main.css.map */

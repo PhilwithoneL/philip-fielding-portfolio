@@ -11,8 +11,13 @@ import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 import '../node_modules/aos/dist/aos.css';
 import AOS from "../node_modules/aos/dist/aos.js";
+import { get } from 'react-scroll/modules/mixins/scroller';
 
 function App() {
+
+  const windowSize = window.innerWidth;
+
+  console.log(windowSize);
 
   const aboutRef = useRef();
   const projectRef = useRef();
