@@ -81,8 +81,8 @@ const Projects = ({domWidthLeft, domWidthRight, findAbout}) => {
                                 <img className = "project-img" src = {Img3} style={{ filter: "grayscale(100%)" }}></img>
 
                                 <div className = "project-links center-div">
-                                    <div className ="btn project-link-btn waves-effect waves-light center-div">Github</div>
-                                    <div className ="btn project-link-btn waves-effect waves-light center-div">Site</div>
+                                    <a href = "https://github.com/PhilwithoneL/weather-app" className ="btn project-link-btn waves-effect waves-light center-div">Github</a>
+                                    <a href = "https://kaleidoscopic-otter-7d6a88.netlify.app/" className ="btn project-link-btn waves-effect waves-light center-div">Site</a>
                                 </div>
             
                             </div>
@@ -109,8 +109,8 @@ const Projects = ({domWidthLeft, domWidthRight, findAbout}) => {
                                 <img className = "project-img" src = {Img4} style={{ filter: "grayscale(100%)" }}></img>
 
                                 <div className = "project-links center-div">
-                                    <div className ="btn project-link-btn waves-effect waves-light center-div">Github</div>
-                                    <div className ="btn project-link-btn waves-effect waves-light center-div">Site</div>
+                                    <a href = "https://github.com/PhilwithoneL/The-Recipe-App" className ="btn project-link-btn waves-effect waves-light center-div">Github</a>
+                                    <a href = "https://dancing-fairy-d91da5.netlify.app/" className ="btn project-link-btn waves-effect waves-light center-div">Site</a>
                                 </div>
             
                             </div>
