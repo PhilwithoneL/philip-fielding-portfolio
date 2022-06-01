@@ -50,8 +50,8 @@ const Projects = ({domWidthLeft, domWidthRight, findAbout}) => {
                                     <img className = "project-img" src = {Img2} style={{ filter: "grayscale(100%)" }}></img>
 
                                     <div className = "project-links center-div">
-                                        <div className ="btn project-link-btn waves-effect waves-light center-div">Github</div>
-                                        <div className ="btn project-link-btn  waves-effect waves-light center-div">Site</div>
+                                        <a href = "https://github.com/PhilwithoneL/ambrosia-kitchens" className ="btn project-link-btn waves-effect waves-light center-div">Github</a>
+                                        <a href="https://dulcet-fudge-a3f1ad.netlify.app" className ="btn project-link-btn  waves-effect waves-light center-div">Site</a>
                                     </div>
                 
                                 </div>
