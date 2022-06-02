@@ -2,7 +2,7 @@ import React from 'react'
 import { VscGithub } from 'react-icons/vsc';
 import { RiLinkedinBoxLine } from 'react-icons/ri';
 import { CgNotes } from 'react-icons/cg';
-import CV from '../docs/cv.pdf';
+import CV from '../docs/philip-fielding-cv.pdf';
 import M from 'materialize-css/dist/js/materialize.js'
 
 
