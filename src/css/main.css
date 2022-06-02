@@ -74,6 +74,8 @@
 
 .anime-menu {
   color: white;
+  -webkit-transform: translateY(50px);
+          transform: translateY(50px);
 }
 
 .scroll-text {
