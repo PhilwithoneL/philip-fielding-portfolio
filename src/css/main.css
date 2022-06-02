@@ -70,12 +70,14 @@
 
 .anime-close {
   color: white;
+  -webkit-transform: translate(-30px, 30px);
+          transform: translate(-30px, 30px);
 }
 
 .anime-menu {
   color: white;
-  -webkit-transform: translateY(50px);
-          transform: translateY(50px);
+  -webkit-transform: translate(-30px, 30px);
+          transform: translate(-30px, 30px);
 }
 
 .scroll-text {
