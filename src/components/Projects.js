@@ -10,6 +10,8 @@ const Projects = ({domWidthLeft, domWidthRight, findAbout}) => {
     return (
             <div className = "project-section">
 
+            <div className = "projects-container">
+
                 <h2 className = "project-header">Projects</h2>
                 <div className = "row projects-row">
                     
@@ -130,6 +132,8 @@ const Projects = ({domWidthLeft, domWidthRight, findAbout}) => {
                     </div>
                     
                 </div>
+
+            </div>
 
         </div>
     )

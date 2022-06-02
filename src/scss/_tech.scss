@@ -1,7 +1,7 @@
 .tech-section-main {
     z-index:2;
     position: relative;
-    top:610px;
+    top:950px;
 }
 
 .tech {
@@ -19,6 +19,10 @@
         transition: all 0.1s ease-in-out;
       }
 
+}
+
+.tech-container {
+    transform:translateY(100px);
 }
 
 .tech-row {

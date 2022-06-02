@@ -1,7 +1,7 @@
 .about-section-main {
     z-index:2;
     position: relative;
-    top:600px;
+    top:800px;
 }
 
 .about-section {
@@ -24,6 +24,10 @@
         transition: all 0.1s ease-in-out;
       }
 
+}
+
+.about-container {
+    transform: translateY(100px)
 }
 
 .about-header {

@@ -1,7 +1,7 @@
 .project-section-main {
     z-index: 1;
     position: relative;
-    top:700px;
+    top:1200px;
 }
 
 .project-section {
@@ -10,7 +10,7 @@
     height: 100%;
     width: 100%;
     overflow:hidden;
-    transform:translateY(80px);   
+    transform:translateY(80px);
 
     &:before {
         content: "";
@@ -24,6 +24,10 @@
       }
 }
 
+.projects-container {
+    transform:translateY(100px)
+}
+
 .project-header { 
     font-family: 'Staatliches', cursive;
     margin: 0% 10% 5% 10%;
@@ -35,11 +39,11 @@
 }
 
 .project-box-left {  
-    margin:0 8% 0 8%;
+    margin:0 0% 0 18%;
 }
 
 .project-box-right {
-    margin:0 8% 0 8%;
+    margin:0 18% 0 0%;
 }
 
 .col-project-left {

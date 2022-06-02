@@ -11,6 +11,8 @@ const Tech = ({domWidthLeft, domWidthRight}) => {
     return (
         <div className = "tech">
 
+            <div className = "tech-container">
+
             <h1 className = "about-header" data-aos = {domWidthLeft}>Tech</h1>
 
 
@@ -46,6 +48,8 @@ const Tech = ({domWidthLeft, domWidthRight}) => {
                         <SiTailwindcss className ="tech-icon-tailwind"/> 
                     </div>
                 </div>
+            </div>
+
             </div>
         </div>
     )

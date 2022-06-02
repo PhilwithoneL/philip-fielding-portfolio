@@ -7,6 +7,8 @@ const About = ({domWidthLeft, domWidthRight, findProject}) => {
         <div>
         
             <div className ="about" >
+
+                <div className = "about-container">
                         
                 <h1 className = "about-header" data-aos = {domWidthLeft}>Who am I?</h1>
                     <div>
@@ -34,6 +36,8 @@ const About = ({domWidthLeft, domWidthRight, findProject}) => {
                        
                                
                     </div>
+
+                </div>
 
             </div>
 
