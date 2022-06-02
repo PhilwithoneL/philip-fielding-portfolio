@@ -22,7 +22,7 @@ const Projects = ({domWidthLeft, domWidthRight, findAbout}) => {
 
                                 <div className = "project-links center-div">
                                     <a href = "https://github.com/PhilwithoneL/review.me" className ="btn project-link-btn waves-effect waves-light center-div">Github</a>
-                                    <a href = "https://cool-pie-42ee74.netlify.app/" className ="btn project-link-btn waves-effect waves-light center-div">Site</a>
+                                    <a href = "https://re-viewme.netlify.app/" className ="btn project-link-btn waves-effect waves-light center-div">Site</a>
                                 </div>
             
                             </div>
@@ -51,7 +51,7 @@ const Projects = ({domWidthLeft, domWidthRight, findAbout}) => {
 
                                     <div className = "project-links center-div">
                                         <a href = "https://github.com/PhilwithoneL/ambrosia-kitchens" className ="btn project-link-btn waves-effect waves-light center-div">Github</a>
-                                        <a href="https://dulcet-fudge-a3f1ad.netlify.app" className ="btn project-link-btn  waves-effect waves-light center-div">Site</a>
+                                        <a href="https://ambrosia-kitchens.netlify.app/" className ="btn project-link-btn  waves-effect waves-light center-div">Site</a>
                                     </div>
                 
                                 </div>
@@ -82,7 +82,7 @@ const Projects = ({domWidthLeft, domWidthRight, findAbout}) => {
 
                                 <div className = "project-links center-div">
                                     <a href = "https://github.com/PhilwithoneL/weather-app" className ="btn project-link-btn waves-effect waves-light center-div">Github</a>
-                                    <a href = "https://kaleidoscopic-otter-7d6a88.netlify.app/" className ="btn project-link-btn waves-effect waves-light center-div">Site</a>
+                                    <a href = "https://op-weather-app.netlify.app/" className ="btn project-link-btn waves-effect waves-light center-div">Site</a>
                                 </div>
             
                             </div>
@@ -110,7 +110,7 @@ const Projects = ({domWidthLeft, domWidthRight, findAbout}) => {
 
                                 <div className = "project-links center-div">
                                     <a href = "https://github.com/PhilwithoneL/The-Recipe-App" className ="btn project-link-btn waves-effect waves-light center-div">Github</a>
-                                    <a href = "https://dancing-fairy-d91da5.netlify.app/" className ="btn project-link-btn waves-effect waves-light center-div">Site</a>
+                                    <a href = "https://the-recipeapp.netlify.app/" className ="btn project-link-btn waves-effect waves-light center-div">Site</a>
                                 </div>
             
                             </div>
