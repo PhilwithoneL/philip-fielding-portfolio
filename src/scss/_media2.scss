@@ -1,6 +1,6 @@
 //Navigation
 
-@media only screen and (max-width:601px) {
+@media only screen and (max-width:601px)  {
     
     .project-box-left {  
         margin:0 8% 0 8%;
@@ -19,11 +19,82 @@
         padding: 0% 0% 0% 0%;
     }
 
+    .contact-section-main {
+
+        top:1500px;
+    }
+
+
+    .footer-section {
+
+        top: 1900px;
+
+    }
+    
+
 }
 
 
 @media only screen and (min-width:700px) {
     .anime-nav {display:none;}
     .nav-bar {display:block;}
+}
+
+
+@media only screen and (min-width:601px) and (max-width:800px) {
+
+    .contact-section-main {
+
+        top:300px;
+    }
+
+    .footer-section {
+
+        top: 700px;
+
+    }
+}
+
+@media only screen and (min-width:801px) and (max-width:1199px) {
+
+    .contact-section-main {
+
+        top: 600px;
+    }
+
+    .footer-section {
+
+        top: 900px;
+
+    }
+}
+
+@media only screen and (min-width:1200px) and (max-width:1499px) {
+
+    .contact-section-main {
+
+        top: 700px;
+    }
+
+    .footer-section {
+
+        top: 1100px;
+
+    }
+}
+
+
+@media only screen and (min-width:1500px) and (max-width:1920px) {
+
+    .contact-section-main {
+
+        top: 900px;
+    }
+
+    .footer-section {
+
+        top: 1300px;
+
+    }
 }
 

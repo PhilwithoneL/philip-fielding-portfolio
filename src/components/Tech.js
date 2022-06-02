@@ -9,7 +9,7 @@ import { FaNode } from 'react-icons/fa'
 
 const Tech = ({domWidthLeft, domWidthRight}) => {
     return (
-        <div className = "tech">
+        <div className = "tech row">
 
             <div className = "tech-container">
 

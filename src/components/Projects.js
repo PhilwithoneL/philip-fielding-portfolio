@@ -8,7 +8,7 @@ const Projects = ({domWidthLeft, domWidthRight, findAbout}) => {
 
 
     return (
-            <div className = "project-section">
+            <div className = "project-section" >
 
             <div className = "projects-container">
 
@@ -104,7 +104,7 @@ const Projects = ({domWidthLeft, domWidthRight, findAbout}) => {
 
                     </div>
 
-                    <div className = "col m6 s12 " data-aos="flip-down">
+                    <div className = "col m6 s12 " >
 
                         <div className = "project-box-right">
                             <div className = "project-img-container">
