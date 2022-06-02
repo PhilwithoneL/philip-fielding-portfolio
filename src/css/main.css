@@ -1859,6 +1859,22 @@ a {
   height: 50px;
 }
 
+@media only screen and (max-width: 601px) {
+  .project-box-left {
+    margin: 0 8% 0 8%;
+  }
+  .project-box-right {
+    margin: 0 8% 0 8%;
+  }
+  .col-project-left {
+    padding: 0% 0% 0% 0%;
+    overflow-x: hidden;
+  }
+  .col-project-right {
+    padding: 0% 0% 0% 0%;
+  }
+}
+
 @media only screen and (min-width: 700px) {
   .anime-nav {
     display: none;
