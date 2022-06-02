@@ -258,7 +258,7 @@
 .intro-container {
   width: 100%;
   z-index: 3;
-  top: 100px;
+  top: 130px;
   position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -335,7 +335,7 @@
   background-color: #21313867;
   width: 100%;
   height: 800px;
-  top: -7vh;
+  top: 0vh;
 }
 
 .bubble {
@@ -1302,7 +1302,7 @@
 .about-section-main {
   z-index: 2;
   position: relative;
-  top: 800px;
+  top: 900px;
 }
 
 .about-section {
@@ -1359,7 +1359,7 @@
 .tech-section-main {
   z-index: 2;
   position: relative;
-  top: 950px;
+  top: 1100px;
 }
 
 .tech {
@@ -1407,7 +1407,7 @@
 .project-section-main {
   z-index: 1;
   position: relative;
-  top: 1200px;
+  top: 1400px;
 }
 
 .project-section {
@@ -1635,7 +1635,7 @@
 .contact-section-main {
   z-index: 2;
   position: relative;
-  top: 1300px;
+  top: 1500px;
 }
 
 .contact-section {
@@ -1777,7 +1777,7 @@
 
 .footer-section {
   position: relative;
-  top: 1690px;
+  top: 1900px;
   width: 100%;
   height: 50px;
   margin-bottom: 100px;
