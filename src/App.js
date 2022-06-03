@@ -122,12 +122,29 @@ function App() {
 
     } 
 
+    let mainColors;
+
+    if(colorMode === "light") {
+
+      mainColors = {
+
+        background: "#F0F7F4",
+        color: "black",
+        fontWeight: "700"
+
+    }
+
+    }
+
+ 
+
+
   return (
 
-      <div id = "mainDiv" ref = { homeRef }>
+      <div id = "mainDiv" ref = { homeRef } style={mainColors}>
 
       
-      <NavBar scrollOffset = {offset} findAbout = {findAbout} findProject = {findProject} findHome = {findHome} findContact = {findContact} findTech = {findTech} colorModeSelect = {colorModeSelect}/>
+      <NavBar scrollOffset = {offset} findAbout = {findAbout} findProject = {findProject} findHome = {findHome} findContact = {findContact} findTech = {findTech} colorModeSelect = {colorModeSelect} colorMode = {colorMode}/>
       
       <AnimeNav findAbout = {findAbout} findProject = {findProject} findContact = {findContact} findTech = {findTech} />
       <InfoLinks />      
