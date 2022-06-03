@@ -1,7 +1,22 @@
 import React, { useEffect, useState, useRef } from 'react';
 
 
-const About = ({domWidthLeft, domWidthRight, findProject}) => {
+const About = ({domWidthLeft, domWidthRight, findProject,colorMode}) => {
+
+    let btnStyle;
+
+    if(colorMode === "light") {
+
+        // btnStyle = "submit-btn center-div submit-btn-light-mode"
+
+        btnStyle = "submit-btn-light-mode submit-btn center-div"
+
+    } else if (colorMode === "dark") {
+
+        btnStyle = "submit-btn center-div"
+    }
+
+
 
     return (
         <div>
@@ -23,9 +38,9 @@ const About = ({domWidthLeft, domWidthRight, findProject}) => {
                             Click the button below to see some of my projects.
                         </div>
                         
-                        <div className = "row project-btn-container">
+                        <div className = "row project-btn-container" >
                             
-                            <div className ="center-div"><div className ="submit-btn center-div" onClick = {findProject}>Projects</div></div>
+                            <div className ="center-div"> <div className = {btnStyle} onClick = {findProject}>Projects</div></div>
                         
                         </div>
 

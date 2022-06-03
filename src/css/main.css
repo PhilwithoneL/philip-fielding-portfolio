@@ -1356,6 +1356,16 @@
   margin-bottom: 120px;
 }
 
+.submit-btn-light-mode {
+  color: #11262C !important;
+  border-color: #11262C !important;
+}
+
+.submit-btn-light-mode:hover {
+  background-color: #11262C !important;
+  color: #e4f5ff !important;
+}
+
 .tech-section-main {
   z-index: 2;
   position: relative;

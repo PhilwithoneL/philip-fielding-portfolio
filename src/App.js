@@ -152,7 +152,7 @@ function App() {
       <Intro />
       <Chimney colorMode = {colorMode} />
 
-      <section className ="about-section-main" ref = { aboutRef }><About domWidthLeft = {domWidthLeft} domWidthRight = {domWidthRight} findProject ={findProject}/></section>
+      <section className ="about-section-main" ref = { aboutRef }><About domWidthLeft = {domWidthLeft} domWidthRight = {domWidthRight} findProject ={findProject} colorMode = {colorMode}/></section>
       <section className = "tech-section-main" ref = { techRef }><Tech domWidthLeft = {domWidthLeft} domWidthRight = {domWidthRight} /></section>
       <section className = "project-section-main " ref = { projectRef }><Projects domWidthLeft = {domWidthLeft} domWidthRight = {domWidthRight}  /></section>
       <section className = "contact-section-main" ref = {contactRef}><Contact /></section>

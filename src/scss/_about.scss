@@ -48,3 +48,14 @@
     transform:translateY(120px);
     margin-bottom:120px;
 }
+ 
+.submit-btn-light-mode {
+    color:#11262C !important;
+    border-color:#11262C !important;
+    
+    &:hover {
+        background-color: #11262C !important;
+        color: rgb(228, 245, 255) !important;
+
+    }
+}
