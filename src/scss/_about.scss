@@ -1,12 +1,18 @@
+.chinmey-section-space {
+    height:900px;
+}
+
+
 .about-section-main {
     z-index:2;
     position: relative;
-    top:900px;
+    padding-bottom:300px;
 }
 
 .about-section {
     width:100%;
     right:10px;
+    
 }
 
 .about {
@@ -33,7 +39,7 @@
 
     &:before {
         content: "";
-        background: #11262C;
+        background: #3A8092;
         position: absolute;        
         top: -20px;
         height: 1px;
@@ -67,12 +73,12 @@
 }
  
 .submit-btn-light-mode {
-    color:#11262C !important;
-    border-color:#11262C !important;
+    color:#3A8092 !important;
+    border-color:#3A8092 !important;
     
     &:hover {
-        background-color: #11262C !important;
-        color: rgb(228, 245, 255) !important;
+        background-color: #3A8092 !important;
+        color: #c2dcff !important;
 
     }
 }

@@ -8,14 +8,14 @@ import M from 'materialize-css/dist/js/materialize.js'
 
 const InfoLinks = ({colorMode}) => {
 
-    let linkStyle;
+    let lightLinks;
 
     if(colorMode === "light") {
         
-        linkStyle = {
-            color:"#11262C"
-        }
-         
+        lightLinks = "icon-links-light"
+
+    } else if (colorMode === "dark") {
+        lightLinks = "icon-links-dark"
     }
 
 
@@ -30,12 +30,12 @@ const InfoLinks = ({colorMode}) => {
 
                 <div className = "col m6 s8 row center-div">
 
-                    <a className = "col center-div git-icon" href='https://github.com/PhilwithoneL'><VscGithub style = {linkStyle} /></a>
+                    <a className = "col center-div git-icon" href='https://github.com/PhilwithoneL'><VscGithub className = {lightLinks} /></a>
                     <a className = "col center-div cv" href = {CV} target="_blank" data-position="top" data-tooltip="Download my CV!">
-                        <CgNotes style = {linkStyle}/>
+                        <CgNotes className = {lightLinks}/>
                         
                     </a>
-                    <a className = "col center-div linked-icon" href="https://www.linkedin.com/in/philip-fielding-39b39120a/"><RiLinkedinBoxLine style = {linkStyle}/></a>
+                    <a className = "col center-div linked-icon" href="https://www.linkedin.com/in/philip-fielding-39b39120a/"><RiLinkedinBoxLine className = {lightLinks}/></a>
 
                 </div>
 

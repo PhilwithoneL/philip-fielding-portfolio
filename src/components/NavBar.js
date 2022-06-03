@@ -8,6 +8,7 @@ const NavBar = ({ scrollOffset, findAbout, findProject, findContact, findHome, f
     let linkColor;
     let navStyle;
 
+
     const colorModeBtnStyle = {
         fontSize: "40px",
         position: "relative",
@@ -20,7 +21,7 @@ const NavBar = ({ scrollOffset, findAbout, findProject, findContact, findHome, f
 
     if(colorMode === "light") {
         linkColor = {
-            color:"#11262C"
+            color:"#3A8092"
         }
 
         navStyle = {
@@ -48,6 +49,7 @@ const NavBar = ({ scrollOffset, findAbout, findProject, findContact, findHome, f
                 document.getElementById('caret').style.display = 'block';
             };
         }
+
 
         setTimeout(caretAdd, 200);
 

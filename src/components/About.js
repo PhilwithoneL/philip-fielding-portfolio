@@ -21,7 +21,6 @@ const About = ({domWidthLeft, domWidthRight, findProject,colorMode}) => {
 
     return (
         <div>
-        
             <div className = {aboutStyle}>
 
                 <div className = "about-container">

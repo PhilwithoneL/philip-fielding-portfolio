@@ -11,7 +11,7 @@ import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 import '../node_modules/aos/dist/aos.css';
 import AOS from "../node_modules/aos/dist/aos.js";
-import { get } from 'react-scroll/modules/mixins/scroller';
+
 
 function App() {
 
@@ -122,20 +122,21 @@ function App() {
 
     } 
 
+    console.log(colorMode)
+
     let mainColors;
 
     if(colorMode === "light") {
 
       mainColors = {
         background:"#c2dcff",
-        color: "#11262C",
-        fontWeight: "700"
+        color: "#3A8092",
+        fontWeight: "700",
+        padding:"none"
+
+      }
 
     }
-
-    }
-
- 
 
 
   return (
@@ -146,15 +147,16 @@ function App() {
       <NavBar scrollOffset = {offset} findAbout = {findAbout} findProject = {findProject} findHome = {findHome} findContact = {findContact} findTech = {findTech} colorModeSelect = {colorModeSelect} colorMode = {colorMode}/>
       
       <AnimeNav findAbout = {findAbout} findProject = {findProject} findContact = {findContact} findTech = {findTech} />
+      <div className = "row chinmey-section-space" ></div>
       <InfoLinks colorMode = {colorMode} />      
       
       <Intro />
       <Chimney colorMode = {colorMode} />
 
       <section className ="about-section-main" ref = { aboutRef }><About domWidthLeft = {domWidthLeft} domWidthRight = {domWidthRight} findProject ={findProject} colorMode = {colorMode}/></section>
-      <section className = "tech-section-main" ref = { techRef }><Tech domWidthLeft = {domWidthLeft} domWidthRight = {domWidthRight} /></section>
-      <section className = "project-section-main " ref = { projectRef }><Projects domWidthLeft = {domWidthLeft} domWidthRight = {domWidthRight}  /></section>
-      <section className = "contact-section-main" ref = {contactRef}><Contact /></section>
+      <section className = "tech-section-main" ref = { techRef }><Tech domWidthLeft = {domWidthLeft} domWidthRight = {domWidthRight} colorMode = {colorMode} /></section>
+      <section className = "project-section-main " ref = { projectRef }><Projects domWidthLeft = {domWidthLeft} domWidthRight = {domWidthRight}  colorMode = {colorMode}/></section>
+      <section className = "contact-section-main" ref = {contactRef}><Contact colorMode = { colorMode }/></section>
       <Footer />
     </div>
   );

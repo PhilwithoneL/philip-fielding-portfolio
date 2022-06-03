@@ -25,6 +25,12 @@
     color:rgb(174, 212, 255);
     transition: all 0.2s ease-in-out;
     
+
+
+}
+
+.icon-links-dark {
+
     &:hover {
         color: rgb(34, 34, 34);
         cursor: pointer;
@@ -33,6 +39,20 @@
         animation-iteration-count: infinite;
     }
 
+}
+
+
+.icon-links-light {
+
+    color: #3A8092;
+
+    &:hover {
+        cursor: pointer;
+        animation-name: linkAnime;
+        animation-duration: 0.7s;
+        animation-iteration-count: infinite;
+        color: rgb(255, 123, 0);
+    }
 }
 
 .cv {

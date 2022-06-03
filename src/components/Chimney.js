@@ -19,7 +19,7 @@ const Chimney = (colorMode) => {
 
         chimneyColor = {
      
-            // background:"#98C9D7"
+            
             
             background: "#c2dcff"
 

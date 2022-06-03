@@ -1,21 +1,47 @@
 .contact-section-main {
     z-index:2;
     position: relative;
-    top:500px;
-    
+    height:900px;
+    margin-top:100px;
 }
 
 .contact-section {
     margin: 0% 10% 0% 10%;
     width:80%;
-    height:500px;
     right:10px;
-    transform:translateY(90px);
-    
+    transform:translateY(100px);
+
+
+}
+
+.contact-section {
+    margin: 0% 10% 0% 10%;
+    width:80%;
+    right:10px;
+    transform:translateY(100px);
+
+
+}
+
+.contact-section-line {
 
     &:before {
         content: "";
         background: rgb(206, 229, 255);
+        position: absolute;        
+        top: -10px;
+        height: 0.5px;
+        width: 100%;
+        transition: all 0.1s ease-in-out;
+      }
+
+}
+
+.contact-section-line-light {
+
+    &:before {
+        content: "";
+        background: #0E0E0E;
         position: absolute;        
         top: -10px;
         height: 0.5px;
@@ -54,6 +80,28 @@
     }
 
 }
+
+.submit-btn-light {
+    color: #0E0E0E;
+    z-index:100;
+    margin: 0px 0px;
+    width: 125px;
+    padding: 1%;
+    position: relative;
+    font-weight: 700;
+    border: solid 2px #0E0E0E;
+    border-radius:5px;
+    background-color:#c2dcff;
+    cursor:pointer;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+        color:#c2dcff;
+        background-color:#0E0E0E;
+    }
+
+}
+
 
 .submit-btn-pos {
     top:30px;

@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react'
 import M from 'materialize-css/dist/js/materialize.min.js';
 import emailjs from '@emailjs/browser';
 
-const Contact = () => {
+const Contact = ({colorMode}) => {
 
     useEffect(() => {
 
@@ -34,8 +34,25 @@ const Contact = () => {
         
     }
 
+    let contactStyle;
+    let btnStyle;
+
+    console.log(contactStyle)
+
+    if(colorMode === "light") {
+        contactStyle = "contact-section contact-section-line-light"
+        btnStyle = "submit-btn-light submit-btn-pos center-div"
+
+    } else if (colorMode === "dark"){
+
+        contactStyle = "contact-section contact-section-line"
+        btnStyle = "submit-btn submit-btn-pos center-div"
+
+    }
+    
+
     return (
-        <div className = "contact-section">
+        <div className = {contactStyle}>
             
             <div className = "contact">
 
@@ -83,7 +100,7 @@ const Contact = () => {
                         <div className = "row submit-btn-container">
                             
                             <div className ="center-div" >
-                                <input type="submit" value="Send" className ="submit-btn submit-btn-pos center-div"/>
+                                <input type="submit" value="Send" className = {btnStyle}/>
                                 {/* <input className ="submit-btn center-div" type ="submit" value="Send">Submit</input> */}
                             </div>
                         

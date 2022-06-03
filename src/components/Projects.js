@@ -4,11 +4,33 @@ import Img2 from '../img/AbrosiaKitchens.jpg';
 import Img3 from '../img/the-weather-app-img.jpg';
 import Img4 from '../img/the-recipe-app-img.jpg';
 
-const Projects = ({domWidthLeft, domWidthRight, findAbout}) => {
+const Projects = ({domWidthLeft, domWidthRight, findAbout,colorMode}) => {
 
+
+
+    let projectStyle;
+    let projectBtn;
+    let imgFilter;
+    let border;
+     
+
+
+        if(colorMode === "light") {
+
+            projectStyle = "project-section-light"
+            projectBtn ="btn project-link-btn-light waves-effect waves-light center-div"
+            border =  "project-img-container-light"
+
+        } else if (colorMode === "dark") {
+            
+            projectStyle = "project-section"
+            projectBtn = "btn project-link-btn waves-effect waves-light center-div"
+            border =  "project-img-container"
+            
+    }
 
     return (
-            <div className = "project-section" >
+            <div className = {projectStyle} >
 
             <div className = "projects-container">
 
@@ -19,12 +41,12 @@ const Projects = ({domWidthLeft, domWidthRight, findAbout}) => {
 
                         <div className = "project-box-left" >
 
-                            <div className = "project-img-container" data-aos = "flip-up">
-                                <img className = "project-img" src = {Img1} style={{ filter: "grayscale(100%)" }}></img>
+                            <div className = {border} data-aos = "flip-up">
+                                <img className = "project-img" src = {Img1} ></img>
 
                                 <div className = "project-links center-div">
-                                    <a href = "https://github.com/PhilwithoneL/review.me" className ="btn project-link-btn waves-effect waves-light center-div">Github</a>
-                                    <a href = "https://re-viewme.netlify.app/" className ="btn project-link-btn waves-effect waves-light center-div">Site</a>
+                                    <a href = "https://github.com/PhilwithoneL/review.me" className ={projectBtn}>Github</a>
+                                    <a href = "https://re-viewme.netlify.app/" className ={projectBtn}>Site</a>
                                 </div>
             
                             </div>
@@ -48,12 +70,12 @@ const Projects = ({domWidthLeft, domWidthRight, findAbout}) => {
                     <div className = "col m6 s12 ">
 
                         <div className = "project-box-right" data-aos="flip-down">
-                                <div className = "project-img-container">
-                                    <img className = "project-img" src = {Img2} style={{ filter: "grayscale(100%)" }}></img>
+                                <div className = {border}>
+                                    <img className = "project-img" src = {Img2} ></img>
 
                                     <div className = "project-links center-div">
-                                        <a href = "https://github.com/PhilwithoneL/ambrosia-kitchens" className ="btn project-link-btn waves-effect waves-light center-div">Github</a>
-                                        <a href="https://ambrosia-kitchens.netlify.app/" className ="btn project-link-btn  waves-effect waves-light center-div">Site</a>
+                                        <a href = "https://github.com/PhilwithoneL/ambrosia-kitchens" className ={projectBtn}>Github</a>
+                                        <a href="https://ambrosia-kitchens.netlify.app/" className ={projectBtn}>Site</a>
                                     </div>
                 
                                 </div>
@@ -79,12 +101,12 @@ const Projects = ({domWidthLeft, domWidthRight, findAbout}) => {
                     <div className = "col m6 s12">
 
                         <div className = "project-box-left">
-                            <div className = "project-img-container" data-aos="flip-up">
-                                <img className = "project-img" src = {Img3} style={{ filter: "grayscale(100%)" }}></img>
+                            <div className = {border} data-aos="flip-up">
+                                <img className = "project-img" src = {Img3}></img>
 
                                 <div className = "project-links center-div">
-                                    <a href = "https://github.com/PhilwithoneL/weather-app" className ="btn project-link-btn waves-effect waves-light center-div">Github</a>
-                                    <a href = "https://op-weather-app.netlify.app/" className ="btn project-link-btn waves-effect waves-light center-div">Site</a>
+                                    <a href = "https://github.com/PhilwithoneL/weather-app" className ={projectBtn}>Github</a>
+                                    <a href = "https://op-weather-app.netlify.app/" className ={projectBtn}>Site</a>
                                 </div>
             
                             </div>
@@ -107,12 +129,12 @@ const Projects = ({domWidthLeft, domWidthRight, findAbout}) => {
                     <div className = "col m6 s12 " >
 
                         <div className = "project-box-right">
-                            <div className = "project-img-container">
-                                <img className = "project-img" src = {Img4} style={{ filter: "grayscale(100%)" }}></img>
+                            <div className = {border}>
+                                <img className = "project-img" src = {Img4}></img>
 
                                 <div className = "project-links center-div">
-                                    <a href = "https://github.com/PhilwithoneL/The-Recipe-App" className ="btn project-link-btn waves-effect waves-light center-div">Github</a>
-                                    <a href = "https://the-recipeapp.netlify.app/" className ="btn project-link-btn waves-effect waves-light center-div">Site</a>
+                                    <a href = "https://github.com/PhilwithoneL/The-Recipe-App" className ={projectBtn}>Github</a>
+                                    <a href = "https://the-recipeapp.netlify.app/" className ={projectBtn}>Site</a>
                                 </div>
             
                             </div>
