@@ -1328,6 +1328,24 @@
   transition: all 0.1s ease-in-out;
 }
 
+.about-light {
+  margin: 0% 10% 0% 10%;
+  font-size: 1rem;
+  -webkit-transform: translateY(100px);
+          transform: translateY(100px);
+}
+
+.about-light:before {
+  content: "";
+  background: #11262C;
+  position: absolute;
+  top: -20px;
+  height: 1px;
+  width: 80vw;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+
 .about-container {
   -webkit-transform: translateY(100px);
           transform: translateY(100px);

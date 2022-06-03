@@ -127,8 +127,7 @@ function App() {
     if(colorMode === "light") {
 
       mainColors = {
-
-        background: "#F0F7F4",
+        background:"#c2dcff",
         color: "#11262C",
         fontWeight: "700"
 

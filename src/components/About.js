@@ -4,16 +4,17 @@ import React, { useEffect, useState, useRef } from 'react';
 const About = ({domWidthLeft, domWidthRight, findProject,colorMode}) => {
 
     let btnStyle;
+    let aboutStyle;
 
     if(colorMode === "light") {
 
-        // btnStyle = "submit-btn center-div submit-btn-light-mode"
-
         btnStyle = "submit-btn-light-mode submit-btn center-div"
+        aboutStyle ="about-light"
 
     } else if (colorMode === "dark") {
 
         btnStyle = "submit-btn center-div"
+        aboutStyle ="about"
     }
 
 
@@ -21,7 +22,7 @@ const About = ({domWidthLeft, domWidthRight, findProject,colorMode}) => {
     return (
         <div>
         
-            <div className ="about" >
+            <div className = {aboutStyle}>
 
                 <div className = "about-container">
                         

@@ -26,6 +26,23 @@
 
 }
 
+.about-light {
+    margin: 0% 10% 0% 10%;
+    font-size: $text;
+    transform:translateY(100px);
+
+    &:before {
+        content: "";
+        background: #11262C;
+        position: absolute;        
+        top: -20px;
+        height: 1px;
+        width: 80vw;
+        transition: all 0.1s ease-in-out;
+      }
+
+}
+
 .about-container {
     transform: translateY(100px)
 }

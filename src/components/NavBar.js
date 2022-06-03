@@ -24,7 +24,8 @@ const NavBar = ({ scrollOffset, findAbout, findProject, findContact, findHome, f
         }
 
         navStyle = {
-            backdropFilter: "blur(10px)"
+            backdropFilter: "blur(10px)",
+            background:"rgb(194, 220, 255, 50%)"
         }
 
     } else if (colorMode === "dark") {
@@ -33,11 +34,10 @@ const NavBar = ({ scrollOffset, findAbout, findProject, findContact, findHome, f
         }
 
         navStyle = {
-            backdropFilter: "blur(10px)"
+            backdropFilter: "blur(10px)",
+            background:"rgb(33, 49, 56, 0.1)"
         }
     }
-
-
 
     const scrollPositionNav = scrollOffset * 50;   
 
@@ -53,86 +53,95 @@ const NavBar = ({ scrollOffset, findAbout, findProject, findContact, findHome, f
 
         if(colorMode === "dark") {
 
-            switch(scrollPositionNav) {
+            
 
-                case 100 :
-                    document.getElementById("navBar").style.backgroundColor = "rgb(14, 14, 14, 0%)";
-                    break;
-                case 150 :
-                    document.getElementById("navBar").style.backgroundColor = "rgb(14, 14, 14, 10%)";
-                    break;
-                case 200 :
-                    document.getElementById("navBar").style.backgroundColor = "rgb(14, 14, 14, 20%)";
+            // switch(scrollPositionNav) {
+
+            //     case 100 :
+            //         document.getElementById("navBar").style.backgroundColor = "rgb(14, 14, 14, 0%)";
+            //         break;
+            //     case 150 :
+            //         document.getElementById("navBar").style.backgroundColor = "rgb(14, 14, 14, 10%)";
+            //         break;
+            //     case 200 :
+            //         document.getElementById("navBar").style.backgroundColor = "rgb(14, 14, 14, 20%)";
                     
-                    break;
-                case 250 :
-                    document.getElementById("navBar").style.backgroundColor = "rgb(14, 14, 14, 30%)";
-                    break;
-                case 300 :
-                    document.getElementById("navBar").style.backgroundColor = "rgb(14, 14, 14, 40%)";
-                    break;
-                case 350 :
-                    document.getElementById("navBar").style.backgroundColor = "rgb(14, 14, 14, 50%)";
-                    break;
-                // case 400 :
-                //     document.getElementById("navBar").style.backgroundColor = "rgb(14, 14, 14, 60%)";
-                //     break;
-                // case 450 :
-                //     document.getElementById("navBar").style.backgroundColor = "rgb(14, 14, 14, 70%)";
-                //     break;
-                // case 500 :
-                //     document.getElementById("navBar").style.backgroundColor = "rgb(14, 14, 14, 80%";
-                //     break;
-                // case 550 :
-                //     document.getElementById("navBar").style.backgroundColor = "rgb(14, 14, 14, 90%)";
-                //     break;
-                // case 600 :
-                //     document.getElementById("navBar").style.backgroundColor = "rgb(14, 14, 14, 100%)";
+            //         break;
+            //     case 250 :
+            //         document.getElementById("navBar").style.backgroundColor = "rgb(14, 14, 14, 30%)";
+            //         break;
+            //     case 300 :
+            //         document.getElementById("navBar").style.backgroundColor = "rgb(14, 14, 14, 40%)";
+            //         break;
+            //     case 350 :
+            //         document.getElementById("navBar").style.backgroundColor = "rgb(14, 14, 14, 50%)";
+            //         break;
+            //     case scrollPositionNav > 350:
+            //         document.getElementById("navBar").style.backgroundColor = "rgb(14, 14, 14, 50%)";
+            //         break;
+
+            //     case 400 :
+            //         document.getElementById("navBar").style.backgroundColor = "rgb(14, 14, 14, 60%)";
+            //         break;
+            //     case 450 :
+            //         document.getElementById("navBar").style.backgroundColor = "rgb(14, 14, 14, 70%)";
+            //         break;
+            //     case 500 :
+            //         document.getElementById("navBar").style.backgroundColor = "rgb(14, 14, 14, 80%";
+            //         break;
+            //     case 550 :
+            //         document.getElementById("navBar").style.backgroundColor = "rgb(14, 14, 14, 90%)";
+            //         break;
+            //     case 600 :
+            //         document.getElementById("navBar").style.backgroundColor = "rgb(14, 14, 14, 100%)";
                     
-                //     break;
-            }
+            //         break;
+            // }
 
 
         } else {
             
-            switch(scrollPositionNav) {
+            
 
-                case 100 :
-                    document.getElementById("navBar").style.backgroundColor = "rgb(255, 255, 255, 0%)";
-                    break;
-                case 150 :
-                    document.getElementById("navBar").style.backgroundColor = "rgb(255, 255, 255, 10%)";
-                    break;
-                case 200 :
-                    document.getElementById("navBar").style.backgroundColor = "rgb(255, 255, 255, 20%)";
+
+            // switch(scrollPositionNav) {
+
+            //     case 100 :
+            //         document.getElementById("navBar").style.backgroundColor = "rgb(255, 255, 255, 0%)";
+            //         break;
+            //     case 150 :
+            //         document.getElementById("navBar").style.backgroundColor = "rgb(255, 255, 255, 10%)";
+            //         break;
+            //     case 200 :
+            //         document.getElementById("navBar").style.backgroundColor = "rgb(255, 255, 255, 20%)";
                     
-                    break;
-                case 250 :
-                    document.getElementById("navBar").style.backgroundColor = "rgb(255, 255, 255, 30%)";
-                    break;
-                case 300 :
-                    document.getElementById("navBar").style.backgroundColor = "rgb(255, 255, 255, 40%)";
-                    break;
-                case 350 :
-                    document.getElementById("navBar").style.backgroundColor = "rgb(255, 255, 255, 50%)";
-                    break;
-                // case 400 :
-                //     document.getElementById("navBar").style.backgroundColor = "rgb(1255, 255, 255, 60%)";
-                //     break;
-                // case 450 :
-                //     document.getElementById("navBar").style.backgroundColor = "rgb(255, 255, 255, 70%)";
-                //     break;
-                // case 500 :
-                //     document.getElementById("navBar").style.backgroundColor = "rgb(255, 255, 255, 80%";
-                //     break;
-                // case 550 :
-                //     document.getElementById("navBar").style.backgroundColor = "rgb(255, 255, 255, 90%)";
-                //     break;
-                // case 600 :
-                //     document.getElementById("navBar").style.backgroundColor = "rgb(255, 255, 255, 100%)";
+            //         break;
+            //     case 250 :
+            //         document.getElementById("navBar").style.backgroundColor = "rgb(255, 255, 255, 30%)";
+            //         break;
+            //     case 300 :
+            //         document.getElementById("navBar").style.backgroundColor = "rgb(255, 255, 255, 40%)";
+            //         break;
+            //     case 350 :
+            //         document.getElementById("navBar").style.backgroundColor = "rgb(255, 255, 255, 50%)";
+            //         break;
+            //     case 400 :
+            //         document.getElementById("navBar").style.backgroundColor = "rgb(1255, 255, 255, 60%)";
+            //         break;
+            //     case 450 :
+            //         document.getElementById("navBar").style.backgroundColor = "rgb(255, 255, 255, 70%)";
+            //         break;
+            //     case 500 :
+            //         document.getElementById("navBar").style.backgroundColor = "rgb(255, 255, 255, 80%";
+            //         break;
+            //     case 550 :
+            //         document.getElementById("navBar").style.backgroundColor = "rgb(255, 255, 255, 90%)";
+            //         break;
+            //     case 600 :
+            //         document.getElementById("navBar").style.backgroundColor = "rgb(255, 255, 255, 100%)";
                     
-                //     break;
-            }
+            //         break;
+            // }
 
         }
 
