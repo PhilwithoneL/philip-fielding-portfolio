@@ -6,7 +6,17 @@ import CV from '../docs/philip-fielding-cv.pdf';
 import M from 'materialize-css/dist/js/materialize.js'
 
 
-const InfoLinks = () => {
+const InfoLinks = ({colorMode}) => {
+
+    let linkStyle;
+
+    if(colorMode === "light") {
+        
+        linkStyle = {
+            color:"#11262C"
+        }
+         
+    }
 
 
     M.AutoInit();
@@ -20,12 +30,12 @@ const InfoLinks = () => {
 
                 <div className = "col m6 s8 row center-div">
 
-                    <a className = "col center-div git-icon" href='https://github.com/PhilwithoneL'><VscGithub /></a>
+                    <a className = "col center-div git-icon" href='https://github.com/PhilwithoneL'><VscGithub style = {linkStyle} /></a>
                     <a className = "col center-div cv" href = {CV} target="_blank" data-position="top" data-tooltip="Download my CV!">
-                        <CgNotes />
+                        <CgNotes style = {linkStyle}/>
                         
                     </a>
-                    <a className = "col center-div linked-icon" href="https://www.linkedin.com/in/philip-fielding-39b39120a/"><RiLinkedinBoxLine /></a>
+                    <a className = "col center-div linked-icon" href="https://www.linkedin.com/in/philip-fielding-39b39120a/"><RiLinkedinBoxLine style = {linkStyle}/></a>
 
                 </div>
 

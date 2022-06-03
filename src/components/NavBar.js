@@ -20,7 +20,7 @@ const NavBar = ({ scrollOffset, findAbout, findProject, findContact, findHome, f
 
     if(colorMode === "light") {
         linkColor = {
-            color:"black"
+            color:"#11262C"
         }
 
         navStyle = {

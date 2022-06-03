@@ -129,7 +129,7 @@ function App() {
       mainColors = {
 
         background: "#F0F7F4",
-        color: "black",
+        color: "#11262C",
         fontWeight: "700"
 
     }
@@ -147,7 +147,7 @@ function App() {
       <NavBar scrollOffset = {offset} findAbout = {findAbout} findProject = {findProject} findHome = {findHome} findContact = {findContact} findTech = {findTech} colorModeSelect = {colorModeSelect} colorMode = {colorMode}/>
       
       <AnimeNav findAbout = {findAbout} findProject = {findProject} findContact = {findContact} findTech = {findTech} />
-      <InfoLinks />      
+      <InfoLinks colorMode = {colorMode} />      
       
       <Intro />
       <Chimney colorMode = {colorMode} />
