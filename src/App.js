@@ -12,7 +12,6 @@ import Contact from "./components/Contact";
 import '../node_modules/aos/dist/aos.css';
 import AOS from "../node_modules/aos/dist/aos.js";
 import { get } from 'react-scroll/modules/mixins/scroller';
-import { CgDarkMode } from 'react-icons/cg';
 
 function App() {
 
@@ -106,16 +105,6 @@ function App() {
 
     }, [1]);
 
-
-    const colorModeBtnStyle = {
-          fontSize: "50px",
-          position: "absolute",
-          top:"100px",
-          zIndex: "100",
-          color: "black",
-          cursor: "pointer"
-    }
-
     const [colorMode, setColorMode] = useState("dark");
 
 
@@ -137,8 +126,8 @@ function App() {
 
       <div id = "mainDiv" ref = { homeRef }>
 
-      <div style = {colorModeBtnStyle}><CgDarkMode onClick = {colorModeSelect}/></div>
-      <NavBar scrollOffset = {offset} findAbout = {findAbout} findProject = {findProject} findHome = {findHome} findContact = {findContact} findTech = {findTech} />
+      
+      <NavBar scrollOffset = {offset} findAbout = {findAbout} findProject = {findProject} findHome = {findHome} findContact = {findContact} findTech = {findTech} colorModeSelect = {colorModeSelect}/>
       
       <AnimeNav findAbout = {findAbout} findProject = {findProject} findContact = {findContact} findTech = {findTech} />
       <InfoLinks />      

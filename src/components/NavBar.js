@@ -1,8 +1,19 @@
 import { RiHome2Fill } from 'react-icons/ri';
 import { AiFillCaretUp } from 'react-icons/ai';
+import { CgDarkMode } from 'react-icons/cg';
 
 
-const NavBar = ({ scrollOffset, findAbout, findProject, findContact, findHome, findTech}) => {
+const NavBar = ({ scrollOffset, findAbout, findProject, findContact, findHome, findTech, colorModeSelect}) => {
+
+    const colorModeBtnStyle = {
+        fontSize: "30px",
+        position: "relative",
+        top:"5px",
+        zIndex: "100",
+        color: "rgb(174, 212, 255);",
+        cursor: "pointer"
+
+  }
 
     const scrollPositionNav = scrollOffset * 50;   
 
@@ -67,7 +78,7 @@ const NavBar = ({ scrollOffset, findAbout, findProject, findContact, findHome, f
                 <div className ="link col m2 center-div"><p className = "link-text" onClick = {findTech}>Tech</p></div>
                 <div className ="link col m2 center-div"><p className = "link-text" onClick = {findProject}>Projects</p></div>
                 <div className ="link col m2 center-div"><p className = "link-text" onClick = {findContact}>Contact</p></div>
-                <div className = "col m2 center-div"></div> 
+                <div className = "link col m2 center-div "><div style = {colorModeBtnStyle} className = "link-text"><CgDarkMode onClick = {colorModeSelect}/></div></div> 
 
       
             </div>
