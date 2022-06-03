@@ -2,11 +2,26 @@ import { FaHtml5, FaCss3Alt, FaReact } from 'react-icons/fa';
 import { DiMaterializecss } from 'react-icons/di';
 import { DiJavascript } from 'react-icons/di';
 import { SiTailwindcss } from 'react-icons/si';
+import { useState } from 'react/cjs/react.production.min';
 
-const Chimney = () => {
+
+const Chimney = (colorMode) => {
+
+    let chimneyColor;
+
+    const colorModeSelected =  colorMode.colorMode;
+
+    if(colorModeSelected === "light") {
+
+        chimneyColor = {
+            backgroundColor:"#0ebbffc2"
+        }
+
+    } 
+
 
     return (
-        <div className = "chimney-container center-chimney">
+        <div className = "chimney-container center-chimney" style = {chimneyColor}>
 
                 <div className ="chimney-position" id= "chimney" >
                     

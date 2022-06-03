@@ -12,6 +12,7 @@ import Contact from "./components/Contact";
 import '../node_modules/aos/dist/aos.css';
 import AOS from "../node_modules/aos/dist/aos.js";
 import { get } from 'react-scroll/modules/mixins/scroller';
+import { CgDarkMode } from 'react-icons/cg';
 
 function App() {
 
@@ -83,6 +84,7 @@ function App() {
             
         }
     }
+
     
     const setWidthAosLeft = () => {
         if(width < 1000) {
@@ -105,17 +107,44 @@ function App() {
     }, [1]);
 
 
+    const colorModeBtnStyle = {
+          fontSize: "50px",
+          position: "absolute",
+          top:"100px",
+          zIndex: "100",
+          color: "black",
+          cursor: "pointer"
+    }
+
+    const [colorMode, setColorMode] = useState("dark");
+
+
+    const colorModeSelect = () => {
+
+      console.log("clicked")
+
+        if(colorMode === "light") {
+          setColorMode("dark")
+          console.log(colorMode)
+        } else if(colorMode === "dark") {
+          setColorMode("light")
+          console.log(colorMode)
+        }
+
+    } 
+
   return (
 
-    
-    <div id = "mainDiv" ref = { homeRef }>
+      <div id = "mainDiv" ref = { homeRef }>
 
+      <div style = {colorModeBtnStyle}><CgDarkMode onClick = {colorModeSelect}/></div>
       <NavBar scrollOffset = {offset} findAbout = {findAbout} findProject = {findProject} findHome = {findHome} findContact = {findContact} findTech = {findTech} />
+      
       <AnimeNav findAbout = {findAbout} findProject = {findProject} findContact = {findContact} findTech = {findTech} />
       <InfoLinks />      
       
       <Intro />
-      <Chimney />
+      <Chimney colorMode = {colorMode} />
 
       <section className ="about-section-main" ref = { aboutRef }><About domWidthLeft = {domWidthLeft} domWidthRight = {domWidthRight} findProject ={findProject}/></section>
       <section className = "tech-section-main" ref = { techRef }><Tech domWidthLeft = {domWidthLeft} domWidthRight = {domWidthRight} /></section>
