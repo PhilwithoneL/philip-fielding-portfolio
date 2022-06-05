@@ -54,6 +54,14 @@
   user-select: none;
 }
 
+.colorModeBtnDiv {
+  position: absolute;
+  width: 100vw;
+  height: 1px;
+  z-index: -100;
+  top: 59px;
+}
+
 .new-links {
   position: fixed;
   z-index: 100;
@@ -74,8 +82,20 @@
           transform: translate(-30px, 80px);
 }
 
+.anime-close-light {
+  color: #3A8092;
+  -webkit-transform: translate(-30px, 80px);
+          transform: translate(-30px, 80px);
+}
+
 .anime-menu {
   color: #cee5ff;
+  -webkit-transform: translate(-30px, 75px);
+          transform: translate(-30px, 75px);
+}
+
+.anime-menu-light {
+  color: #3A8092;
   -webkit-transform: translate(-30px, 75px);
           transform: translate(-30px, 75px);
 }
@@ -1246,7 +1266,6 @@
 
 .caret-position {
   display: none;
-  z-index: 301;
   position: fixed;
   z-index: 100;
   -webkit-transform: translate(45px, 25px);
@@ -1257,7 +1276,7 @@
 
 .caret-icon {
   color: #cee5ff;
-  z-index: 300;
+  z-index: 100;
   font-size: 30px;
   color: white;
   -webkit-animation-name: caretAnime;
@@ -1581,8 +1600,6 @@
 }
 
 .project-img {
-  -webkit-filter: blur(1px);
-          filter: blur(1px);
   width: 100%;
   height: 100%;
   opacity: 50%;
@@ -1782,13 +1799,6 @@
   z-index: 2;
   position: relative;
   height: 900px;
-  margin-top: 100px;
-}
-
-.contact-section {
-  margin: 0% 10% 0% 10%;
-  width: 80%;
-  right: 10px;
   -webkit-transform: translateY(100px);
           transform: translateY(100px);
 }
@@ -1797,8 +1807,8 @@
   margin: 0% 10% 0% 10%;
   width: 80%;
   right: 10px;
-  -webkit-transform: translateY(100px);
-          transform: translateY(100px);
+  -webkit-transform: translateY(90px);
+          transform: translateY(90px);
 }
 
 .contact-section-line:before {
@@ -1876,7 +1886,7 @@
 }
 
 .submit-btn-pos {
-  top: 30px;
+  top: 80px;
 }
 
 .submit-btn-container {
@@ -1964,8 +1974,8 @@
 .footer-section {
   position: relative;
   width: 100%;
-  height: 50px;
-  padding-bottom: 100px;
+  top: 10px;
+  padding-top: 100px;
 }
 
 .footer {

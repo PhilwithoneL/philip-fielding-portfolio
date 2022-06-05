@@ -122,8 +122,6 @@ function App() {
 
     } 
 
-    console.log(colorMode)
-
     let mainColors;
 
     if(colorMode === "light") {
@@ -146,18 +144,18 @@ function App() {
       
       <NavBar scrollOffset = {offset} findAbout = {findAbout} findProject = {findProject} findHome = {findHome} findContact = {findContact} findTech = {findTech} colorModeSelect = {colorModeSelect} colorMode = {colorMode}/>
       
-      <AnimeNav findAbout = {findAbout} findProject = {findProject} findContact = {findContact} findTech = {findTech} />
+      <AnimeNav findAbout = {findAbout} findProject = {findProject} findContact = {findContact} findTech = {findTech} colorMode = {colorMode} colorModeSelect = {colorModeSelect}/>
       <div className = "row chinmey-section-space" ></div>
       <InfoLinks colorMode = {colorMode} />      
       
-      <Intro />
+      <Intro colorMode = {colorMode} />
       <Chimney colorMode = {colorMode} />
 
       <section className ="about-section-main" ref = { aboutRef }><About domWidthLeft = {domWidthLeft} domWidthRight = {domWidthRight} findProject ={findProject} colorMode = {colorMode}/></section>
       <section className = "tech-section-main" ref = { techRef }><Tech domWidthLeft = {domWidthLeft} domWidthRight = {domWidthRight} colorMode = {colorMode} /></section>
       <section className = "project-section-main " ref = { projectRef }><Projects domWidthLeft = {domWidthLeft} domWidthRight = {domWidthRight}  colorMode = {colorMode}/></section>
       <section className = "contact-section-main" ref = {contactRef}><Contact colorMode = { colorMode }/></section>
-      <Footer />
+      <Footer colorMode = { colorMode } />
     </div>
   );
 }

@@ -17,9 +17,7 @@ const Chimney = (colorMode) => {
 
     if(colorModeSelected === "light") {
 
-        chimneyColor = {
-     
-            
+        chimneyColor = { 
             
             background: "#c2dcff"
 

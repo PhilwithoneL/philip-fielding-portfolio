@@ -14,8 +14,7 @@ const Contact = ({colorMode}) => {
 
     const sendEmail = (e) => {
         e.preventDefault();    
-        
-        console.log(form.current)
+    
 
         if(e.target.from_name.value === "" || e.target.Company.value === "" || e.target.Message.value === "" || e.target.Email.value === "") {
             alert('Please enter all information before you send');
@@ -36,8 +35,6 @@ const Contact = ({colorMode}) => {
 
     let contactStyle;
     let btnStyle;
-
-    console.log(contactStyle)
 
     if(colorMode === "light") {
         contactStyle = "contact-section contact-section-line-light"

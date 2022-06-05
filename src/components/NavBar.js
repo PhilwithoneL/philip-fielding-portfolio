@@ -157,7 +157,7 @@ const NavBar = ({ scrollOffset, findAbout, findProject, findContact, findHome, f
                 <div className ="link col m2 center-div"><p className = "link-text" onClick = {findTech} style = {linkColor}>Tech</p></div>
                 <div className ="link col m2 center-div"><p className = "link-text" onClick = {findProject} style = {linkColor}>Projects</p></div>
                 <div className ="link col m2 center-div"><p className = "link-text" onClick = {findContact} style = {linkColor}>Contact</p></div>
-                <div className = "link col m2 center-div "><div style = {colorModeBtnStyle} className = "link-text"><CgDarkMode onClick = {colorModeSelect} style = {linkColor}/></div></div> 
+                <div className = "link col m2 center-div "><div style = {colorModeBtnStyle} className = "link-text" ><CgDarkMode onClick = {colorModeSelect} style = {linkColor}/></div></div> 
 
       
             </div>

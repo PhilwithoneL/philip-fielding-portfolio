@@ -1,10 +1,21 @@
 import React from 'react'
 
-const AnimeNavModal = ({ closeLinks, findAbout, findProject, findContact, findTech}) => {
+const AnimeNavModal = ({ closeLinks, findAbout, findProject, findContact, findTech, colorMode}) => {
+
+    let modalColors;
+
+    if(colorMode === "light") {
+        
+        modalColors = {
+            background: "#c2dcff"
+        }
+
+    }
+
 
     return (
         <div >
-                <div className = "background-modal" ></div>
+                <div style = {(modalColors)} className = "background-modal" ></div>
 
                 <div className = "anime-nav-btn-container center-div" onClick={closeLinks}>
 
